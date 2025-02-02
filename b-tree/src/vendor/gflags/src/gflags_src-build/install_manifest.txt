@@ -1,0 +1,13 @@
+/Users/xinyicui/Desktop/b-tree/src/vendor/gflags/lib/libgflags.a
+/Users/xinyicui/Desktop/b-tree/src/vendor/gflags/lib/libgflags_nothreads.a
+/Users/xinyicui/Desktop/b-tree/src/vendor/gflags/include/gflags/gflags.h
+/Users/xinyicui/Desktop/b-tree/src/vendor/gflags/include/gflags/gflags_declare.h
+/Users/xinyicui/Desktop/b-tree/src/vendor/gflags/include/gflags/gflags_completions.h
+/Users/xinyicui/Desktop/b-tree/src/vendor/gflags/include/gflags/gflags_gflags.h
+/Users/xinyicui/Desktop/b-tree/src/vendor/gflags/lib/cmake/gflags/gflags-config.cmake
+/Users/xinyicui/Desktop/b-tree/src/vendor/gflags/lib/cmake/gflags/gflags-config-version.cmake
+/Users/xinyicui/Desktop/b-tree/src/vendor/gflags/lib/cmake/gflags/gflags-targets.cmake
+/Users/xinyicui/Desktop/b-tree/src/vendor/gflags/lib/cmake/gflags/gflags-targets-release.cmake
+/Users/xinyicui/Desktop/b-tree/src/vendor/gflags/bin/gflags_completions.sh
+/Users/xinyicui/Desktop/b-tree/src/vendor/gflags/lib/pkgconfig/gflags.pc
+/Users/xinyicui/.cmake/packages/gflags/c83a4361390b213a724d7f4298b0ab2c

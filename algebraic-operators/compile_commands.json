@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/xinyicui/Desktop/algebraic-operators",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/xinyicui/Desktop/algebraic-operators/include -isystem /Users/xinyicui/Desktop/algebraic-operators/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/algebraic-operators/vendor/gflags/include -isystem /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/include -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wvla -o CMakeFiles/moderndbs.dir/src/algebra.cc.o -c /Users/xinyicui/Desktop/algebraic-operators/src/algebra.cc",
+  "file": "/Users/xinyicui/Desktop/algebraic-operators/src/algebra.cc",
+  "output": "CMakeFiles/moderndbs.dir/src/algebra.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/algebraic-operators",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/xinyicui/Desktop/algebraic-operators/include -isystem /Users/xinyicui/Desktop/algebraic-operators/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/algebraic-operators/vendor/gflags/include -isystem /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/algebraic-operators/vendor/gtm/gmock/include -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wvla -o CMakeFiles/tester.dir/test/tester.cc.o -c /Users/xinyicui/Desktop/algebraic-operators/test/tester.cc",
+  "file": "/Users/xinyicui/Desktop/algebraic-operators/test/tester.cc",
+  "output": "CMakeFiles/tester.dir/test/tester.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/algebraic-operators",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/xinyicui/Desktop/algebraic-operators/include -isystem /Users/xinyicui/Desktop/algebraic-operators/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/algebraic-operators/vendor/gflags/include -isystem /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/algebraic-operators/vendor/gtm/gmock/include -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wvla -o CMakeFiles/tester.dir/test/iterator_model_test.cc.o -c /Users/xinyicui/Desktop/algebraic-operators/test/iterator_model_test.cc",
+  "file": "/Users/xinyicui/Desktop/algebraic-operators/test/iterator_model_test.cc",
+  "output": "CMakeFiles/tester.dir/test/iterator_model_test.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/algebraic-operators",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/xinyicui/Desktop/algebraic-operators/include -isystem /Users/xinyicui/Desktop/algebraic-operators/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/algebraic-operators/vendor/gflags/include -isystem /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/algebraic-operators/vendor/gtm/gmock/include -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wvla -o CMakeFiles/benchmarks.dir/bench/benchmark.cc.o -c /Users/xinyicui/Desktop/algebraic-operators/bench/benchmark.cc",
+  "file": "/Users/xinyicui/Desktop/algebraic-operators/bench/benchmark.cc",
+  "output": "CMakeFiles/benchmarks.dir/bench/benchmark.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/algebraic-operators",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/xinyicui/Desktop/algebraic-operators/include -isystem /Users/xinyicui/Desktop/algebraic-operators/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/algebraic-operators/vendor/gflags/include -isystem /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/algebraic-operators/vendor/gtm/gmock/include -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wvla -o CMakeFiles/benchmarks.dir/bench/bm_iterator.cc.o -c /Users/xinyicui/Desktop/algebraic-operators/bench/bm_iterator.cc",
+  "file": "/Users/xinyicui/Desktop/algebraic-operators/bench/bm_iterator.cc",
+  "output": "CMakeFiles/benchmarks.dir/bench/bm_iterator.cc.o"
+}
+]

@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/Users/xinyicui/Desktop/expression-evaluation",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/xinyicui/Desktop/expression-evaluation/include -isystem /opt/homebrew/Cellar/llvm@16/16.0.6_1/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/gflags/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/rapidjson/src/rapidjson_src/include -g -fsanitize=address -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -Wextra -Wvla -o CMakeFiles/moderndbs.dir/src/codegen/example/printf.cc.o -c /Users/xinyicui/Desktop/expression-evaluation/src/codegen/example/printf.cc",
+  "file": "/Users/xinyicui/Desktop/expression-evaluation/src/codegen/example/printf.cc",
+  "output": "CMakeFiles/moderndbs.dir/src/codegen/example/printf.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/expression-evaluation",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/xinyicui/Desktop/expression-evaluation/include -isystem /opt/homebrew/Cellar/llvm@16/16.0.6_1/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/gflags/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/rapidjson/src/rapidjson_src/include -g -fsanitize=address -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -Wextra -Wvla -o CMakeFiles/moderndbs.dir/src/codegen/expression.cc.o -c /Users/xinyicui/Desktop/expression-evaluation/src/codegen/expression.cc",
+  "file": "/Users/xinyicui/Desktop/expression-evaluation/src/codegen/expression.cc",
+  "output": "CMakeFiles/moderndbs.dir/src/codegen/expression.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/expression-evaluation",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/xinyicui/Desktop/expression-evaluation/include -isystem /opt/homebrew/Cellar/llvm@16/16.0.6_1/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/gflags/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/rapidjson/src/rapidjson_src/include -g -fsanitize=address -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -Wextra -Wvla -o CMakeFiles/moderndbs.dir/src/codegen/jit.cc.o -c /Users/xinyicui/Desktop/expression-evaluation/src/codegen/jit.cc",
+  "file": "/Users/xinyicui/Desktop/expression-evaluation/src/codegen/jit.cc",
+  "output": "CMakeFiles/moderndbs.dir/src/codegen/jit.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/expression-evaluation",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/xinyicui/Desktop/expression-evaluation/include -isystem /opt/homebrew/Cellar/llvm@16/16.0.6_1/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/gflags/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/rapidjson/src/rapidjson_src/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/gtm/gmock/include -g -fsanitize=address -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -Wextra -Wvla -o CMakeFiles/tester.dir/test/tester.cc.o -c /Users/xinyicui/Desktop/expression-evaluation/test/tester.cc",
+  "file": "/Users/xinyicui/Desktop/expression-evaluation/test/tester.cc",
+  "output": "CMakeFiles/tester.dir/test/tester.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/expression-evaluation",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/xinyicui/Desktop/expression-evaluation/include -isystem /opt/homebrew/Cellar/llvm@16/16.0.6_1/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/gflags/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/rapidjson/src/rapidjson_src/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/gtm/gmock/include -g -fsanitize=address -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -Wextra -Wvla -o CMakeFiles/tester.dir/test/expression_test.cc.o -c /Users/xinyicui/Desktop/expression-evaluation/test/expression_test.cc",
+  "file": "/Users/xinyicui/Desktop/expression-evaluation/test/expression_test.cc",
+  "output": "CMakeFiles/tester.dir/test/expression_test.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/expression-evaluation",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/xinyicui/Desktop/expression-evaluation/include -isystem /opt/homebrew/Cellar/llvm@16/16.0.6_1/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/gflags/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/rapidjson/src/rapidjson_src/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/gtm/gmock/include -g -fsanitize=address -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -Wextra -Wvla -o CMakeFiles/benchmarks.dir/bench/benchmark.cc.o -c /Users/xinyicui/Desktop/expression-evaluation/bench/benchmark.cc",
+  "file": "/Users/xinyicui/Desktop/expression-evaluation/bench/benchmark.cc",
+  "output": "CMakeFiles/benchmarks.dir/bench/benchmark.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/expression-evaluation",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/xinyicui/Desktop/expression-evaluation/include -isystem /opt/homebrew/Cellar/llvm@16/16.0.6_1/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/gflags/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/rapidjson/src/rapidjson_src/include -isystem /Users/xinyicui/Desktop/expression-evaluation/vendor/gtm/gmock/include -g -fsanitize=address -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -Wextra -Wvla -o CMakeFiles/benchmarks.dir/bench/bm_expression.cc.o -c /Users/xinyicui/Desktop/expression-evaluation/bench/bm_expression.cc",
+  "file": "/Users/xinyicui/Desktop/expression-evaluation/bench/bm_expression.cc",
+  "output": "CMakeFiles/benchmarks.dir/bench/bm_expression.cc.o"
+}
+]

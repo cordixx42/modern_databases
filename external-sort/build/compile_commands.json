@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/Users/xinyicui/Desktop/mdb/external-sort/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/xinyicui/Desktop/mdb/external-sort/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/gflags/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/benchmark/include -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wvla -o CMakeFiles/moderndbs.dir/src/external_sort.cc.o -c /Users/xinyicui/Desktop/mdb/external-sort/src/external_sort.cc",
+  "file": "/Users/xinyicui/Desktop/mdb/external-sort/src/external_sort.cc",
+  "output": "CMakeFiles/moderndbs.dir/src/external_sort.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/mdb/external-sort/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/xinyicui/Desktop/mdb/external-sort/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/gflags/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/benchmark/include -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wvla -o CMakeFiles/moderndbs.dir/src/file/posix_file.cc.o -c /Users/xinyicui/Desktop/mdb/external-sort/src/file/posix_file.cc",
+  "file": "/Users/xinyicui/Desktop/mdb/external-sort/src/file/posix_file.cc",
+  "output": "CMakeFiles/moderndbs.dir/src/file/posix_file.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/mdb/external-sort/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/xinyicui/Desktop/mdb/external-sort/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/gflags/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/benchmark/include -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wvla -o CMakeFiles/external_sort.dir/tools/external_sort.cc.o -c /Users/xinyicui/Desktop/mdb/external-sort/tools/external_sort.cc",
+  "file": "/Users/xinyicui/Desktop/mdb/external-sort/tools/external_sort.cc",
+  "output": "CMakeFiles/external_sort.dir/tools/external_sort.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/mdb/external-sort/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/xinyicui/Desktop/mdb/external-sort/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/gflags/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/gtm/gmock/include -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wvla -o CMakeFiles/tester.dir/test/tester.cc.o -c /Users/xinyicui/Desktop/mdb/external-sort/test/tester.cc",
+  "file": "/Users/xinyicui/Desktop/mdb/external-sort/test/tester.cc",
+  "output": "CMakeFiles/tester.dir/test/tester.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/mdb/external-sort/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/xinyicui/Desktop/mdb/external-sort/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/gflags/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/gtm/gmock/include -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wvla -o CMakeFiles/tester.dir/test/external_sort_test.cc.o -c /Users/xinyicui/Desktop/mdb/external-sort/test/external_sort_test.cc",
+  "file": "/Users/xinyicui/Desktop/mdb/external-sort/test/external_sort_test.cc",
+  "output": "CMakeFiles/tester.dir/test/external_sort_test.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/mdb/external-sort/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/xinyicui/Desktop/mdb/external-sort/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/gflags/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/gtm/gmock/include -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wvla -o CMakeFiles/benchmarks.dir/bench/benchmark.cc.o -c /Users/xinyicui/Desktop/mdb/external-sort/bench/benchmark.cc",
+  "file": "/Users/xinyicui/Desktop/mdb/external-sort/bench/benchmark.cc",
+  "output": "CMakeFiles/benchmarks.dir/bench/benchmark.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/mdb/external-sort/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/xinyicui/Desktop/mdb/external-sort/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/gflags/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/mdb/external-sort/build/vendor/gtm/gmock/include -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wvla -o CMakeFiles/benchmarks.dir/bench/bm_external_sort.cc.o -c /Users/xinyicui/Desktop/mdb/external-sort/bench/bm_external_sort.cc",
+  "file": "/Users/xinyicui/Desktop/mdb/external-sort/bench/bm_external_sort.cc",
+  "output": "CMakeFiles/benchmarks.dir/bench/bm_external_sort.cc.o"
+}
+]

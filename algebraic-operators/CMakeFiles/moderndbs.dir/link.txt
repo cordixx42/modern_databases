@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libmoderndbs.a CMakeFiles/moderndbs.dir/src/algebra.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libmoderndbs.a

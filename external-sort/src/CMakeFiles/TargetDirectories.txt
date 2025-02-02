@@ -1,0 +1,16 @@
+/Users/xinyicui/Desktop/external-sort/src/CMakeFiles/benchmark_src.dir
+/Users/xinyicui/Desktop/external-sort/src/CMakeFiles/gflags_src.dir
+/Users/xinyicui/Desktop/external-sort/src/CMakeFiles/googletest.dir
+/Users/xinyicui/Desktop/external-sort/src/CMakeFiles/gtest_src.dir
+/Users/xinyicui/Desktop/external-sort/src/CMakeFiles/gmock_src.dir
+/Users/xinyicui/Desktop/external-sort/src/CMakeFiles/moderndbs.dir
+/Users/xinyicui/Desktop/external-sort/src/CMakeFiles/lint_src.dir
+/Users/xinyicui/Desktop/external-sort/src/CMakeFiles/external_sort.dir
+/Users/xinyicui/Desktop/external-sort/src/CMakeFiles/lint_tools.dir
+/Users/xinyicui/Desktop/external-sort/src/CMakeFiles/tester.dir
+/Users/xinyicui/Desktop/external-sort/src/CMakeFiles/lint_test.dir
+/Users/xinyicui/Desktop/external-sort/src/CMakeFiles/benchmarks.dir
+/Users/xinyicui/Desktop/external-sort/src/CMakeFiles/lint.dir
+/Users/xinyicui/Desktop/external-sort/src/CMakeFiles/test.dir
+/Users/xinyicui/Desktop/external-sort/src/CMakeFiles/edit_cache.dir
+/Users/xinyicui/Desktop/external-sort/src/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,204 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moderndbs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "RISCVTargetParserTableGen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RISCVTargetParserTableGen-Debug-46abb40b865ab9e317c1.json",
+					"name" : "RISCVTargetParserTableGen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acc_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acc_gen-Debug-b0c22dadfef68c391068.json",
+					"name" : "acc_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmark_src::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmark_src-Debug-518d58aac4cf76cf8c12.json",
+					"name" : "benchmark_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmarks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmarks-Debug-724359938cc70d45d1d8.json",
+					"name" : "benchmarks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gflags_src::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gflags_src-Debug-9af3e0494bbfc36f355b.json",
+					"name" : "gflags_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gmock_src::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gmock_src-Debug-ccd5ebfa5358d7420617.json",
+					"name" : "gmock_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "googletest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-googletest-Debug-32e611d68d5b414c320f.json",
+					"name" : "googletest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gtest_src::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gtest_src-Debug-aba9b7df7485e62f080a.json",
+					"name" : "gtest_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intrinsics_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intrinsics_gen-Debug-b08bec16e5f3a1902703.json",
+					"name" : "intrinsics_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lint-Debug-4cf57d436323ac7f6585.json",
+					"name" : "lint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lint_src::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lint_src-Debug-e010d03141f8318555c1.json",
+					"name" : "lint_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lint_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lint_test-Debug-c76a6520b7c17a1cd838.json",
+					"name" : "lint_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lint_tools::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lint_tools-Debug-609feedfa19fc19998c1.json",
+					"name" : "lint_tools",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moderndbs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moderndbs-Debug-689d38448f307577ab41.json",
+					"name" : "moderndbs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omp_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omp_gen-Debug-5cdf7122b0f54d592c35.json",
+					"name" : "omp_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rapidjson_src::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rapidjson_src-Debug-2069d91dc2f8d777dcb6.json",
+					"name" : "rapidjson_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tester::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tester-Debug-257295ca00bd2af1a275.json",
+					"name" : "tester",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/xinyicui/Desktop/expression-evaluation",
+		"source" : "/Users/xinyicui/Desktop/expression-evaluation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

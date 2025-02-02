@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/xinyicui/Desktop/mdb/external-sort/cmake-build-relwithdebinfo/CMakeFiles/gtest_src"
+		},
+		{
+			"file" : "/Users/xinyicui/Desktop/mdb/external-sort/cmake-build-relwithdebinfo/CMakeFiles/gtest_src.rule"
+		},
+		{
+			"file" : "/Users/xinyicui/Desktop/mdb/external-sort/cmake-build-relwithdebinfo/CMakeFiles/gtest_src-complete.rule"
+		},
+		{
+			"file" : "/Users/xinyicui/Desktop/mdb/external-sort/cmake-build-relwithdebinfo/vendor/gtm/src/gtest_src-stamp/gtest_src-build.rule"
+		},
+		{
+			"file" : "/Users/xinyicui/Desktop/mdb/external-sort/cmake-build-relwithdebinfo/vendor/gtm/src/gtest_src-stamp/gtest_src-configure.rule"
+		},
+		{
+			"file" : "/Users/xinyicui/Desktop/mdb/external-sort/cmake-build-relwithdebinfo/vendor/gtm/src/gtest_src-stamp/gtest_src-download.rule"
+		},
+		{
+			"file" : "/Users/xinyicui/Desktop/mdb/external-sort/cmake-build-relwithdebinfo/vendor/gtm/src/gtest_src-stamp/gtest_src-install.rule"
+		},
+		{
+			"file" : "/Users/xinyicui/Desktop/mdb/external-sort/cmake-build-relwithdebinfo/vendor/gtm/src/gtest_src-stamp/gtest_src-mkdir.rule"
+		},
+		{
+			"file" : "/Users/xinyicui/Desktop/mdb/external-sort/cmake-build-relwithdebinfo/vendor/gtm/src/gtest_src-stamp/gtest_src-patch.rule"
+		},
+		{
+			"file" : "/Users/xinyicui/Desktop/mdb/external-sort/cmake-build-relwithdebinfo/vendor/gtm/src/gtest_src-stamp/gtest_src-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gtest_src"
+		],
+		"name" : "gtest_src"
+	}
+}

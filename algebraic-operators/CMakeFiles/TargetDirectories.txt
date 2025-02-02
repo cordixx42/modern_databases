@@ -1,0 +1,15 @@
+/Users/xinyicui/Desktop/algebraic-operators/CMakeFiles/benchmark_src.dir
+/Users/xinyicui/Desktop/algebraic-operators/CMakeFiles/gflags_src.dir
+/Users/xinyicui/Desktop/algebraic-operators/CMakeFiles/googletest.dir
+/Users/xinyicui/Desktop/algebraic-operators/CMakeFiles/gtest_src.dir
+/Users/xinyicui/Desktop/algebraic-operators/CMakeFiles/gmock_src.dir
+/Users/xinyicui/Desktop/algebraic-operators/CMakeFiles/moderndbs.dir
+/Users/xinyicui/Desktop/algebraic-operators/CMakeFiles/lint_src.dir
+/Users/xinyicui/Desktop/algebraic-operators/CMakeFiles/lint_tools.dir
+/Users/xinyicui/Desktop/algebraic-operators/CMakeFiles/tester.dir
+/Users/xinyicui/Desktop/algebraic-operators/CMakeFiles/lint_test.dir
+/Users/xinyicui/Desktop/algebraic-operators/CMakeFiles/benchmarks.dir
+/Users/xinyicui/Desktop/algebraic-operators/CMakeFiles/lint.dir
+/Users/xinyicui/Desktop/algebraic-operators/CMakeFiles/test.dir
+/Users/xinyicui/Desktop/algebraic-operators/CMakeFiles/edit_cache.dir
+/Users/xinyicui/Desktop/algebraic-operators/CMakeFiles/rebuild_cache.dir

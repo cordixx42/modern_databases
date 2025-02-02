@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moderndbs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmark_src::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmark_src-Debug-37c603703ac83d9c8a2b.json",
+					"name" : "benchmark_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmarks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmarks-Debug-dba3b364b312b706428d.json",
+					"name" : "benchmarks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gflags_src::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gflags_src-Debug-194c8259f0ca35797a41.json",
+					"name" : "gflags_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gmock_src::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gmock_src-Debug-b303795bdf3698ecc966.json",
+					"name" : "gmock_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "googletest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-googletest-Debug-6226a09b6548c31b058d.json",
+					"name" : "googletest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gtest_src::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gtest_src-Debug-e1bb103f150da564b44e.json",
+					"name" : "gtest_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lint-Debug-5c88447ae50d85132f9f.json",
+					"name" : "lint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lint_src::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lint_src-Debug-f776df5c2562f02eb4ce.json",
+					"name" : "lint_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lint_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lint_test-Debug-9ca6654c89012217d598.json",
+					"name" : "lint_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lint_tools::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lint_tools-Debug-be1526f08086accc5d19.json",
+					"name" : "lint_tools",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moderndbs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moderndbs-Debug-ff2ceccee27261f6856c.json",
+					"name" : "moderndbs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tester::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tester-Debug-f9b510f9b11c35bdc556.json",
+					"name" : "tester",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/xinyicui/Desktop/mdb/buffer-manager/cmake-build-debug",
+		"source" : "/Users/xinyicui/Desktop/mdb/buffer-manager"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,4494 @@
+[==========] Running 16 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 11 tests from SegmentTest
+[ RUN      ] SegmentTest.SchemaSetter
+[       OK ] SegmentTest.SchemaSetter (0 ms)
+[ RUN      ] SegmentTest.SchemaSerialiseEmptySchema
+[       OK ] SegmentTest.SchemaSerialiseEmptySchema (0 ms)
+[ RUN      ] SegmentTest.SchemaSerialiseTPCHLight
+[       OK ] SegmentTest.SchemaSerialiseTPCHLight (1 ms)
+[ RUN      ] SegmentTest.FSIEncoding
+[       OK ] SegmentTest.FSIEncoding (0 ms)
+[ RUN      ] SegmentTest.FSIFind
+no free page -> allocate new one with page id 0
+fsi updated page 0 with free space 996 decoded 960
+free space is 960 and required space is 16
+[       OK ] SegmentTest.FSIFind (0 ms)
+[ RUN      ] SegmentTest.FSIPersistence
+fsi updated page 0 with free space 0 decoded 0
+fsi updated page 1 with free space 64 decoded 64
+free space is 64 and required space is 50
+free space is 64 and required space is 50
+[       OK ] SegmentTest.FSIPersistence (1 ms)
+[ RUN      ] SegmentTest.SPRecordAllocation
+max is 1004
+no free page -> allocate new one with page id 0
+fsi updated page 0 with free space 1003 decoded 960
+free space is 960 and required space is 18
+found free page 0
+fsi updated page 0 with free space 993 decoded 960
+free space is 960 and required space is 20
+found free page 0
+fsi updated page 0 with free space 981 decoded 960
+free space is 960 and required space is 24
+found free page 0
+fsi updated page 0 with free space 965 decoded 960
+free space is 960 and required space is 32
+found free page 0
+fsi updated page 0 with free space 941 decoded 896
+free space is 896 and required space is 48
+found free page 0
+fsi updated page 0 with free space 901 decoded 896
+free space is 896 and required space is 80
+found free page 0
+fsi updated page 0 with free space 829 decoded 768
+free space is 768 and required space is 144
+found free page 0
+fsi updated page 0 with free space 693 decoded 640
+free space is 640 and required space is 272
+found free page 0
+fsi updated page 0 with free space 429 decoded 384
+no free page -> allocate new one with page id 1
+fsi updated page 1 with free space 492 decoded 448
+no free page -> allocate new one with page id 2
+fsi updated page 2 with free space 0 decoded 0
+[       OK ] SegmentTest.SPRecordAllocation (0 ms)
+[ RUN      ] SegmentTest.SPRecordWriteRead
+no free page -> allocate new one with page id 0
+fsi updated page 0 with free space 1003 decoded 960
+writing page_id 0 slot 0
+writing to normal slot 
+reading page_id 0 slot 0
+reading normal 
+free space is 960 and required space is 18
+found free page 0
+fsi updated page 0 with free space 993 decoded 960
+writing page_id 0 slot 1
+writing to normal slot 
+reading page_id 0 slot 1
+reading normal 
+free space is 960 and required space is 20
+found free page 0
+fsi updated page 0 with free space 981 decoded 960
+writing page_id 0 slot 2
+writing to normal slot 
+reading page_id 0 slot 2
+reading normal 
+free space is 960 and required space is 24
+found free page 0
+fsi updated page 0 with free space 965 decoded 960
+writing page_id 0 slot 3
+writing to normal slot 
+reading page_id 0 slot 3
+reading normal 
+free space is 960 and required space is 32
+found free page 0
+fsi updated page 0 with free space 941 decoded 896
+writing page_id 0 slot 4
+writing to normal slot 
+reading page_id 0 slot 4
+reading normal 
+free space is 896 and required space is 48
+found free page 0
+fsi updated page 0 with free space 901 decoded 896
+writing page_id 0 slot 5
+writing to normal slot 
+reading page_id 0 slot 5
+reading normal 
+free space is 896 and required space is 80
+found free page 0
+fsi updated page 0 with free space 829 decoded 768
+writing page_id 0 slot 6
+writing to normal slot 
+reading page_id 0 slot 6
+reading normal 
+free space is 768 and required space is 144
+found free page 0
+fsi updated page 0 with free space 693 decoded 640
+writing page_id 0 slot 7
+writing to normal slot 
+reading page_id 0 slot 7
+reading normal 
+free space is 640 and required space is 272
+found free page 0
+fsi updated page 0 with free space 429 decoded 384
+writing page_id 0 slot 8
+writing to normal slot 
+reading page_id 0 slot 8
+reading normal 
+no free page -> allocate new one with page id 1
+fsi updated page 1 with free space 492 decoded 448
+writing page_id 1 slot 0
+writing to normal slot 
+reading page_id 1 slot 0
+reading normal 
+reading page_id 0 slot 0
+reading normal 
+reading page_id 0 slot 1
+reading normal 
+reading page_id 0 slot 2
+reading normal 
+reading page_id 0 slot 3
+reading normal 
+reading page_id 0 slot 4
+reading normal 
+reading page_id 0 slot 5
+reading normal 
+reading page_id 0 slot 6
+reading normal 
+reading page_id 0 slot 7
+reading normal 
+reading page_id 0 slot 8
+reading normal 
+reading page_id 1 slot 0
+reading normal 
+[       OK ] SegmentTest.SPRecordWriteRead (0 ms)
+[ RUN      ] SegmentTest.SPRecordWriteReadRedirect
+max rec 42
+no free page -> allocate new one with page id 0
+fsi updated page 0 with free space 996 decoded 960
+writing page_id 0 slot 0
+writing to normal slot 
+reading page_id 0 slot 0
+reading normal 
+free space is 960 and required space is 24
+found free page 0
+fsi updated page 0 with free space 980 decoded 960
+writing page_id 0 slot 1
+writing to normal slot 
+reading page_id 0 slot 1
+reading normal 
+free space is 960 and required space is 24
+found free page 0
+fsi updated page 0 with free space 964 decoded 960
+writing page_id 0 slot 2
+writing to normal slot 
+reading page_id 0 slot 2
+reading normal 
+free space is 960 and required space is 24
+found free page 0
+fsi updated page 0 with free space 948 decoded 896
+writing page_id 0 slot 3
+writing to normal slot 
+reading page_id 0 slot 3
+reading normal 
+free space is 896 and required space is 24
+found free page 0
+fsi updated page 0 with free space 932 decoded 896
+writing page_id 0 slot 4
+writing to normal slot 
+reading page_id 0 slot 4
+reading normal 
+free space is 896 and required space is 24
+found free page 0
+fsi updated page 0 with free space 916 decoded 896
+writing page_id 0 slot 5
+writing to normal slot 
+reading page_id 0 slot 5
+reading normal 
+free space is 896 and required space is 24
+found free page 0
+fsi updated page 0 with free space 900 decoded 896
+writing page_id 0 slot 6
+writing to normal slot 
+reading page_id 0 slot 6
+reading normal 
+free space is 896 and required space is 24
+found free page 0
+fsi updated page 0 with free space 884 decoded 832
+writing page_id 0 slot 7
+writing to normal slot 
+reading page_id 0 slot 7
+reading normal 
+free space is 832 and required space is 24
+found free page 0
+fsi updated page 0 with free space 868 decoded 832
+writing page_id 0 slot 8
+writing to normal slot 
+reading page_id 0 slot 8
+reading normal 
+free space is 832 and required space is 24
+found free page 0
+fsi updated page 0 with free space 852 decoded 832
+writing page_id 0 slot 9
+writing to normal slot 
+reading page_id 0 slot 9
+reading normal 
+free space is 832 and required space is 24
+found free page 0
+fsi updated page 0 with free space 836 decoded 832
+writing page_id 0 slot 10
+writing to normal slot 
+reading page_id 0 slot 10
+reading normal 
+free space is 832 and required space is 24
+found free page 0
+fsi updated page 0 with free space 820 decoded 768
+writing page_id 0 slot 11
+writing to normal slot 
+reading page_id 0 slot 11
+reading normal 
+free space is 768 and required space is 24
+found free page 0
+fsi updated page 0 with free space 804 decoded 768
+writing page_id 0 slot 12
+writing to normal slot 
+reading page_id 0 slot 12
+reading normal 
+free space is 768 and required space is 24
+found free page 0
+fsi updated page 0 with free space 788 decoded 768
+writing page_id 0 slot 13
+writing to normal slot 
+reading page_id 0 slot 13
+reading normal 
+free space is 768 and required space is 24
+found free page 0
+fsi updated page 0 with free space 772 decoded 768
+writing page_id 0 slot 14
+writing to normal slot 
+reading page_id 0 slot 14
+reading normal 
+free space is 768 and required space is 24
+found free page 0
+fsi updated page 0 with free space 756 decoded 704
+writing page_id 0 slot 15
+writing to normal slot 
+reading page_id 0 slot 15
+reading normal 
+free space is 704 and required space is 24
+found free page 0
+fsi updated page 0 with free space 740 decoded 704
+writing page_id 0 slot 16
+writing to normal slot 
+reading page_id 0 slot 16
+reading normal 
+free space is 704 and required space is 24
+found free page 0
+fsi updated page 0 with free space 724 decoded 704
+writing page_id 0 slot 17
+writing to normal slot 
+reading page_id 0 slot 17
+reading normal 
+free space is 704 and required space is 24
+found free page 0
+fsi updated page 0 with free space 708 decoded 704
+writing page_id 0 slot 18
+writing to normal slot 
+reading page_id 0 slot 18
+reading normal 
+free space is 704 and required space is 24
+found free page 0
+fsi updated page 0 with free space 692 decoded 640
+writing page_id 0 slot 19
+writing to normal slot 
+reading page_id 0 slot 19
+reading normal 
+free space is 640 and required space is 24
+found free page 0
+fsi updated page 0 with free space 676 decoded 640
+writing page_id 0 slot 20
+writing to normal slot 
+reading page_id 0 slot 20
+reading normal 
+free space is 640 and required space is 24
+found free page 0
+fsi updated page 0 with free space 660 decoded 640
+writing page_id 0 slot 21
+writing to normal slot 
+reading page_id 0 slot 21
+reading normal 
+free space is 640 and required space is 24
+found free page 0
+fsi updated page 0 with free space 644 decoded 640
+writing page_id 0 slot 22
+writing to normal slot 
+reading page_id 0 slot 22
+reading normal 
+free space is 640 and required space is 24
+found free page 0
+fsi updated page 0 with free space 628 decoded 576
+writing page_id 0 slot 23
+writing to normal slot 
+reading page_id 0 slot 23
+reading normal 
+free space is 576 and required space is 24
+found free page 0
+fsi updated page 0 with free space 612 decoded 576
+writing page_id 0 slot 24
+writing to normal slot 
+reading page_id 0 slot 24
+reading normal 
+free space is 576 and required space is 24
+found free page 0
+fsi updated page 0 with free space 596 decoded 576
+writing page_id 0 slot 25
+writing to normal slot 
+reading page_id 0 slot 25
+reading normal 
+free space is 576 and required space is 24
+found free page 0
+fsi updated page 0 with free space 580 decoded 576
+writing page_id 0 slot 26
+writing to normal slot 
+reading page_id 0 slot 26
+reading normal 
+free space is 576 and required space is 24
+found free page 0
+fsi updated page 0 with free space 564 decoded 512
+writing page_id 0 slot 27
+writing to normal slot 
+reading page_id 0 slot 27
+reading normal 
+free space is 512 and required space is 24
+found free page 0
+fsi updated page 0 with free space 548 decoded 512
+writing page_id 0 slot 28
+writing to normal slot 
+reading page_id 0 slot 28
+reading normal 
+free space is 512 and required space is 24
+found free page 0
+fsi updated page 0 with free space 532 decoded 512
+writing page_id 0 slot 29
+writing to normal slot 
+reading page_id 0 slot 29
+reading normal 
+free space is 512 and required space is 24
+found free page 0
+fsi updated page 0 with free space 516 decoded 512
+writing page_id 0 slot 30
+writing to normal slot 
+reading page_id 0 slot 30
+reading normal 
+free space is 512 and required space is 24
+found free page 0
+fsi updated page 0 with free space 500 decoded 448
+writing page_id 0 slot 31
+writing to normal slot 
+reading page_id 0 slot 31
+reading normal 
+free space is 448 and required space is 24
+found free page 0
+fsi updated page 0 with free space 484 decoded 448
+writing page_id 0 slot 32
+writing to normal slot 
+reading page_id 0 slot 32
+reading normal 
+free space is 448 and required space is 24
+found free page 0
+fsi updated page 0 with free space 468 decoded 448
+writing page_id 0 slot 33
+writing to normal slot 
+reading page_id 0 slot 33
+reading normal 
+free space is 448 and required space is 24
+found free page 0
+fsi updated page 0 with free space 452 decoded 448
+writing page_id 0 slot 34
+writing to normal slot 
+reading page_id 0 slot 34
+reading normal 
+free space is 448 and required space is 24
+found free page 0
+fsi updated page 0 with free space 436 decoded 384
+writing page_id 0 slot 35
+writing to normal slot 
+reading page_id 0 slot 35
+reading normal 
+free space is 384 and required space is 24
+found free page 0
+fsi updated page 0 with free space 420 decoded 384
+writing page_id 0 slot 36
+writing to normal slot 
+reading page_id 0 slot 36
+reading normal 
+free space is 384 and required space is 24
+found free page 0
+fsi updated page 0 with free space 404 decoded 384
+writing page_id 0 slot 37
+writing to normal slot 
+reading page_id 0 slot 37
+reading normal 
+free space is 384 and required space is 24
+found free page 0
+fsi updated page 0 with free space 388 decoded 384
+writing page_id 0 slot 38
+writing to normal slot 
+reading page_id 0 slot 38
+reading normal 
+free space is 384 and required space is 24
+found free page 0
+fsi updated page 0 with free space 372 decoded 320
+writing page_id 0 slot 39
+writing to normal slot 
+reading page_id 0 slot 39
+reading normal 
+free space is 320 and required space is 24
+found free page 0
+fsi updated page 0 with free space 356 decoded 320
+writing page_id 0 slot 40
+writing to normal slot 
+reading page_id 0 slot 40
+reading normal 
+free space is 320 and required space is 24
+found free page 0
+fsi updated page 0 with free space 340 decoded 320
+writing page_id 0 slot 41
+writing to normal slot 
+reading page_id 0 slot 41
+reading normal 
+first resize 
+resizing page_id 0 slot 41
+slot is normal slot  
+page 0 slot 41
+new redirect target 
+no free page -> allocate new one with page id 1
+fsi updated page 1 with free space 498 decoded 448
+reading page_id 0 slot 41
+reading redirect ??
+reading redirect with page id 1 and slot id0
+currently on page 1 and slot 41
+redirect to page 1 and slot 0
+42
+42
+loop
+free space is 320 and required space is 24
+found free page 0
+fsi updated page 0 with free space 324 decoded 320
+loop
+free space is 320 and required space is 24
+found free page 0
+fsi updated page 0 with free space 308 decoded 256
+loop
+free space is 256 and required space is 24
+found free page 0
+fsi updated page 0 with free space 292 decoded 256
+loop
+free space is 256 and required space is 24
+found free page 0
+fsi updated page 0 with free space 276 decoded 256
+loop
+free space is 256 and required space is 24
+found free page 0
+fsi updated page 0 with free space 260 decoded 256
+loop
+free space is 256 and required space is 24
+found free page 0
+fsi updated page 0 with free space 244 decoded 192
+loop
+free space is 192 and required space is 24
+found free page 0
+fsi updated page 0 with free space 228 decoded 192
+loop
+free space is 192 and required space is 24
+found free page 0
+fsi updated page 0 with free space 212 decoded 192
+loop
+free space is 192 and required space is 24
+found free page 0
+fsi updated page 0 with free space 196 decoded 192
+loop
+free space is 192 and required space is 24
+found free page 0
+fsi updated page 0 with free space 180 decoded 128
+loop
+free space is 128 and required space is 24
+found free page 0
+fsi updated page 0 with free space 164 decoded 128
+loop
+free space is 128 and required space is 24
+found free page 0
+fsi updated page 0 with free space 148 decoded 128
+loop
+free space is 128 and required space is 24
+found free page 0
+fsi updated page 0 with free space 132 decoded 128
+loop
+free space is 128 and required space is 24
+found free page 0
+fsi updated page 0 with free space 116 decoded 64
+loop
+free space is 64 and required space is 24
+found free page 0
+fsi updated page 0 with free space 100 decoded 64
+loop
+free space is 64 and required space is 24
+found free page 0
+fsi updated page 0 with free space 84 decoded 64
+loop
+free space is 64 and required space is 24
+found free page 0
+fsi updated page 0 with free space 68 decoded 64
+loop
+free space is 64 and required space is 24
+found free page 0
+fsi updated page 0 with free space 52 decoded 0
+loop
+free space is 448 and required space is 24
+found free page 1
+fsi updated page 1 with free space 482 decoded 448
+loop
+free space is 448 and required space is 24
+found free page 1
+fsi updated page 1 with free space 466 decoded 448
+loop
+free space is 448 and required space is 24
+found free page 1
+fsi updated page 1 with free space 450 decoded 448
+loop
+free space is 448 and required space is 24
+found free page 1
+fsi updated page 1 with free space 434 decoded 384
+loop
+free space is 384 and required space is 24
+found free page 1
+fsi updated page 1 with free space 418 decoded 384
+loop
+free space is 384 and required space is 24
+found free page 1
+fsi updated page 1 with free space 402 decoded 384
+loop
+free space is 384 and required space is 24
+found free page 1
+fsi updated page 1 with free space 386 decoded 384
+loop
+free space is 384 and required space is 24
+found free page 1
+fsi updated page 1 with free space 370 decoded 320
+loop
+free space is 320 and required space is 24
+found free page 1
+fsi updated page 1 with free space 354 decoded 320
+loop
+free space is 320 and required space is 24
+found free page 1
+fsi updated page 1 with free space 338 decoded 320
+loop
+free space is 320 and required space is 24
+found free page 1
+fsi updated page 1 with free space 322 decoded 320
+loop
+free space is 320 and required space is 24
+found free page 1
+fsi updated page 1 with free space 306 decoded 256
+loop
+free space is 256 and required space is 24
+found free page 1
+fsi updated page 1 with free space 290 decoded 256
+loop
+free space is 256 and required space is 24
+found free page 1
+fsi updated page 1 with free space 274 decoded 256
+loop
+free space is 256 and required space is 24
+found free page 1
+fsi updated page 1 with free space 258 decoded 256
+loop
+free space is 256 and required space is 24
+found free page 1
+fsi updated page 1 with free space 242 decoded 192
+loop
+free space is 192 and required space is 24
+found free page 1
+fsi updated page 1 with free space 226 decoded 192
+loop
+free space is 192 and required space is 24
+found free page 1
+fsi updated page 1 with free space 210 decoded 192
+loop
+free space is 192 and required space is 24
+found free page 1
+fsi updated page 1 with free space 194 decoded 192
+loop
+free space is 192 and required space is 24
+found free page 1
+fsi updated page 1 with free space 178 decoded 128
+loop
+free space is 128 and required space is 24
+found free page 1
+fsi updated page 1 with free space 162 decoded 128
+loop
+free space is 128 and required space is 24
+found free page 1
+fsi updated page 1 with free space 146 decoded 128
+loop
+free space is 128 and required space is 24
+found free page 1
+fsi updated page 1 with free space 130 decoded 128
+loop
+free space is 128 and required space is 24
+found free page 1
+fsi updated page 1 with free space 114 decoded 64
+loop
+free space is 64 and required space is 24
+found free page 1
+fsi updated page 1 with free space 98 decoded 64
+loop
+free space is 64 and required space is 24
+found free page 1
+fsi updated page 1 with free space 82 decoded 64
+loop
+free space is 64 and required space is 24
+found free page 1
+fsi updated page 1 with free space 66 decoded 64
+loop
+free space is 64 and required space is 24
+found free page 1
+fsi updated page 1 with free space 50 decoded 0
+loop
+no free page -> allocate new one with page id 2
+fsi updated page 2 with free space 996 decoded 960
+loop
+free space is 960 and required space is 24
+found free page 2
+fsi updated page 2 with free space 980 decoded 960
+loop
+free space is 960 and required space is 24
+found free page 2
+fsi updated page 2 with free space 964 decoded 960
+loop
+free space is 960 and required space is 24
+found free page 2
+fsi updated page 2 with free space 948 decoded 896
+loop
+free space is 896 and required space is 24
+found free page 2
+fsi updated page 2 with free space 932 decoded 896
+loop
+free space is 896 and required space is 24
+found free page 2
+fsi updated page 2 with free space 916 decoded 896
+loop
+free space is 896 and required space is 24
+found free page 2
+fsi updated page 2 with free space 900 decoded 896
+loop
+free space is 896 and required space is 24
+found free page 2
+fsi updated page 2 with free space 884 decoded 832
+loop
+free space is 832 and required space is 24
+found free page 2
+fsi updated page 2 with free space 868 decoded 832
+loop
+free space is 832 and required space is 24
+found free page 2
+fsi updated page 2 with free space 852 decoded 832
+loop
+free space is 832 and required space is 24
+found free page 2
+fsi updated page 2 with free space 836 decoded 832
+loop
+free space is 832 and required space is 24
+found free page 2
+fsi updated page 2 with free space 820 decoded 768
+loop
+free space is 768 and required space is 24
+found free page 2
+fsi updated page 2 with free space 804 decoded 768
+loop
+free space is 768 and required space is 24
+found free page 2
+fsi updated page 2 with free space 788 decoded 768
+loop
+free space is 768 and required space is 24
+found free page 2
+fsi updated page 2 with free space 772 decoded 768
+loop
+free space is 768 and required space is 24
+found free page 2
+fsi updated page 2 with free space 756 decoded 704
+loop
+free space is 704 and required space is 24
+found free page 2
+fsi updated page 2 with free space 740 decoded 704
+loop
+free space is 704 and required space is 24
+found free page 2
+fsi updated page 2 with free space 724 decoded 704
+loop
+free space is 704 and required space is 24
+found free page 2
+fsi updated page 2 with free space 708 decoded 704
+loop
+free space is 704 and required space is 24
+found free page 2
+fsi updated page 2 with free space 692 decoded 640
+loop
+free space is 640 and required space is 24
+found free page 2
+fsi updated page 2 with free space 676 decoded 640
+loop
+free space is 640 and required space is 24
+found free page 2
+fsi updated page 2 with free space 660 decoded 640
+loop
+free space is 640 and required space is 24
+found free page 2
+fsi updated page 2 with free space 644 decoded 640
+loop
+free space is 640 and required space is 24
+found free page 2
+fsi updated page 2 with free space 628 decoded 576
+loop
+free space is 576 and required space is 24
+found free page 2
+fsi updated page 2 with free space 612 decoded 576
+loop
+free space is 576 and required space is 24
+found free page 2
+fsi updated page 2 with free space 596 decoded 576
+loop
+free space is 576 and required space is 24
+found free page 2
+fsi updated page 2 with free space 580 decoded 576
+loop
+free space is 576 and required space is 24
+found free page 2
+fsi updated page 2 with free space 564 decoded 512
+loop
+free space is 512 and required space is 24
+found free page 2
+fsi updated page 2 with free space 548 decoded 512
+loop
+free space is 512 and required space is 24
+found free page 2
+fsi updated page 2 with free space 532 decoded 512
+loop
+free space is 512 and required space is 24
+found free page 2
+fsi updated page 2 with free space 516 decoded 512
+loop
+free space is 512 and required space is 24
+found free page 2
+fsi updated page 2 with free space 500 decoded 448
+loop
+free space is 448 and required space is 24
+found free page 2
+fsi updated page 2 with free space 484 decoded 448
+loop
+free space is 448 and required space is 24
+found free page 2
+fsi updated page 2 with free space 468 decoded 448
+loop
+free space is 448 and required space is 24
+found free page 2
+fsi updated page 2 with free space 452 decoded 448
+loop
+free space is 448 and required space is 24
+found free page 2
+fsi updated page 2 with free space 436 decoded 384
+loop
+free space is 384 and required space is 24
+found free page 2
+fsi updated page 2 with free space 420 decoded 384
+loop
+free space is 384 and required space is 24
+found free page 2
+fsi updated page 2 with free space 404 decoded 384
+loop
+free space is 384 and required space is 24
+found free page 2
+fsi updated page 2 with free space 388 decoded 384
+loop
+free space is 384 and required space is 24
+found free page 2
+fsi updated page 2 with free space 372 decoded 320
+loop
+free space is 320 and required space is 24
+found free page 2
+fsi updated page 2 with free space 356 decoded 320
+loop
+free space is 320 and required space is 24
+found free page 2
+fsi updated page 2 with free space 340 decoded 320
+loop
+free space is 320 and required space is 24
+found free page 2
+fsi updated page 2 with free space 324 decoded 320
+loop
+free space is 320 and required space is 24
+found free page 2
+fsi updated page 2 with free space 308 decoded 256
+loop
+free space is 256 and required space is 24
+found free page 2
+fsi updated page 2 with free space 292 decoded 256
+loop
+free space is 256 and required space is 24
+found free page 2
+fsi updated page 2 with free space 276 decoded 256
+loop
+free space is 256 and required space is 24
+found free page 2
+fsi updated page 2 with free space 260 decoded 256
+loop
+free space is 256 and required space is 24
+found free page 2
+fsi updated page 2 with free space 244 decoded 192
+loop
+free space is 192 and required space is 24
+found free page 2
+fsi updated page 2 with free space 228 decoded 192
+loop
+free space is 192 and required space is 24
+found free page 2
+fsi updated page 2 with free space 212 decoded 192
+loop
+free space is 192 and required space is 24
+found free page 2
+fsi updated page 2 with free space 196 decoded 192
+loop
+free space is 192 and required space is 24
+found free page 2
+fsi updated page 2 with free space 180 decoded 128
+loop
+free space is 128 and required space is 24
+found free page 2
+fsi updated page 2 with free space 164 decoded 128
+loop
+free space is 128 and required space is 24
+found free page 2
+fsi updated page 2 with free space 148 decoded 128
+loop
+free space is 128 and required space is 24
+found free page 2
+fsi updated page 2 with free space 132 decoded 128
+loop
+free space is 128 and required space is 24
+found free page 2
+fsi updated page 2 with free space 116 decoded 64
+loop
+free space is 64 and required space is 24
+found free page 2
+fsi updated page 2 with free space 100 decoded 64
+loop
+free space is 64 and required space is 24
+found free page 2
+fsi updated page 2 with free space 84 decoded 64
+loop
+free space is 64 and required space is 24
+found free page 2
+fsi updated page 2 with free space 68 decoded 64
+loop
+free space is 64 and required space is 24
+found free page 2
+fsi updated page 2 with free space 52 decoded 0
+loop
+no free page -> allocate new one with page id 3
+fsi updated page 3 with free space 996 decoded 960
+loop
+free space is 960 and required space is 24
+found free page 3
+fsi updated page 3 with free space 980 decoded 960
+loop
+free space is 960 and required space is 24
+found free page 3
+fsi updated page 3 with free space 964 decoded 960
+loop
+free space is 960 and required space is 24
+found free page 3
+fsi updated page 3 with free space 948 decoded 896
+loop
+free space is 896 and required space is 24
+found free page 3
+fsi updated page 3 with free space 932 decoded 896
+loop
+free space is 896 and required space is 24
+found free page 3
+fsi updated page 3 with free space 916 decoded 896
+loop
+free space is 896 and required space is 24
+found free page 3
+fsi updated page 3 with free space 900 decoded 896
+loop
+free space is 896 and required space is 24
+found free page 3
+fsi updated page 3 with free space 884 decoded 832
+loop
+free space is 832 and required space is 24
+found free page 3
+fsi updated page 3 with free space 868 decoded 832
+loop
+free space is 832 and required space is 24
+found free page 3
+fsi updated page 3 with free space 852 decoded 832
+loop
+free space is 832 and required space is 24
+found free page 3
+fsi updated page 3 with free space 836 decoded 832
+loop
+free space is 832 and required space is 24
+found free page 3
+fsi updated page 3 with free space 820 decoded 768
+loop
+free space is 768 and required space is 24
+found free page 3
+fsi updated page 3 with free space 804 decoded 768
+loop
+free space is 768 and required space is 24
+found free page 3
+fsi updated page 3 with free space 788 decoded 768
+loop
+free space is 768 and required space is 24
+found free page 3
+fsi updated page 3 with free space 772 decoded 768
+loop
+free space is 768 and required space is 24
+found free page 3
+fsi updated page 3 with free space 756 decoded 704
+loop
+free space is 704 and required space is 24
+found free page 3
+fsi updated page 3 with free space 740 decoded 704
+loop
+free space is 704 and required space is 24
+found free page 3
+fsi updated page 3 with free space 724 decoded 704
+loop
+free space is 704 and required space is 24
+found free page 3
+fsi updated page 3 with free space 708 decoded 704
+loop
+free space is 704 and required space is 24
+found free page 3
+fsi updated page 3 with free space 692 decoded 640
+second resize 
+resizing page_id 0 slot 41
+slot is redirect
+redirect page 1 and redirect slot 0
+resizing page_id 1 slot 0
+slot size is 506 and new size is 996
+new redirect target 
+no free page -> allocate new one with page id 4
+fsi updated page 4 with free space 0 decoded 0
+hex dump first redirect slot
+0000 : ).......)....... 29 00 00 00 00 00 00 00 29 00 00 00 00 00 00 00 
+0010 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0030 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0050 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0070 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0080 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00A0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00D0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00E0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00F0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0100 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0110 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0120 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0130 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0140 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0150 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0160 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0170 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0180 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0190 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01A0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01B0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01C0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01D0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01E0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01F0 : ..........       00 00 00 00 00 00 00 00 00 00 
+hex dump second redirect slot
+0000 : ).......)....... 29 00 00 00 00 00 00 00 29 00 00 00 00 00 00 00 
+0010 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0030 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0050 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0070 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0080 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00A0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00D0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00E0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00F0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0100 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0110 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0120 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0130 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0140 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0150 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0160 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0170 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0180 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0190 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01A0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01B0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01C0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01D0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01E0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01F0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0200 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0210 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0220 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0230 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0240 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0250 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0260 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0270 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0280 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0290 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+02A0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+02B0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+02C0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+02D0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+02E0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+02F0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0300 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0310 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0320 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0330 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0340 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0350 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0360 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0370 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0380 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0390 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+03A0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+03B0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+03C0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+03D0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+03E0 : ............     00 00 00 00 00 00 00 00 00 00 00 00 
+erasing 
+before erasing free space 32
+after erasing updating page A000000000001 with 22C
+fsi updated page 1 with free space 22C decoded 200
+reading page_id 0 slot 29
+reading redirect ??
+reading redirect with page id 4 and slot id0
+currently on page 4 and slot 29
+redirect to page 4 and slot 0
+third resize 
+resizing page_id 0 slot 29
+slot is redirect
+redirect page 4 and redirect slot 0
+resizing page_id 4 slot 0
+slot size is 3EC and new size is 8
+relocating sp data new size 8 and free space 0
+fsi updated page 4 with free space 3E4 decoded 3C0
+reading page_id 0 slot 29
+reading redirect ??
+reading redirect with page id 4 and slot id0
+currently on page 4 and slot 29
+redirect to page 4 and slot 0
+fourth resize 
+resizing page_id 0 slot 29
+slot is redirect
+redirect page 4 and redirect slot 0
+resizing page_id 4 slot 0
+slot size is 8 and new size is 3E4
+enough space so relocating
+relocating sp data new size 3E4 and free space 3E4
+compactfying 
+hex dumping buf 
+0000 : ).......         29 00 00 00 00 00 00 00 
+hex dumping relocated  
+0000 : )............... 29 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0010 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0030 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0050 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0070 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0080 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00A0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00D0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00E0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00F0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0100 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0110 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0120 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0130 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0140 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0150 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0160 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0170 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0180 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0190 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01A0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01B0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01C0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01D0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01E0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+01F0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0200 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0210 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0220 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0230 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0240 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0250 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0260 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0270 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0280 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0290 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+02A0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+02B0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+02C0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+02D0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+02E0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+02F0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0300 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0310 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0320 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0330 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0340 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0350 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0360 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0370 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0380 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0390 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+03A0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+03B0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+03C0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+03D0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+03E0 : ....             00 00 00 00 
+fsi updated page 4 with free space 8 decoded 0
+reading page_id 0 slot 29
+reading redirect ??
+reading redirect with page id 4 and slot id0
+currently on page 4 and slot 29
+redirect to page 4 and slot 0
+/Users/xinyicui/Desktop/slotted-pages/test/segment_test.cc:362: Failure
+      Expected: x
+      Which is: 0
+To be equal to: max_records - 1
+      Which is: 41
+[  FAILED  ] SegmentTest.SPRecordWriteReadRedirect (2 ms)
+[ RUN      ] SegmentTest.SPRecordErase
+no free page -> allocate new one with page id 0
+fsi updated page 0 with free space 0 decoded 0
+erasing 
+fsi updated page 0 with free space 3F4 decoded 3C0
+[       OK ] SegmentTest.SPRecordErase (1 ms)
+[ RUN      ] SegmentTest.SPFuzzing
+Inserting records 
+no free page -> allocate new one with page id 0
+fsi updated page 0 with free space 3AD decoded 380
+writing page_id 0 slot 0
+writing to normal slot 
+free space is 380 and required space is CA
+found free page 0
+fsi updated page 0 with free space 2EB decoded 2C0
+writing page_id 0 slot 1
+writing to normal slot 
+free space is 2C0 and required space is BD
+found free page 0
+fsi updated page 0 with free space 236 decoded 200
+writing page_id 0 slot 2
+writing to normal slot 
+free space is 200 and required space is 40
+found free page 0
+fsi updated page 0 with free space 1FE decoded 1C0
+writing page_id 0 slot 3
+writing to normal slot 
+free space is 1C0 and required space is 77
+found free page 0
+fsi updated page 0 with free space 18F decoded 180
+writing page_id 0 slot 4
+writing to normal slot 
+free space is 180 and required space is 24
+found free page 0
+fsi updated page 0 with free space 173 decoded 140
+writing page_id 0 slot 5
+writing to normal slot 
+free space is 140 and required space is 9F
+found free page 0
+fsi updated page 0 with free space DC decoded C0
+writing page_id 0 slot 6
+writing to normal slot 
+free space is C0 and required space is 49
+found free page 0
+fsi updated page 0 with free space 9B decoded 80
+writing page_id 0 slot 7
+writing to normal slot 
+no free page -> allocate new one with page id 1
+fsi updated page 1 with free space 2F8 decoded 2C0
+writing page_id 1 slot 0
+writing to normal slot 
+free space is 2C0 and required space is 86
+found free page 1
+fsi updated page 1 with free space 27A decoded 240
+writing page_id 1 slot 1
+writing to normal slot 
+free space is 80 and required space is 20
+found free page 0
+fsi updated page 0 with free space 83 decoded 80
+writing page_id 0 slot 8
+writing to normal slot 
+free space is 80 and required space is 73
+found free page 0
+fsi updated page 0 with free space 18 decoded 0
+writing page_id 0 slot 9
+writing to normal slot 
+free space is 240 and required space is 3D
+found free page 1
+fsi updated page 1 with free space 245 decoded 240
+writing page_id 1 slot 2
+writing to normal slot 
+free space is 240 and required space is 2B
+found free page 1
+fsi updated page 1 with free space 222 decoded 200
+writing page_id 1 slot 3
+writing to normal slot 
+free space is 200 and required space is F0
+found free page 1
+fsi updated page 1 with free space 13A decoded 100
+writing page_id 1 slot 4
+writing to normal slot 
+free space is 100 and required space is C9
+found free page 1
+fsi updated page 1 with free space 79 decoded 40
+writing page_id 1 slot 5
+writing to normal slot 
+no free page -> allocate new one with page id 2
+fsi updated page 2 with free space 360 decoded 340
+writing page_id 2 slot 0
+writing to normal slot 
+free space is 40 and required space is 18
+found free page 1
+fsi updated page 1 with free space 69 decoded 40
+writing page_id 1 slot 6
+writing to normal slot 
+free space is 340 and required space is D0
+found free page 2
+fsi updated page 2 with free space 298 decoded 280
+writing page_id 2 slot 1
+writing to normal slot 
+free space is 40 and required space is 32
+found free page 1
+fsi updated page 1 with free space 3F decoded 0
+writing page_id 1 slot 7
+writing to normal slot 
+free space is 280 and required space is B0
+found free page 2
+fsi updated page 2 with free space 1F0 decoded 1C0
+writing page_id 2 slot 2
+writing to normal slot 
+free space is 1C0 and required space is E1
+found free page 2
+fsi updated page 2 with free space 117 decoded 100
+writing page_id 2 slot 3
+writing to normal slot 
+free space is 100 and required space is 8F
+found free page 2
+fsi updated page 2 with free space 90 decoded 80
+writing page_id 2 slot 4
+writing to normal slot 
+free space is 80 and required space is 14
+found free page 2
+fsi updated page 2 with free space 84 decoded 80
+writing page_id 2 slot 5
+writing to normal slot 
+free space is 80 and required space is 2D
+found free page 2
+fsi updated page 2 with free space 5F decoded 40
+writing page_id 2 slot 6
+writing to normal slot 
+no free page -> allocate new one with page id 3
+fsi updated page 3 with free space 31B decoded 300
+writing page_id 3 slot 0
+writing to normal slot 
+free space is 40 and required space is 22
+found free page 2
+fsi updated page 2 with free space 45 decoded 40
+writing page_id 2 slot 7
+writing to normal slot 
+free space is 300 and required space is 62
+found free page 3
+fsi updated page 3 with free space 2C1 decoded 2C0
+writing page_id 3 slot 1
+writing to normal slot 
+free space is 40 and required space is 13
+found free page 2
+fsi updated page 2 with free space 3A decoded 0
+writing page_id 2 slot 8
+writing to normal slot 
+free space is 2C0 and required space is 95
+found free page 3
+fsi updated page 3 with free space 234 decoded 200
+writing page_id 3 slot 2
+writing to normal slot 
+free space is 200 and required space is CA
+found free page 3
+fsi updated page 3 with free space 172 decoded 140
+writing page_id 3 slot 3
+writing to normal slot 
+free space is 140 and required space is B9
+found free page 3
+fsi updated page 3 with free space C1 decoded C0
+writing page_id 3 slot 4
+writing to normal slot 
+free space is C0 and required space is AB
+found free page 3
+fsi updated page 3 with free space 1E decoded 0
+writing page_id 3 slot 5
+writing to normal slot 
+no free page -> allocate new one with page id 4
+fsi updated page 4 with free space 312 decoded 300
+writing page_id 4 slot 0
+writing to normal slot 
+free space is 300 and required space is 51
+found free page 4
+fsi updated page 4 with free space 2C9 decoded 2C0
+writing page_id 4 slot 1
+writing to normal slot 
+free space is 2C0 and required space is FE
+found free page 4
+fsi updated page 4 with free space 1D3 decoded 1C0
+writing page_id 4 slot 2
+writing to normal slot 
+free space is 1C0 and required space is F7
+found free page 4
+fsi updated page 4 with free space E4 decoded C0
+writing page_id 4 slot 3
+writing to normal slot 
+free space is C0 and required space is B8
+found free page 4
+fsi updated page 4 with free space 34 decoded 0
+writing page_id 4 slot 4
+writing to normal slot 
+no free page -> allocate new one with page id 5
+fsi updated page 5 with free space 346 decoded 340
+writing page_id 5 slot 0
+writing to normal slot 
+free space is 340 and required space is EC
+found free page 5
+fsi updated page 5 with free space 262 decoded 240
+writing page_id 5 slot 1
+writing to normal slot 
+free space is 240 and required space is 3C
+found free page 5
+fsi updated page 5 with free space 22E decoded 200
+writing page_id 5 slot 2
+writing to normal slot 
+free space is 200 and required space is 53
+found free page 5
+fsi updated page 5 with free space 1E3 decoded 1C0
+writing page_id 5 slot 3
+writing to normal slot 
+free space is 1C0 and required space is FA
+found free page 5
+fsi updated page 5 with free space F1 decoded C0
+writing page_id 5 slot 4
+writing to normal slot 
+free space is C0 and required space is 45
+found free page 5
+fsi updated page 5 with free space B4 decoded 80
+writing page_id 5 slot 5
+writing to normal slot 
+no free page -> allocate new one with page id 6
+fsi updated page 6 with free space 2FA decoded 2C0
+writing page_id 6 slot 0
+writing to normal slot 
+free space is 80 and required space is 74
+found free page 5
+fsi updated page 5 with free space 48 decoded 40
+writing page_id 5 slot 6
+writing to normal slot 
+free space is 2C0 and required space is A6
+found free page 6
+fsi updated page 6 with free space 25C decoded 240
+writing page_id 6 slot 1
+writing to normal slot 
+free space is 40 and required space is 2D
+found free page 5
+fsi updated page 5 with free space 23 decoded 0
+writing page_id 5 slot 7
+writing to normal slot 
+free space is 240 and required space is 4A
+found free page 6
+fsi updated page 6 with free space 21A decoded 200
+writing page_id 6 slot 2
+writing to normal slot 
+free space is 200 and required space is F0
+found free page 6
+fsi updated page 6 with free space 132 decoded 100
+writing page_id 6 slot 3
+writing to normal slot 
+free space is 100 and required space is 3E
+found free page 6
+fsi updated page 6 with free space FC decoded C0
+writing page_id 6 slot 4
+writing to normal slot 
+free space is C0 and required space is 98
+found free page 6
+fsi updated page 6 with free space 6C decoded 40
+writing page_id 6 slot 5
+writing to normal slot 
+no free page -> allocate new one with page id 7
+fsi updated page 7 with free space 32E decoded 300
+writing page_id 7 slot 0
+writing to normal slot 
+free space is 300 and required space is 55
+found free page 7
+fsi updated page 7 with free space 2E1 decoded 2C0
+writing page_id 7 slot 1
+writing to normal slot 
+free space is 2C0 and required space is D5
+found free page 7
+fsi updated page 7 with free space 214 decoded 200
+writing page_id 7 slot 2
+writing to normal slot 
+free space is 200 and required space is A9
+found free page 7
+fsi updated page 7 with free space 173 decoded 140
+writing page_id 7 slot 3
+writing to normal slot 
+free space is 140 and required space is 63
+found free page 7
+fsi updated page 7 with free space 118 decoded 100
+writing page_id 7 slot 4
+writing to normal slot 
+free space is 100 and required space is EE
+found free page 7
+fsi updated page 7 with free space 32 decoded 0
+writing page_id 7 slot 5
+writing to normal slot 
+no free page -> allocate new one with page id 8
+fsi updated page 8 with free space 343 decoded 340
+writing page_id 8 slot 0
+writing to normal slot 
+free space is 340 and required space is E9
+found free page 8
+fsi updated page 8 with free space 262 decoded 240
+writing page_id 8 slot 1
+writing to normal slot 
+free space is 40 and required space is 2B
+found free page 6
+fsi updated page 6 with free space 49 decoded 40
+writing page_id 6 slot 6
+writing to normal slot 
+free space is 240 and required space is 5E
+found free page 8
+fsi updated page 8 with free space 20C decoded 200
+writing page_id 8 slot 2
+writing to normal slot 
+free space is 200 and required space is DD
+found free page 8
+fsi updated page 8 with free space 137 decoded 100
+writing page_id 8 slot 3
+writing to normal slot 
+free space is 100 and required space is B3
+found free page 8
+fsi updated page 8 with free space 8C decoded 80
+writing page_id 8 slot 4
+writing to normal slot 
+no free page -> allocate new one with page id 9
+fsi updated page 9 with free space 355 decoded 340
+writing page_id 9 slot 0
+writing to normal slot 
+free space is 340 and required space is B9
+found free page 9
+fsi updated page 9 with free space 2A4 decoded 280
+writing page_id 9 slot 1
+writing to normal slot 
+free space is 80 and required space is 5A
+found free page 8
+fsi updated page 8 with free space 3A decoded 0
+writing page_id 8 slot 5
+writing to normal slot 
+free space is 280 and required space is AB
+found free page 9
+fsi updated page 9 with free space 201 decoded 200
+writing page_id 9 slot 2
+writing to normal slot 
+free space is 200 and required space is 6F
+found free page 9
+fsi updated page 9 with free space 19A decoded 180
+writing page_id 9 slot 3
+writing to normal slot 
+free space is 40 and required space is 1B
+found free page 6
+fsi updated page 6 with free space 36 decoded 0
+writing page_id 6 slot 7
+writing to normal slot 
+free space is 180 and required space is 65
+found free page 9
+fsi updated page 9 with free space 13D decoded 100
+writing page_id 9 slot 4
+writing to normal slot 
+free space is 100 and required space is 51
+found free page 9
+fsi updated page 9 with free space F4 decoded C0
+writing page_id 9 slot 5
+writing to normal slot 
+free space is C0 and required space is A1
+found free page 9
+fsi updated page 9 with free space 5B decoded 40
+writing page_id 9 slot 6
+writing to normal slot 
+no free page -> allocate new one with page id A
+fsi updated page A with free space 3A9 decoded 380
+writing page_id A slot 0
+writing to normal slot 
+free space is 40 and required space is 37
+found free page 9
+fsi updated page 9 with free space 2C decoded 0
+writing page_id 9 slot 7
+writing to normal slot 
+free space is 380 and required space is 105
+found free page A
+fsi updated page A with free space 2AC decoded 280
+writing page_id A slot 1
+writing to normal slot 
+free space is 280 and required space is 8F
+found free page A
+fsi updated page A with free space 225 decoded 200
+writing page_id A slot 2
+writing to normal slot 
+free space is 200 and required space is 97
+found free page A
+fsi updated page A with free space 196 decoded 180
+writing page_id A slot 3
+writing to normal slot 
+free space is 180 and required space is 10A
+found free page A
+fsi updated page A with free space 94 decoded 80
+writing page_id A slot 4
+writing to normal slot 
+no free page -> allocate new one with page id B
+fsi updated page B with free space 2F3 decoded 2C0
+writing page_id B slot 0
+writing to normal slot 
+free space is 80 and required space is 5B
+found free page A
+fsi updated page A with free space 41 decoded 40
+writing page_id A slot 5
+writing to normal slot 
+free space is 2C0 and required space is 54
+found free page B
+fsi updated page B with free space 2A7 decoded 280
+writing page_id B slot 1
+writing to normal slot 
+free space is 280 and required space is 82
+found free page B
+fsi updated page B with free space 22D decoded 200
+writing page_id B slot 2
+writing to normal slot 
+free space is 40 and required space is 34
+found free page A
+fsi updated page A with free space 15 decoded 0
+writing page_id A slot 6
+writing to normal slot 
+free space is 200 and required space is B1
+found free page B
+fsi updated page B with free space 184 decoded 180
+writing page_id B slot 3
+writing to normal slot 
+free space is 180 and required space is 102
+found free page B
+fsi updated page B with free space 8A decoded 80
+writing page_id B slot 4
+writing to normal slot 
+free space is 80 and required space is 7F
+found free page B
+fsi updated page B with free space 13 decoded 0
+writing page_id B slot 5
+writing to normal slot 
+no free page -> allocate new one with page id C
+fsi updated page C with free space 3CE decoded 3C0
+writing page_id C slot 0
+writing to normal slot 
+free space is 3C0 and required space is CA
+found free page C
+fsi updated page C with free space 30C decoded 300
+writing page_id C slot 1
+writing to normal slot 
+free space is 300 and required space is F8
+found free page C
+fsi updated page C with free space 21C decoded 200
+writing page_id C slot 2
+writing to normal slot 
+free space is 200 and required space is 102
+found free page C
+fsi updated page C with free space 122 decoded 100
+writing page_id C slot 3
+writing to normal slot 
+free space is 100 and required space is 2C
+found free page C
+fsi updated page C with free space FE decoded C0
+writing page_id C slot 4
+writing to normal slot 
+free space is C0 and required space is 64
+found free page C
+fsi updated page C with free space A2 decoded 80
+writing page_id C slot 5
+writing to normal slot 
+free space is 80 and required space is 42
+found free page C
+fsi updated page C with free space 68 decoded 40
+writing page_id C slot 6
+writing to normal slot 
+no free page -> allocate new one with page id D
+fsi updated page D with free space 358 decoded 340
+writing page_id D slot 0
+writing to normal slot 
+free space is 340 and required space is 53
+found free page D
+fsi updated page D with free space 30D decoded 300
+writing page_id D slot 1
+writing to normal slot 
+free space is 40 and required space is 15
+found free page C
+fsi updated page C with free space 5B decoded 40
+writing page_id C slot 7
+writing to normal slot 
+free space is 300 and required space is D7
+found free page D
+fsi updated page D with free space 23E decoded 200
+writing page_id D slot 2
+writing to normal slot 
+free space is 40 and required space is 2B
+found free page C
+fsi updated page C with free space 38 decoded 0
+writing page_id C slot 8
+writing to normal slot 
+free space is 200 and required space is 2B
+found free page D
+fsi updated page D with free space 21B decoded 200
+writing page_id D slot 3
+writing to normal slot 
+after inserting reading records 
+reading page_id 0 slot 0
+reading normal 
+reading page_id 0 slot 1
+reading normal 
+reading page_id 0 slot 2
+reading normal 
+reading page_id 0 slot 3
+reading normal 
+reading page_id 0 slot 4
+reading normal 
+reading page_id 0 slot 5
+reading normal 
+reading page_id 0 slot 6
+reading normal 
+reading page_id 0 slot 7
+reading normal 
+reading page_id 1 slot 0
+reading normal 
+reading page_id 1 slot 1
+reading normal 
+reading page_id 0 slot 8
+reading normal 
+reading page_id 0 slot 9
+reading normal 
+reading page_id 1 slot 2
+reading normal 
+reading page_id 1 slot 3
+reading normal 
+reading page_id 1 slot 4
+reading normal 
+reading page_id 1 slot 5
+reading normal 
+reading page_id 2 slot 0
+reading normal 
+reading page_id 1 slot 6
+reading normal 
+reading page_id 2 slot 1
+reading normal 
+reading page_id 1 slot 7
+reading normal 
+reading page_id 2 slot 2
+reading normal 
+reading page_id 2 slot 3
+reading normal 
+reading page_id 2 slot 4
+reading normal 
+reading page_id 2 slot 5
+reading normal 
+reading page_id 2 slot 6
+reading normal 
+reading page_id 3 slot 0
+reading normal 
+reading page_id 2 slot 7
+reading normal 
+reading page_id 3 slot 1
+reading normal 
+reading page_id 2 slot 8
+reading normal 
+reading page_id 3 slot 2
+reading normal 
+reading page_id 3 slot 3
+reading normal 
+reading page_id 3 slot 4
+reading normal 
+reading page_id 3 slot 5
+reading normal 
+reading page_id 4 slot 0
+reading normal 
+reading page_id 4 slot 1
+reading normal 
+reading page_id 4 slot 2
+reading normal 
+reading page_id 4 slot 3
+reading normal 
+reading page_id 4 slot 4
+reading normal 
+reading page_id 5 slot 0
+reading normal 
+reading page_id 5 slot 1
+reading normal 
+reading page_id 5 slot 2
+reading normal 
+reading page_id 5 slot 3
+reading normal 
+reading page_id 5 slot 4
+reading normal 
+reading page_id 5 slot 5
+reading normal 
+reading page_id 6 slot 0
+reading normal 
+reading page_id 5 slot 6
+reading normal 
+reading page_id 6 slot 1
+reading normal 
+reading page_id 5 slot 7
+reading normal 
+reading page_id 6 slot 2
+reading normal 
+reading page_id 6 slot 3
+reading normal 
+reading page_id 6 slot 4
+reading normal 
+reading page_id 6 slot 5
+reading normal 
+reading page_id 7 slot 0
+reading normal 
+reading page_id 7 slot 1
+reading normal 
+reading page_id 7 slot 2
+reading normal 
+reading page_id 7 slot 3
+reading normal 
+reading page_id 7 slot 4
+reading normal 
+reading page_id 7 slot 5
+reading normal 
+reading page_id 8 slot 0
+reading normal 
+reading page_id 8 slot 1
+reading normal 
+reading page_id 6 slot 6
+reading normal 
+reading page_id 8 slot 2
+reading normal 
+reading page_id 8 slot 3
+reading normal 
+reading page_id 8 slot 4
+reading normal 
+reading page_id 9 slot 0
+reading normal 
+reading page_id 9 slot 1
+reading normal 
+reading page_id 8 slot 5
+reading normal 
+reading page_id 9 slot 2
+reading normal 
+reading page_id 9 slot 3
+reading normal 
+reading page_id 6 slot 7
+reading normal 
+reading page_id 9 slot 4
+reading normal 
+reading page_id 9 slot 5
+reading normal 
+reading page_id 9 slot 6
+reading normal 
+reading page_id A slot 0
+reading normal 
+reading page_id 9 slot 7
+reading normal 
+reading page_id A slot 1
+reading normal 
+reading page_id A slot 2
+reading normal 
+reading page_id A slot 3
+reading normal 
+reading page_id A slot 4
+reading normal 
+reading page_id B slot 0
+reading normal 
+reading page_id A slot 5
+reading normal 
+reading page_id B slot 1
+reading normal 
+reading page_id B slot 2
+reading normal 
+reading page_id A slot 6
+reading normal 
+reading page_id B slot 3
+reading normal 
+reading page_id B slot 4
+reading normal 
+reading page_id B slot 5
+reading normal 
+reading page_id C slot 0
+reading normal 
+reading page_id C slot 1
+reading normal 
+reading page_id C slot 2
+reading normal 
+reading page_id C slot 3
+reading normal 
+reading page_id C slot 4
+reading normal 
+reading page_id C slot 5
+reading normal 
+reading page_id C slot 6
+reading normal 
+reading page_id D slot 0
+reading normal 
+reading page_id D slot 1
+reading normal 
+reading page_id C slot 7
+reading normal 
+reading page_id D slot 2
+reading normal 
+reading page_id C slot 8
+reading normal 
+reading page_id D slot 3
+reading normal 
+resizing all records  
+hexdumping page 0 completely  
+0000 : ....t.......?... 0A 00 0A 00 74 00 00 00 18 00 00 00 3F 00 00 C1 
+0010 : ...............Z 03 00 00 FF BA 00 00 07 03 00 00 FF AD 00 00 5A 
+0020 : ....0..*....g... 02 00 00 FF 30 00 00 2A 02 00 00 FF 67 00 00 C3 
+0030 : ...............  01 00 00 FF 14 00 00 AF 01 00 00 FF 8F 00 00 20 
+0040 : ....9........... 01 00 00 FF 39 00 00 E7 00 00 00 FF 10 00 00 D7 
+0050 : ....c..t........ 00 00 00 FF 63 00 00 74 00 00 00 FF 00 00 00 00 
+0060 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0070 : ................ 00 00 00 00 CA CA CA CA CA CA CA CA CA CA CA CA 
+0080 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+0090 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+00A0 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+00B0 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+00C0 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+00D0 : ................ CA CA CA CA CA CA CA F1 F1 F1 F1 F1 F1 F1 F1 F1 
+00E0 : .......AAAAAAAAA F1 F1 F1 F1 F1 F1 F1 41 41 41 41 41 41 41 41 41 
+00F0 : AAAAAAAAAAAAAAAA 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 
+0100 : AAAAAAAAAAAAAAAA 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 
+0110 : AAAAAAAAAAAAAAAA 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 
+0120 : ................ 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 
+0130 : ................ 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 
+0140 : ................ 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 
+0150 : ................ 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 
+0160 : ................ 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 
+0170 : ................ 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 
+0180 : ................ 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 
+0190 : ................ 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 
+01A0 : ................ 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 F8 
+01B0 : ................ F8 F8 F8 F8 F8 F8 F8 F8 F8 F8 F8 F8 F8 F8 F8 F8 
+01C0 : ................ F8 F8 F8 19 19 19 19 19 19 19 19 19 19 19 19 19 
+01D0 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+01E0 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+01F0 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0200 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0210 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0220 : ................ 19 19 19 19 19 19 19 19 19 19 E8 E8 E8 E8 E8 E8 
+0230 : ................ E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 
+0240 : ................ E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 
+0250 : ................ E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 EE EE EE EE EE EE 
+0260 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0270 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0280 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0290 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+02A0 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+02B0 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+02C0 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+02D0 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+02E0 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+02F0 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0300 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0310 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0320 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0330 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0340 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0350 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0360 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0370 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0380 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0390 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+03A0 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+03B0 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+03C0 : ................ EE 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 
+03D0 : ................ 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 
+03E0 : ................ 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 
+03F0 : ................ 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 8B 
+resizing page_id 0 slot 0
+slot is normal slot  
+page 0 slot 0
+new redirect target 
+free space is 200 and required space is 10C
+found free page D
+fsi updated page D with free space 117 decoded 100
+resizing page_id 0 slot 1
+slot is normal slot  
+page 0 slot 1
+new redirect target 
+free space is 100 and required space is F4
+found free page D
+fsi updated page D with free space 2B decoded 0
+resizing page_id 0 slot 2
+slot is normal slot  
+page 0 slot 2
+relocating sp data new size 5B and free space 18
+fsi updated page 0 with free space 6A decoded 40
+resizing page_id 0 slot 3
+slot is normal slot  
+page 0 slot 3
+relocating sp data new size 1C and free space 6A
+fsi updated page 0 with free space 7E decoded 40
+resizing page_id 0 slot 4
+slot is normal slot  
+page 0 slot 4
+relocating sp data new size 78 and free space 7E
+compactfying 
+hex dumping buf 
+0000 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0010 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0020 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0030 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0040 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0050 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0060 : .......          19 19 19 19 19 19 19 
+hex dumping relocated  
+0000 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0010 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0020 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0030 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0040 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0050 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0060 : ................ 19 19 19 19 19 19 19 19 E8 E8 E8 E8 E8 E8 E8 E8 
+0070 : ........         E8 E8 E8 E8 E8 E8 E8 E8 
+fsi updated page 0 with free space 6D decoded 40
+resizing page_id 0 slot 5
+slot is normal slot  
+page 0 slot 5
+relocating sp data new size 4 and free space 6D
+fsi updated page 0 with free space 7D decoded 40
+resizing page_id 0 slot 6
+slot is normal slot  
+page 0 slot 6
+relocating sp data new size 79 and free space 7D
+fsi updated page 0 with free space 93 decoded 80
+resizing page_id 0 slot 7
+slot is normal slot  
+page 0 slot 7
+new redirect target 
+no free page -> allocate new one with page id E
+fsi updated page E with free space 307 decoded 300
+resizing page_id 1 slot 0
+slot is normal slot  
+page 1 slot 0
+relocating sp data new size A2 and free space 3F
+fsi updated page 1 with free space 91 decoded 80
+resizing page_id 1 slot 1
+slot is normal slot  
+page 1 slot 1
+relocating sp data new size D6 and free space 91
+compactfying 
+hex dumping buf 
+0000 : ................ 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 
+0010 : ................ 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 
+0020 : ................ 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 
+0030 : ................ 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 
+0040 : ................ 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 
+0050 : ................ 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 
+0060 : ................ 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 
+0070 : ......           9C 9C 9C 9C 9C 9C 
+hex dumping relocated  
+0000 : ................ 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 
+0010 : ................ 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 
+0020 : ................ 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 
+0030 : ................ 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 
+0040 : ................ 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 
+0050 : ................ 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 
+0060 : ................ 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 9C 
+0070 : ................ 9C 9C 9C 9C 9C 9C 97 97 97 97 97 97 97 97 97 97 
+0080 : ................ 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 
+0090 : ................ 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 
+00A0 : ................ 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 
+00B0 : ................ 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 
+00C0 : ................ 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 
+00D0 : ......           97 97 97 97 97 97 
+fsi updated page 1 with free space 31 decoded 0
+resizing page_id 0 slot 8
+slot is normal slot  
+page 0 slot 8
+relocating sp data new size 10 and free space 93
+fsi updated page 0 with free space 93 decoded 80
+resizing page_id 0 slot 9
+slot is normal slot  
+page 0 slot 9
+relocating sp data new size 78 and free space 93
+fsi updated page 0 with free space 7E decoded 40
+resizing page_id 1 slot 2
+slot is normal slot  
+page 1 slot 2
+new redirect target 
+free space is 300 and required space is BA
+found free page E
+fsi updated page E with free space 255 decoded 240
+resizing page_id 1 slot 3
+slot is normal slot  
+page 1 slot 3
+new redirect target 
+free space is 240 and required space is B9
+found free page E
+fsi updated page E with free space 1A4 decoded 180
+resizing page_id 1 slot 4
+slot is normal slot  
+page 1 slot 4
+relocating sp data new size 17 and free space 31
+fsi updated page 1 with free space FA decoded C0
+resizing page_id 1 slot 5
+slot is normal slot  
+page 1 slot 5
+relocating sp data new size E and free space FA
+fsi updated page 1 with free space 1A5 decoded 180
+resizing page_id 2 slot 0
+slot is normal slot  
+page 2 slot 0
+relocating sp data new size C4 and free space 3A
+compactfying 
+hex dumping buf 
+0000 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0010 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0020 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0030 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0040 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0050 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0060 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0070 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0080 : ............     B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+hex dumping relocated  
+0000 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0010 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0020 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0030 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0040 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0050 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0060 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0070 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0080 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 A9 A9 A9 A9 
+0090 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+00A0 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+00B0 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+00C0 : ....             A9 A9 A9 A9 
+fsi updated page 2 with free space 2 decoded 0
+resizing page_id 1 slot 6
+slot is normal slot  
+page 1 slot 6
+relocating sp data new size 8D and free space 1A5
+compactfying 
+hex dumping buf 
+0000 : OOOOOOOO         4F 4F 4F 4F 4F 4F 4F 4F 
+hex dumping relocated  
+0000 : OOOOOOOO........ 4F 4F 4F 4F 4F 4F 4F 4F 97 97 97 97 97 97 97 97 
+0010 : ................ 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 
+0020 : ................ 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 
+0030 : ................ 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 
+0040 : ................ 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 
+0050 : ................ 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 
+0060 : ................ 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 
+0070 : ................ 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 
+0080 : ..iiiiiiiiiii    97 97 69 69 69 69 69 69 69 69 69 69 69 
+fsi updated page 1 with free space 120 decoded 100
+resizing page_id 2 slot 1
+slot is normal slot  
+page 2 slot 1
+new redirect target 
+free space is 100 and required space is E3
+found free page 1
+fsi updated page 1 with free space 45 decoded 40
+resizing page_id 1 slot 7
+slot is normal slot  
+page 1 slot 7
+new redirect target 
+free space is 180 and required space is EF
+found free page E
+fsi updated page E with free space BD decoded 80
+resizing page_id 2 slot 2
+slot is normal slot  
+page 2 slot 2
+relocating sp data new size 76 and free space 2
+fsi updated page 2 with free space 2C decoded 0
+resizing page_id 2 slot 3
+slot is normal slot  
+page 2 slot 3
+relocating sp data new size 8F and free space 2C
+fsi updated page 2 with free space 6E decoded 40
+resizing page_id 2 slot 4
+slot is normal slot  
+page 2 slot 4
+relocating sp data new size B6 and free space 6E
+compactfying 
+hex dumping buf 
+0000 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0010 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0020 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0030 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0040 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0050 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0060 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0070 : ...............  A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+hex dumping relocated  
+0000 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0010 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0020 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0030 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0040 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0050 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0060 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0070 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0080 : ................ A9 A9 A9 A9 19 19 19 19 19 19 19 19 19 19 19 19 
+0090 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+00A0 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+00B0 : ......           19 19 19 19 19 19 
+fsi updated page 2 with free space 37 decoded 0
+resizing page_id 2 slot 5
+slot is normal slot  
+page 2 slot 5
+relocating sp data new size 4 and free space 37
+fsi updated page 2 with free space 37 decoded 0
+resizing page_id 2 slot 6
+slot is normal slot  
+page 2 slot 6
+relocating sp data new size 3E and free space 37
+fsi updated page 2 with free space 16 decoded 0
+resizing page_id 3 slot 0
+slot is normal slot  
+page 3 slot 0
+relocating sp data new size 5B and free space 1E
+fsi updated page 3 with free space 94 decoded 80
+resizing page_id 2 slot 7
+slot is normal slot  
+page 2 slot 7
+new redirect target 
+no free page -> allocate new one with page id F
+fsi updated page F with free space 30F decoded 300
+resizing page_id 3 slot 1
+slot is normal slot  
+page 3 slot 1
+relocating sp data new size 99 and free space 94
+compactfying 
+hex dumping buf 
+0000 : [[[[[[[[[[[[[[[[ 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 
+0010 : [[[[[[[[[[[[[[[[ 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 
+0020 : [[[[[[[[[[[[[[[[ 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 
+0030 : [[[[[[[[[[[[[[[[ 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 
+0040 : [[[[[[[[[[[[[[[[ 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 
+0050 : [[               5B 5B 
+hex dumping relocated  
+0000 : [[[[[[[[[[[[[[[[ 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 
+0010 : [[[[[[[[[[[[[[[[ 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 
+0020 : [[[[[[[[[[[[[[[[ 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 
+0030 : [[[[[[[[[[[[[[[[ 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 
+0040 : [[[[[[[[[[[[[[[[ 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 5B 
+0050 : [[.............. 5B 5B 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 
+0060 : ................ 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F DF DF DF DF 
+0070 : ................ DF DF DF DF DF DF DF DF DF DF DF DF DF DF DF DF 
+0080 : ................ DF DF DF DF DF DF DF DF DF DF DF DF DF DF DF DF 
+0090 : .........        DF DF DF DF DF DF DF DF DF 
+fsi updated page 3 with free space 4D decoded 40
+resizing page_id 2 slot 8
+slot is normal slot  
+page 2 slot 8
+relocating sp data new size 14 and free space 16
+fsi updated page 2 with free space 5 decoded 0
+resizing page_id 3 slot 2
+slot is normal slot  
+page 3 slot 2
+relocating sp data new size 82 and free space 4D
+fsi updated page 3 with free space 50 decoded 40
+resizing page_id 3 slot 3
+slot is normal slot  
+page 3 slot 3
+relocating sp data new size E4 and free space 50
+compactfying 
+hex dumping buf 
+0000 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+0010 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+0020 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+0030 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+0040 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+0050 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+0060 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+0070 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+0080 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+0090 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+00A0 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+00B0 : ..........       A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+hex dumping relocated  
+0000 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+0010 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+0020 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+0030 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+0040 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+0050 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+0060 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+0070 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+0080 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+0090 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+00A0 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+00B0 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 DF DF DF DF DF DF 
+00C0 : ................ 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 
+00D0 : ................ 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 
+00E0 : ....             0F 0F 0F 0F 
+fsi updated page 3 with free space 26 decoded 0
+resizing page_id 3 slot 4
+slot is normal slot  
+page 3 slot 4
+relocating sp data new size 19 and free space 26
+fsi updated page 3 with free space B6 decoded 80
+resizing page_id 3 slot 5
+slot is normal slot  
+page 3 slot 5
+relocating sp data new size 5E and free space B6
+fsi updated page 3 with free space F3 decoded C0
+resizing page_id 4 slot 0
+slot is normal slot  
+page 4 slot 0
+relocating sp data new size 16 and free space 34
+fsi updated page 4 with free space F8 decoded C0
+resizing page_id 4 slot 1
+slot is normal slot  
+page 4 slot 1
+relocating sp data new size E1 and free space F8
+compactfying 
+hex dumping buf 
+0000 : ................ D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 
+0010 : ................ D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 
+0020 : ................ D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 
+0030 : ................ D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 
+0040 : .                D8 
+hex dumping relocated  
+0000 : ................ D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 
+0010 : ................ D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 
+0020 : ................ D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 
+0030 : ................ D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 D8 
+0040 : ................ D8 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0050 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0060 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0070 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0080 : ....rrrrrrrrrrrr B3 B3 B3 B3 72 72 72 72 72 72 72 72 72 72 72 72 
+0090 : rrrrrrrrrrrrrrrr 72 72 72 72 72 72 72 72 72 72 72 72 72 72 72 72 
+00A0 : rrrrrrrrrrrrrrrr 72 72 72 72 72 72 72 72 72 72 72 72 72 72 72 72 
+00B0 : rrrrrrrrrrrrrrrr 72 72 72 72 72 72 72 72 72 72 72 72 72 72 72 72 
+00C0 : rrrrrrrrrrrrrrrr 72 72 72 72 72 72 72 72 72 72 72 72 72 72 72 72 
+00D0 : rrrrrrrrrrrrrrrr 72 72 72 72 72 72 72 72 72 72 72 72 72 72 72 72 
+00E0 : r                72 
+fsi updated page 4 with free space 58 decoded 40
+resizing page_id 4 slot 2
+slot is normal slot  
+page 4 slot 2
+relocating sp data new size 3 and free space 58
+fsi updated page 4 with free space 143 decoded 140
+resizing page_id 4 slot 3
+slot is normal slot  
+page 4 slot 3
+relocating sp data new size 7C and free space 143
+fsi updated page 4 with free space 1AE decoded 180
+resizing page_id 4 slot 4
+slot is normal slot  
+page 4 slot 4
+relocating sp data new size 8A and free space 1AE
+fsi updated page 4 with free space 1CC decoded 1C0
+resizing page_id 5 slot 0
+slot is normal slot  
+page 5 slot 0
+relocating sp data new size AB and free space 23
+compactfying 
+hex dumping buf 
+0000 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0010 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0020 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0030 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0040 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0050 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0060 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0070 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0080 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0090 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+00A0 : ......           A8 A8 A8 A8 A8 A8 
+hex dumping relocated  
+0000 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0010 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0020 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0030 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0040 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0050 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0060 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0070 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0080 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0090 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+00A0 : ...........      A8 A8 A8 A8 A8 A8 BF BF BF BF BF 
+fsi updated page 5 with free space 1E decoded 0
+resizing page_id 5 slot 1
+slot is normal slot  
+page 5 slot 1
+relocating sp data new size B8 and free space 1E
+fsi updated page 5 with free space 42 decoded 40
+resizing page_id 5 slot 2
+slot is normal slot  
+page 5 slot 2
+new redirect target 
+free space is 1C0 and required space is E7
+found free page 4
+fsi updated page 4 with free space ED decoded C0
+resizing page_id 5 slot 3
+slot is normal slot  
+page 5 slot 3
+relocating sp data new size E and free space 42
+fsi updated page 5 with free space 77 decoded 40
+resizing page_id 5 slot 4
+slot is normal slot  
+page 5 slot 4
+relocating sp data new size 28 and free space 77
+fsi updated page 5 with free space 139 decoded 100
+resizing page_id 5 slot 5
+slot is normal slot  
+page 5 slot 5
+relocating sp data new size 92 and free space 139
+compactfying 
+hex dumping buf 
+0000 : ................ BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0010 : ................ BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0020 : ................ BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0030 : .....            BF BF BF BF BF 
+hex dumping relocated  
+0000 : ................ BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0010 : ................ BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0020 : ................ BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0030 : .....iiiiiiiiiii BF BF BF BF BF 69 69 69 69 69 69 69 69 69 69 69 
+0040 : ii.............. 69 69 BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0050 : ................ BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0060 : ................ BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0070 : ................ BF BF BF BF BF BF BF 82 82 82 82 82 82 82 82 82 
+0080 : ................ 82 82 82 82 82 82 82 82 82 82 82 82 82 82 82 82 
+0090 : ..               82 82 
+fsi updated page 5 with free space DC decoded C0
+resizing page_id 6 slot 0
+slot is normal slot  
+page 6 slot 0
+relocating sp data new size 21 and free space 36
+fsi updated page 6 with free space 107 decoded 100
+resizing page_id 5 slot 6
+slot is normal slot  
+page 5 slot 6
+relocating sp data new size D4 and free space DC
+fsi updated page 5 with free space 6C decoded 40
+resizing page_id 6 slot 1
+slot is normal slot  
+page 6 slot 1
+relocating sp data new size 79 and free space 107
+fsi updated page 6 with free space 124 decoded 100
+resizing page_id 5 slot 7
+slot is normal slot  
+page 5 slot 7
+relocating sp data new size 3E and free space 6C
+compactfying 
+hex dumping buf 
+0000 : IIIIIIIIIIIIIIII 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 
+0010 : IIIIIIIIIIIII    49 49 49 49 49 49 49 49 49 49 49 49 49 
+hex dumping relocated  
+0000 : IIIIIIIIIIIIIIII 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 
+0010 : IIIIIIIIIIIIIiii 49 49 49 49 49 49 49 49 49 49 49 49 49 69 69 69 
+0020 : i............... 69 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0030 : ..............   A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+fsi updated page 5 with free space 4B decoded 40
+resizing page_id 6 slot 2
+slot is normal slot  
+page 6 slot 2
+relocating sp data new size 4E and free space 124
+compactfying 
+hex dumping buf 
+0000 : ................ FC FC FC FC FC FC FC FC FC FC FC FC FC FC FC FC 
+0010 : ................ FC FC FC FC FC FC FC FC FC FC FC FC FC FC FC FC 
+0020 : ................ FC FC FC FC FC FC FC FC FC FC FC FC FC FC FC FC 
+0030 : ..........       FC FC FC FC FC FC FC FC FC FC 
+hex dumping relocated  
+0000 : ................ FC FC FC FC FC FC FC FC FC FC FC FC FC FC FC FC 
+0010 : ................ FC FC FC FC FC FC FC FC FC FC FC FC FC FC FC FC 
+0020 : ................ FC FC FC FC FC FC FC FC FC FC FC FC FC FC FC FC 
+0030 : ................ FC FC FC FC FC FC FC FC FC FC 0B 0B 0B 0B 0B 0B 
+0040 : ..............   0B 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B 
+fsi updated page 6 with free space 110 decoded 100
+resizing page_id 6 slot 3
+slot is normal slot  
+page 6 slot 3
+relocating sp data new size 64 and free space 110
+fsi updated page 6 with free space 18C decoded 180
+resizing page_id 6 slot 4
+slot is normal slot  
+page 6 slot 4
+relocating sp data new size B9 and free space 18C
+fsi updated page 6 with free space 101 decoded 100
+resizing page_id 6 slot 5
+slot is normal slot  
+page 6 slot 5
+relocating sp data new size A2 and free space 101
+compactfying 
+hex dumping buf 
+0000 : ................ 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+0010 : ................ 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+0020 : ................ 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+0030 : ................ 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+0040 : ................ 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+0050 : ................ 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+0060 : ................ 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+0070 : ................ 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+0080 : ........         8C 8C 8C 8C 8C 8C 8C 8C 
+hex dumping relocated  
+0000 : ................ 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+0010 : ................ 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+0020 : ................ 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+0030 : ................ 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+0040 : ................ 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+0050 : ................ 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+0060 : ................ 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+0070 : ................ 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+0080 : ................ 8C 8C 8C 8C 8C 8C 8C 8C B3 B3 B3 B3 B3 B3 B3 B3 
+0090 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 8C 8C 8C 
+00A0 : ..               8C 8C 
+fsi updated page 6 with free space E7 decoded C0
+resizing page_id 7 slot 0
+slot is normal slot  
+page 7 slot 0
+relocating sp data new size 83 and free space 32
+fsi updated page 7 with free space 6D decoded 40
+resizing page_id 7 slot 1
+slot is normal slot  
+page 7 slot 1
+new redirect target 
+free space is 300 and required space is D8
+found free page F
+fsi updated page F with free space 23F decoded 200
+resizing page_id 7 slot 2
+slot is normal slot  
+page 7 slot 2
+relocating sp data new size F5 and free space 6D
+compactfying 
+hex dumping buf 
+0000 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+0010 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+0020 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+0030 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+0040 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+0050 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+0060 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+0070 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+0080 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+0090 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+00A0 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+00B0 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+00C0 : (((((            28 28 28 28 28 
+hex dumping relocated  
+0000 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+0010 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+0020 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+0030 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+0040 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+0050 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+0060 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+0070 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+0080 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+0090 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+00A0 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+00B0 : (((((((((((((((( 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 
+00C0 : (((((JJJJJJJJJJJ 28 28 28 28 28 4A 4A 4A 4A 4A 4A 4A 4A 4A 4A 4A 
+00D0 : JJJJJJJJJJJJJJJJ 4A 4A 4A 4A 4A 4A 4A 4A 4A 4A 4A 4A 4A 4A 4A 4A 
+00E0 : J............... 4A 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+00F0 : .....            19 19 19 19 19 
+fsi updated page 7 with free space 3D decoded 0
+resizing page_id 7 slot 3
+slot is normal slot  
+page 7 slot 3
+new redirect target 
+free space is 200 and required space is 102
+found free page F
+fsi updated page F with free space 145 decoded 140
+resizing page_id 7 slot 4
+slot is normal slot  
+page 7 slot 4
+relocating sp data new size 7E and free space 3D
+fsi updated page 7 with free space 12 decoded 0
+resizing page_id 7 slot 5
+slot is normal slot  
+page 7 slot 5
+relocating sp data new size B5 and free space 12
+fsi updated page 7 with free space 3B decoded 0
+resizing page_id 8 slot 0
+slot is normal slot  
+page 8 slot 0
+relocating sp data new size BB and free space 3A
+compactfying 
+hex dumping buf 
+0000 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0010 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0020 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0030 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0040 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0050 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0060 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0070 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0080 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0090 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+00A0 : hhhhhhhhh        68 68 68 68 68 68 68 68 68 
+hex dumping relocated  
+0000 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0010 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0020 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0030 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0040 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0050 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0060 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0070 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0080 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0090 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+00A0 : hhhhhhhhh....... 68 68 68 68 68 68 68 68 68 E0 E0 E0 E0 E0 E0 E0 
+00B0 : ...........      E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+fsi updated page 8 with free space 28 decoded 0
+resizing page_id 8 slot 1
+slot is normal slot  
+page 8 slot 1
+relocating sp data new size 1 and free space 28
+fsi updated page 8 with free space 100 decoded 100
+resizing page_id 6 slot 6
+slot is normal slot  
+page 6 slot 6
+relocating sp data new size B0 and free space E7
+fsi updated page 6 with free space 52 decoded 40
+resizing page_id 8 slot 2
+slot is normal slot  
+page 8 slot 2
+relocating sp data new size E5 and free space 100
+compactfying 
+hex dumping buf 
+0000 : ................ C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 
+0010 : ................ C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 
+0020 : ................ C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 
+0030 : ................ C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 
+0040 : ..............   C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 
+hex dumping relocated  
+0000 : ................ C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 
+0010 : ................ C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 
+0020 : ................ C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 
+0030 : ................ C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 
+0040 : ..............hh C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 68 68 
+0050 : hhhhhhhhhhhhhhhh 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0060 : hhhhhhhh........ 68 68 68 68 68 68 68 68 E0 E0 E0 E0 E0 E0 E0 E0 
+0070 : ..........&&&&&& E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 26 26 26 26 26 26 
+0080 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0090 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+00A0 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+00B0 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+00C0 : &&&&............ 26 26 26 26 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+00D0 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+00E0 : .....            E0 E0 E0 E0 E0 
+fsi updated page 8 with free space 69 decoded 40
+resizing page_id 8 slot 3
+slot is normal slot  
+page 8 slot 3
+relocating sp data new size 9F and free space 69
+fsi updated page 8 with free space 97 decoded 80
+resizing page_id 8 slot 4
+slot is normal slot  
+page 8 slot 4
+relocating sp data new size B and free space 97
+fsi updated page 8 with free space 12F decoded 100
+resizing page_id 9 slot 0
+slot is normal slot  
+page 9 slot 0
+relocating sp data new size C1 and free space 2C
+compactfying 
+hex dumping buf 
+0000 : ................ 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 
+0010 : ................ 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 
+0020 : ................ 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 
+0030 : ................ 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 
+0040 : ................ 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 
+0050 : ................ 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 
+0060 : ................ 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 
+0070 : ................ 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 
+0080 : ................ 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 
+0090 : .......          03 03 03 03 03 03 03 
+hex dumping relocated  
+0000 : ................ 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 
+0010 : ................ 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 
+0020 : ................ 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 
+0030 : ................ 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 
+0040 : ................ 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 
+0050 : ................ 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 
+0060 : ................ 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 
+0070 : ................ 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 
+0080 : ................ 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 
+0090 : ................ 03 03 03 03 03 03 03 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+00A0 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+00B0 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+00C0 : .                E0 
+fsi updated page 9 with free space 2 decoded 0
+resizing page_id 9 slot 1
+slot is normal slot  
+page 9 slot 1
+relocating sp data new size 50 and free space 2
+fsi updated page 9 with free space 5B decoded 40
+resizing page_id 8 slot 5
+slot is normal slot  
+page 8 slot 5
+relocating sp data new size A3 and free space 12F
+compactfying 
+hex dumping buf 
+0000 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0010 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0020 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0030 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0040 : &&&&&&&&&&       26 26 26 26 26 26 26 26 26 26 
+hex dumping relocated  
+0000 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0010 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0020 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0030 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0040 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0050 : &&&&&&&......... 26 26 26 26 26 26 26 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0060 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0070 : ........&&&&&&&& E0 E0 E0 E0 E0 E0 E0 E0 26 26 26 26 26 26 26 26 
+0080 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0090 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+00A0 : &&&              26 26 26 
+fsi updated page 8 with free space D6 decoded C0
+resizing page_id 9 slot 2
+slot is normal slot  
+page 9 slot 2
+relocating sp data new size 8E and free space 5B
+fsi updated page 9 with free space 68 decoded 40
+resizing page_id 9 slot 3
+slot is normal slot  
+page 9 slot 3
+relocating sp data new size A3 and free space 68
+compactfying 
+hex dumping buf 
+0000 : ++++++++++++++++ 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 
+0010 : ++++++++++++++++ 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 
+0020 : ++++++++++++++++ 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 
+0030 : ++++++++++++++++ 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 
+0040 : ++++++++++++++++ 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 
+0050 : +++++++++++++++  2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 
+hex dumping relocated  
+0000 : ++++++++++++++++ 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 
+0010 : ++++++++++++++++ 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 
+0020 : ++++++++++++++++ 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 
+0030 : ++++++++++++++++ 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 
+0040 : ++++++++++++++++ 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 
+0050 : +++++++++++++++. 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 2B 03 
+0060 : ................ 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 03 
+0070 : ................ 03 03 03 03 03 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0080 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0090 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 88 
+00A0 : ...              88 88 88 
+fsi updated page 9 with free space 24 decoded 0
+resizing page_id 6 slot 7
+slot is normal slot  
+page 6 slot 7
+new redirect target 
+free space is 140 and required space is E1
+found free page F
+fsi updated page F with free space 6C decoded 40
+resizing page_id 9 slot 4
+slot is normal slot  
+page 9 slot 4
+new redirect target 
+no free page -> allocate new one with page id 10
+fsi updated page 10 with free space 2F1 decoded 2C0
+resizing page_id 9 slot 5
+slot is normal slot  
+page 9 slot 5
+new redirect target 
+free space is 2C0 and required space is 10F
+found free page 10
+fsi updated page 10 with free space 1EA decoded 1C0
+resizing page_id 9 slot 6
+slot is normal slot  
+page 9 slot 6
+new redirect target 
+free space is 1C0 and required space is D0
+found free page 10
+fsi updated page 10 with free space 122 decoded 100
+resizing page_id A slot 0
+slot is normal slot  
+page A slot 0
+new redirect target 
+free space is C0 and required space is A4
+found free page 3
+fsi updated page 3 with free space 57 decoded 40
+resizing page_id 9 slot 7
+slot is normal slot  
+page 9 slot 7
+new redirect target 
+free space is 100 and required space is FA
+found free page 10
+fsi updated page 10 with free space 30 decoded 0
+resizing page_id A slot 1
+slot is normal slot  
+page A slot 1
+relocating sp data new size B3 and free space 15
+fsi updated page A with free space 57 decoded 40
+resizing page_id A slot 2
+slot is normal slot  
+page A slot 2
+relocating sp data new size 8E and free space 57
+compactfying 
+hex dumping buf 
+0000 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+0010 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+0020 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+0030 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+0040 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+0050 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+0060 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+0070 : ...............  11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+hex dumping relocated  
+0000 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+0010 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+0020 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+0030 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+0040 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+0050 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+0060 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+0070 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 BF 
+0080 : ..............   BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+fsi updated page A with free space 48 decoded 40
+resizing page_id A slot 3
+slot is normal slot  
+page A slot 3
+relocating sp data new size BF and free space 48
+compactfying 
+hex dumping buf 
+0000 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0010 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0020 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0030 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0040 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0050 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0060 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0070 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0080 : .......          B9 B9 B9 B9 B9 B9 B9 
+hex dumping relocated  
+0000 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0010 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0020 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0030 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0040 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0050 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0060 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0070 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0080 : ................ B9 B9 B9 B9 B9 B9 B9 11 11 11 11 11 11 11 11 11 
+0090 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+00A0 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+00B0 : ...............  11 11 11 11 11 11 11 BF BF BF BF BF BF BF BF 
+fsi updated page A with free space 10 decoded 0
+resizing page_id A slot 4
+slot is normal slot  
+page A slot 4
+relocating sp data new size 23 and free space 10
+fsi updated page A with free space E7 decoded C0
+resizing page_id B slot 0
+slot is normal slot  
+page B slot 0
+relocating sp data new size 72 and free space 13
+fsi updated page B with free space 9A decoded 80
+resizing page_id A slot 5
+slot is normal slot  
+page A slot 5
+relocating sp data new size DB and free space E7
+compactfying 
+hex dumping buf 
+0000 : ................ E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 
+0010 : ................ E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 
+0020 : ................ E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 
+0030 : ................ E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 
+0040 : ...........      E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 
+hex dumping relocated  
+0000 : ................ E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 
+0010 : ................ E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 
+0020 : ................ E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 
+0030 : ................ E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 
+0040 : ................ E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 11 11 11 11 11 
+0050 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+0060 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+0070 : ................ BF BF BF BF BF BF BF BF 0C 0C 0C 0C 0C 0C 0C 0C 
+0080 : ................ 0C 0C 0C 0C 0C 0C 0C 0C 0C 0C 0C 0C 0C 0C 0C 0C 
+0090 : ................ 0C 0C 0C 0C 0C 0C 0C 0C 0C 0C 0C 0C E3 E3 E3 E3 
+00A0 : ................ E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 
+00B0 : ................ E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 
+00C0 : ................ E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 
+00D0 : ...........      E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 E3 
+fsi updated page A with free space 57 decoded 40
+resizing page_id B slot 1
+slot is normal slot  
+page B slot 1
+relocating sp data new size 8D and free space 9A
+compactfying 
+hex dumping buf 
+0000 : ................ C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 
+0010 : ................ C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 
+0020 : ................ C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 
+0030 : ................ C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 
+0040 : ....             C5 C5 C5 C5 
+hex dumping relocated  
+0000 : ................ C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 
+0010 : ................ C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 
+0020 : ................ C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 
+0030 : ................ C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 
+0040 : ................ C5 C5 C5 C5 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 
+0050 : ................ F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 
+0060 : ................ F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 
+0070 : ................ F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 
+0080 : .............    F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 
+fsi updated page B with free space 51 decoded 40
+resizing page_id B slot 2
+slot is normal slot  
+page B slot 2
+relocating sp data new size AC and free space 51
+compactfying 
+hex dumping buf 
+0000 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0010 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0020 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0030 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0040 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0050 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0060 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0070 : ..               04 04 
+hex dumping relocated  
+0000 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0010 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0020 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0030 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0040 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0050 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0060 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0070 : ................ 04 04 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 F0 F0 
+0080 : ................ F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 
+0090 : ................ F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 
+00A0 : ............     F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 
+fsi updated page B with free space 17 decoded 0
+resizing page_id A slot 6
+slot is normal slot  
+page A slot 6
+new redirect target 
+free space is C0 and required space is A2
+found free page 4
+fsi updated page 4 with free space 53 decoded 40
+resizing page_id B slot 3
+slot is normal slot  
+page B slot 3
+relocating sp data new size 70 and free space 17
+fsi updated page B with free space 48 decoded 40
+resizing page_id B slot 4
+slot is normal slot  
+page B slot 4
+relocating sp data new size 97 and free space 48
+fsi updated page B with free space A3 decoded 80
+resizing page_id B slot 5
+slot is normal slot  
+page B slot 5
+relocating sp data new size 16 and free space A3
+fsi updated page B with free space FC decoded C0
+resizing page_id C slot 0
+slot is normal slot  
+page C slot 0
+relocating sp data new size 52 and free space 38
+compactfying 
+hex dumping buf 
+0000 : jjjjjjjjjjjjjjjj 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 
+0010 : jjjjjjjjjjjjjj   6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 
+hex dumping relocated  
+0000 : jjjjjjjjjjjjjjjj 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 
+0010 : jjjjjjjjjjjjjj.. 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 6A 00 00 
+0020 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0030 : ................ 00 00 00 00 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 
+0040 : ...............5 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 35 
+0050 : 55               35 35 
+fsi updated page C with free space 4 decoded 0
+resizing page_id C slot 1
+slot is normal slot  
+page C slot 1
+relocating sp data new size 5D and free space 4
+fsi updated page C with free space 61 decoded 40
+resizing page_id C slot 2
+slot is normal slot  
+page C slot 2
+relocating sp data new size F9 and free space 61
+compactfying 
+hex dumping buf 
+0000 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+0010 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+0020 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+0030 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+0040 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+0050 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+0060 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+0070 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+0080 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+0090 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+00A0 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+00B0 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+00C0 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+00D0 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+00E0 : ........         E9 E9 E9 E9 E9 E9 E9 E9 
+hex dumping relocated  
+0000 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+0010 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+0020 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+0030 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+0040 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+0050 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+0060 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+0070 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+0080 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+0090 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+00A0 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+00B0 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+00C0 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+00D0 : ................ E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 E9 
+00E0 : ................ E9 E9 E9 E9 E9 E9 E9 E9 08 08 08 08 08 08 08 08 
+00F0 : .........        08 08 08 08 08 08 08 08 08 
+fsi updated page C with free space 50 decoded 40
+resizing page_id C slot 3
+slot is normal slot  
+page C slot 3
+relocating sp data new size F7 and free space 50
+compactfying 
+hex dumping buf 
+0000 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0010 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0020 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0030 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0040 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0050 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0060 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0070 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0080 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0090 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+00A0 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+00B0 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+00C0 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+00D0 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+00E0 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+00F0 : ..               08 08 
+hex dumping relocated  
+0000 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0010 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0020 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0030 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0040 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0050 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0060 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0070 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0080 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0090 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+00A0 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+00B0 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+00C0 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+00D0 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+00E0 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+00F0 : .......          08 08 08 08 08 08 08 
+fsi updated page C with free space 4B decoded 40
+resizing page_id C slot 4
+slot is normal slot  
+page C slot 4
+new redirect target 
+no free page -> allocate new one with page id 11
+fsi updated page 11 with free space 302 decoded 300
+resizing page_id C slot 5
+slot is normal slot  
+page C slot 5
+relocating sp data new size 99 and free space 4B
+compactfying 
+hex dumping buf 
+0000 : ................ C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 
+0010 : ................ C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 
+0020 : ................ C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 
+0030 : ................ C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 
+0040 : ................ C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 
+0050 : ....             C9 C9 C9 C9 
+hex dumping relocated  
+0000 : ................ C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 
+0010 : ................ C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 
+0020 : ................ C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 
+0030 : ................ C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 
+0040 : ................ C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 C9 
+0050 : ................ C9 C9 C9 C9 08 08 08 08 08 08 08 08 08 08 08 08 
+0060 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0070 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0080 : ................ 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 08 
+0090 : .........        08 08 08 08 08 08 08 08 08 
+fsi updated page C with free space 6 decoded 0
+resizing page_id C slot 6
+slot is normal slot  
+page C slot 6
+new redirect target 
+free space is 300 and required space is F3
+found free page 11
+fsi updated page 11 with free space 217 decoded 200
+resizing page_id D slot 0
+slot is normal slot  
+page D slot 0
+relocating sp data new size 12 and free space 2B
+fsi updated page D with free space AD decoded 80
+resizing page_id D slot 1
+slot is normal slot  
+page D slot 1
+relocating sp data new size C4 and free space AD
+compactfying 
+hex dumping buf 
+0000 : ................ 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 
+0010 : ................ 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 
+0020 : ................ 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 
+0030 : ................ 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 
+0040 : ...              2E 2E 2E 
+hex dumping relocated  
+0000 : ................ 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 
+0010 : ................ 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 
+0020 : ................ 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 
+0030 : ................ 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 2E 
+0040 : ................ 2E 2E 2E EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0050 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0060 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0070 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0080 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0090 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+00A0 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+00B0 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+00C0 : ....             EE 00 00 00 
+fsi updated page D with free space 2C decoded 0
+resizing page_id C slot 7
+slot is normal slot  
+page C slot 7
+new redirect target 
+free space is C0 and required space is 72
+found free page 8
+fsi updated page 8 with free space 6C decoded 40
+resizing page_id D slot 2
+slot is normal slot  
+page D slot 2
+relocating sp data new size 23 and free space 2C
+fsi updated page D with free space D0 decoded C0
+resizing page_id C slot 8
+slot is normal slot  
+page C slot 8
+new redirect target 
+free space is C0 and required space is AC
+found free page B
+fsi updated page B with free space 58 decoded 40
+resizing page_id D slot 3
+slot is normal slot  
+page D slot 3
+relocating sp data new size 7C and free space D0
+compactfying 
+hex dumping buf 
+0000 : **************** 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 
+0010 : ***********      2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 
+hex dumping relocated  
+0000 : **************** 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 
+0010 : ***********..... 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A EE EE EE EE EE 
+0020 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0030 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0040 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0050 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0060 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0070 : ............     EE EE EE EE EE EE EE EE EE EE EE EE 
+fsi updated page D with free space 6F decoded 40
+hexdumping page 0 completely after resizing 
+0000 : ....J...~....... 0A 00 0A 00 4A 01 00 00 7E 00 00 00 04 00 0D 00 
+0010 : ............[... 00 00 00 00 05 00 0D 00 00 00 00 00 5B 00 00 A5 
+0020 : ............x... 03 00 00 FF 1C 00 00 89 03 00 00 FF 78 00 00 C2 
+0030 : .......u....y... 01 00 00 FF 04 00 00 75 03 00 00 FF 79 00 00 E6 
+0040 : ................ 02 00 00 FF 00 00 0E 00 00 00 00 00 10 00 00 9D 
+0050 : ....x..J........ 02 00 00 FF 78 00 00 4A 01 00 00 FF 00 00 00 00 
+0060 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0070 : ................ 00 00 00 00 CA CA CA CA CA CA CA CA CA CA CA CA 
+0080 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+0090 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+00A0 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+00B0 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+00C0 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+00D0 : ................ CA CA CA CA CA CA CA F1 F1 F1 F1 F1 F1 F1 F1 F1 
+00E0 : .......AAAAAAAAA F1 F1 F1 F1 F1 F1 F1 41 41 41 41 41 41 41 41 41 
+00F0 : AAAAAAAAAAAAAAAA 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 
+0100 : AAAAAAAAAAAAAAAA 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 
+0110 : AAAAAAAAAAAAAAAA 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 
+0120 : ................ 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 
+0130 : ................ 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 
+0140 : ................ 06 06 06 06 06 06 06 06 06 06 CA CA CA CA CA CA 
+0150 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+0160 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+0170 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+0180 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+0190 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+01A0 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA 06 06 F8 
+01B0 : ................ F8 F8 F8 F8 F8 F8 F8 F8 F8 F8 F8 F8 F8 F8 F8 F8 
+01C0 : ................ F8 F8 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+01D0 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+01E0 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+01F0 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0200 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0210 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0220 : ................ 19 19 19 19 19 19 19 19 19 19 E8 E8 E8 E8 E8 E8 
+0230 : ................ E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 CA CA CA CA CA CA 
+0240 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+0250 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+0260 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+0270 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+0280 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA CA 
+0290 : ................ CA CA CA CA CA CA CA CA CA CA CA CA CA F1 F1 F1 
+02A0 : .............AAA F1 F1 F1 F1 F1 F1 F1 F1 F1 F1 F1 F1 F1 41 41 41 
+02B0 : AAAAAAAAAAAAAAAA 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 
+02C0 : AAAAAAAAAAAAAAAA 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 
+02D0 : AAAAAAAAAAAAAAAA 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 
+02E0 : AAAAAA.......... 41 41 41 41 41 41 06 06 06 06 06 06 06 06 06 06 
+02F0 : ................ 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 
+0300 : ................ 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 
+0310 : ................ 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 
+0320 : ................ 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 
+0330 : ................ 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 
+0340 : ................ 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 
+0350 : ................ 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 
+0360 : ................ 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 06 
+0370 : ................ 06 06 06 06 06 F8 F8 F8 F8 F8 F8 F8 F8 F8 F8 F8 
+0380 : ................ F8 F8 F8 F8 F8 F8 F8 F8 F8 E8 E8 E8 E8 E8 E8 E8 
+0390 : ................ E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 
+03A0 : ................ E8 E8 E8 E8 E8 EE EE EE EE EE EE EE EE EE EE EE 
+03B0 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+03C0 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+03D0 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+03E0 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+03F0 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+reading page_id 0 slot 0
+reading redirect ??
+reading redirect with page id D and slot id4
+currently on page D and slot 0
+redirect to page D and slot 4
+reading page_id 0 slot 1
+reading redirect ??
+reading redirect with page id D and slot id5
+currently on page D and slot 1
+redirect to page D and slot 5
+reading page_id 0 slot 2
+reading normal 
+reading page_id 0 slot 3
+reading normal 
+reading page_id 0 slot 4
+reading normal 
+reading page_id 0 slot 5
+reading normal 
+reading page_id 0 slot 6
+reading normal 
+reading page_id 0 slot 7
+reading redirect ??
+reading redirect with page id E and slot id0
+currently on page E and slot 7
+redirect to page E and slot 0
+reading page_id 1 slot 0
+reading normal 
+reading page_id 1 slot 1
+reading normal 
+reading page_id 0 slot 8
+reading normal 
+reading page_id 0 slot 9
+reading normal 
+reading page_id 1 slot 2
+reading redirect ??
+reading redirect with page id E and slot id1
+currently on page E and slot 2
+redirect to page E and slot 1
+reading page_id 1 slot 3
+reading redirect ??
+reading redirect with page id E and slot id2
+currently on page E and slot 3
+redirect to page E and slot 2
+reading page_id 1 slot 4
+reading normal 
+reading page_id 1 slot 5
+reading normal 
+reading page_id 2 slot 0
+reading normal 
+reading page_id 1 slot 6
+reading normal 
+reading page_id 2 slot 1
+reading redirect ??
+reading redirect with page id 1 and slot id8
+currently on page 1 and slot 1
+redirect to page 1 and slot 8
+reading page_id 1 slot 7
+reading redirect ??
+reading redirect with page id E and slot id3
+currently on page E and slot 7
+redirect to page E and slot 3
+reading page_id 2 slot 2
+reading normal 
+reading page_id 2 slot 3
+reading normal 
+reading page_id 2 slot 4
+reading normal 
+reading page_id 2 slot 5
+reading normal 
+reading page_id 2 slot 6
+reading normal 
+reading page_id 3 slot 0
+reading normal 
+reading page_id 2 slot 7
+reading redirect ??
+reading redirect with page id F and slot id0
+currently on page F and slot 7
+redirect to page F and slot 0
+reading page_id 3 slot 1
+reading normal 
+reading page_id 2 slot 8
+reading normal 
+reading page_id 3 slot 2
+reading normal 
+reading page_id 3 slot 3
+reading normal 
+reading page_id 3 slot 4
+reading normal 
+reading page_id 3 slot 5
+reading normal 
+reading page_id 4 slot 0
+reading normal 
+reading page_id 4 slot 1
+reading normal 
+reading page_id 4 slot 2
+reading normal 
+reading page_id 4 slot 3
+reading normal 
+reading page_id 4 slot 4
+reading normal 
+reading page_id 5 slot 0
+reading normal 
+reading page_id 5 slot 1
+reading normal 
+reading page_id 5 slot 2
+reading redirect ??
+reading redirect with page id 4 and slot id5
+currently on page 4 and slot 2
+redirect to page 4 and slot 5
+reading page_id 5 slot 3
+reading normal 
+reading page_id 5 slot 4
+reading normal 
+reading page_id 5 slot 5
+reading normal 
+reading page_id 6 slot 0
+reading normal 
+reading page_id 5 slot 6
+reading normal 
+reading page_id 6 slot 1
+reading normal 
+reading page_id 5 slot 7
+reading normal 
+reading page_id 6 slot 2
+reading normal 
+reading page_id 6 slot 3
+reading normal 
+reading page_id 6 slot 4
+reading normal 
+reading page_id 6 slot 5
+reading normal 
+reading page_id 7 slot 0
+reading normal 
+reading page_id 7 slot 1
+reading redirect ??
+reading redirect with page id F and slot id1
+currently on page F and slot 1
+redirect to page F and slot 1
+reading page_id 7 slot 2
+reading normal 
+reading page_id 7 slot 3
+reading redirect ??
+reading redirect with page id F and slot id2
+currently on page F and slot 3
+redirect to page F and slot 2
+reading page_id 7 slot 4
+reading normal 
+reading page_id 7 slot 5
+reading normal 
+reading page_id 8 slot 0
+reading normal 
+reading page_id 8 slot 1
+reading normal 
+reading page_id 6 slot 6
+reading normal 
+reading page_id 8 slot 2
+reading normal 
+reading page_id 8 slot 3
+reading normal 
+reading page_id 8 slot 4
+reading normal 
+reading page_id 9 slot 0
+reading normal 
+reading page_id 9 slot 1
+reading normal 
+reading page_id 8 slot 5
+reading normal 
+reading page_id 9 slot 2
+reading normal 
+reading page_id 9 slot 3
+reading normal 
+reading page_id 6 slot 7
+reading redirect ??
+reading redirect with page id F and slot id3
+currently on page F and slot 7
+redirect to page F and slot 3
+reading page_id 9 slot 4
+reading redirect ??
+reading redirect with page id 10 and slot id0
+currently on page 10 and slot 4
+redirect to page 10 and slot 0
+reading page_id 9 slot 5
+reading redirect ??
+reading redirect with page id 10 and slot id1
+currently on page 10 and slot 5
+redirect to page 10 and slot 1
+reading page_id 9 slot 6
+reading redirect ??
+reading redirect with page id 10 and slot id2
+currently on page 10 and slot 6
+redirect to page 10 and slot 2
+reading page_id A slot 0
+reading redirect ??
+reading redirect with page id 3 and slot id6
+currently on page 3 and slot 0
+redirect to page 3 and slot 6
+reading page_id 9 slot 7
+reading redirect ??
+reading redirect with page id 10 and slot id3
+currently on page 10 and slot 7
+redirect to page 10 and slot 3
+reading page_id A slot 1
+reading normal 
+reading page_id A slot 2
+reading normal 
+reading page_id A slot 3
+reading normal 
+reading page_id A slot 4
+reading normal 
+reading page_id B slot 0
+reading normal 
+reading page_id A slot 5
+reading normal 
+reading page_id B slot 1
+reading normal 
+reading page_id B slot 2
+reading normal 
+reading page_id A slot 6
+reading redirect ??
+reading redirect with page id 4 and slot id6
+currently on page 4 and slot 6
+redirect to page 4 and slot 6
+reading page_id B slot 3
+reading normal 
+reading page_id B slot 4
+reading normal 
+reading page_id B slot 5
+reading normal 
+reading page_id C slot 0
+reading normal 
+reading page_id C slot 1
+reading normal 
+reading page_id C slot 2
+reading normal 
+reading page_id C slot 3
+reading normal 
+reading page_id C slot 4
+reading redirect ??
+reading redirect with page id 11 and slot id0
+currently on page 11 and slot 4
+redirect to page 11 and slot 0
+reading page_id C slot 5
+reading normal 
+reading page_id C slot 6
+reading redirect ??
+reading redirect with page id 11 and slot id1
+currently on page 11 and slot 6
+redirect to page 11 and slot 1
+reading page_id D slot 0
+reading normal 
+reading page_id D slot 1
+reading normal 
+reading page_id C slot 7
+reading redirect ??
+reading redirect with page id 8 and slot id6
+currently on page 8 and slot 7
+redirect to page 8 and slot 6
+reading page_id D slot 2
+reading normal 
+reading page_id C slot 8
+reading redirect ??
+reading redirect with page id B and slot id6
+currently on page B and slot 8
+redirect to page B and slot 6
+reading page_id D slot 3
+reading normal 
+resizing page_id 0 slot 0
+slot is redirect
+redirect page D and redirect slot 4
+resizing page_id D slot 4
+slot size is FC and new size is 94
+relocating sp data new size 94 and free space 6F
+fsi updated page D with free space D7 decoded C0
+resizing page_id 0 slot 1
+slot is redirect
+redirect page D and redirect slot 5
+resizing page_id D slot 5
+slot size is E4 and new size is 81
+relocating sp data new size 81 and free space D7
+fsi updated page D with free space 13A decoded 100
+resizing page_id 0 slot 2
+slot is normal slot  
+page 0 slot 2
+relocating sp data new size 8F and free space 7E
+fsi updated page 0 with free space 4A decoded 40
+resizing page_id 0 slot 3
+slot is normal slot  
+page 0 slot 3
+new redirect target 
+free space is 100 and required space is B6
+found free page D
+fsi updated page D with free space 8C decoded 80
+resizing page_id 0 slot 4
+slot is normal slot  
+page 0 slot 4
+relocating sp data new size 8A and free space 4A
+compactfying 
+hex dumping buf 
+0000 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0010 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0020 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0030 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0040 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0050 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0060 : ................ 19 19 19 19 19 19 19 19 E8 E8 E8 E8 E8 E8 E8 E8 
+0070 : ........         E8 E8 E8 E8 E8 E8 E8 E8 
+hex dumping relocated  
+0000 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0010 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0020 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0030 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0040 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0050 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+0060 : ................ 19 19 19 19 19 19 19 19 E8 E8 E8 E8 E8 E8 E8 E8 
+0070 : ................ E8 E8 E8 E8 E8 E8 E8 E8 CA CA CA CA CA CA CA CA 
+0080 : ..........       CA CA CA CA CA CA CA CA CA CA 
+fsi updated page 0 with free space 38 decoded 0
+resizing page_id 0 slot 5
+slot is normal slot  
+page 0 slot 5
+new redirect target 
+free space is 200 and required space is E5
+found free page 11
+fsi updated page 11 with free space 13A decoded 100
+resizing page_id 0 slot 6
+slot is normal slot  
+page 0 slot 6
+relocating sp data new size 58 and free space 38
+fsi updated page 0 with free space 59 decoded 40
+resizing page_id 0 slot 7
+slot is redirect
+redirect page E and redirect slot 0
+resizing page_id E slot 0
+slot size is E5 and new size is 3B
+relocating sp data new size 3B and free space BD
+fsi updated page E with free space 167 decoded 140
+resizing page_id 1 slot 0
+slot is normal slot  
+page 1 slot 0
+relocating sp data new size 4E and free space 45
+fsi updated page 1 with free space 99 decoded 80
+resizing page_id 1 slot 1
+slot is normal slot  
+page 1 slot 1
+relocating sp data new size BC and free space 99
+fsi updated page 1 with free space B3 decoded 80
+resizing page_id 0 slot 8
+slot is normal slot  
+page 0 slot 8
+new redirect target 
+free space is 140 and required space is 100
+found free page E
+fsi updated page E with free space 6F decoded 40
+resizing page_id 0 slot 9
+slot is normal slot  
+page 0 slot 9
+relocating sp data new size CC and free space 59
+fsi updated page 0 with free space 5 decoded 0
+resizing page_id 1 slot 2
+slot is redirect
+redirect page E and redirect slot 1
+resizing page_id E slot 1
+slot size is AA and new size is BD
+enough space so relocating
+relocating sp data new size BD and free space 6F
+compactfying 
+hex dumping buf 
+0000 : ........//////// 02 00 01 00 00 00 00 00 2F 2F 2F 2F 2F 2F 2F 2F 
+0010 : //////////////// 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 
+0020 : //////////////// 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 
+0030 : /////........... 2F 2F 2F 2F 2F 00 00 00 00 00 00 00 00 00 00 00 
+0040 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0050 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0070 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0080 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00A0 : ..........       00 00 00 00 00 00 00 00 00 00 
+hex dumping relocated  
+0000 : ........//////// 02 00 01 00 00 00 00 00 2F 2F 2F 2F 2F 2F 2F 2F 
+0010 : //////////////// 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 
+0020 : //////////////// 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 2F 
+0030 : /////........... 2F 2F 2F 2F 2F 00 00 00 00 00 00 00 00 00 00 00 
+0040 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0050 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0070 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0080 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00A0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0 : .............    00 00 00 00 00 00 00 00 00 00 00 00 00 
+fsi updated page E with free space 5C decoded 40
+resizing page_id 1 slot 3
+slot is redirect
+redirect page E and redirect slot 2
+resizing page_id E slot 2
+slot size is A9 and new size is 8A
+relocating sp data new size 8A and free space 5C
+fsi updated page E with free space 7B decoded 40
+resizing page_id 1 slot 4
+slot is normal slot  
+page 1 slot 4
+relocating sp data new size 11 and free space B3
+fsi updated page 1 with free space B9 decoded 80
+resizing page_id 1 slot 5
+slot is normal slot  
+page 1 slot 5
+relocating sp data new size 2A and free space B9
+fsi updated page 1 with free space 9D decoded 80
+resizing page_id 2 slot 0
+slot is normal slot  
+page 2 slot 0
+new redirect target 
+free space is 100 and required space is F0
+found free page 11
+fsi updated page 11 with free space 52 decoded 40
+resizing page_id 1 slot 6
+slot is normal slot  
+page 1 slot 6
+relocating sp data new size 14 and free space 9D
+fsi updated page 1 with free space 116 decoded 100
+resizing page_id 2 slot 1
+slot is redirect
+redirect page 1 and redirect slot 8
+resizing page_id 1 slot 8
+slot size is D3 and new size is C7
+relocating sp data new size C7 and free space 116
+fsi updated page 1 with free space 122 decoded 100
+resizing page_id 1 slot 7
+slot is redirect
+redirect page E and redirect slot 3
+resizing page_id E slot 3
+slot size is DF and new size is 47
+relocating sp data new size 47 and free space 7B
+fsi updated page E with free space 113 decoded 100
+resizing page_id 2 slot 2
+slot is normal slot  
+page 2 slot 2
+relocating sp data new size 2C and free space 5
+fsi updated page 2 with free space 4F decoded 40
+resizing page_id 2 slot 3
+slot is normal slot  
+page 2 slot 3
+new redirect target 
+no free page -> allocate new one with page id 12
+fsi updated page 12 with free space 2EF decoded 2C0
+resizing page_id 2 slot 4
+slot is normal slot  
+page 2 slot 4
+relocating sp data new size D6 and free space 4F
+compactfying 
+hex dumping buf 
+0000 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0010 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0020 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0030 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0040 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0050 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0060 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0070 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0080 : ................ A9 A9 A9 A9 19 19 19 19 19 19 19 19 19 19 19 19 
+0090 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+00A0 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+00B0 : ......           19 19 19 19 19 19 
+hex dumping relocated  
+0000 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0010 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0020 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0030 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0040 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0050 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0060 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0070 : ................ A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 A9 
+0080 : ................ A9 A9 A9 A9 19 19 19 19 19 19 19 19 19 19 19 19 
+0090 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+00A0 : ................ 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 
+00B0 : ................ 19 19 19 19 19 19 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+00C0 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+00D0 : ......           B3 B3 B3 B3 B3 B3 
+fsi updated page 2 with free space 2F decoded 0
+resizing page_id 2 slot 5
+slot is normal slot  
+page 2 slot 5
+new redirect target 
+free space is 100 and required space is B0
+found free page 1
+fsi updated page 1 with free space 7A decoded 40
+resizing page_id 2 slot 6
+slot is normal slot  
+page 2 slot 6
+relocating sp data new size 12 and free space 2F
+fsi updated page 2 with free space 5B decoded 40
+resizing page_id 3 slot 0
+slot is normal slot  
+page 3 slot 0
+relocating sp data new size 11 and free space 57
+fsi updated page 3 with free space A1 decoded 80
+resizing page_id 2 slot 7
+slot is redirect
+redirect page F and redirect slot 0
+resizing page_id F slot 0
+slot size is DD and new size is 95
+relocating sp data new size 95 and free space 6C
+fsi updated page F with free space B4 decoded 80
+resizing page_id 3 slot 1
+slot is normal slot  
+page 3 slot 1
+relocating sp data new size 6F and free space A1
+fsi updated page 3 with free space CB decoded C0
+resizing page_id 2 slot 8
+slot is normal slot  
+page 2 slot 8
+new redirect target 
+free space is C0 and required space is B2
+found free page 3
+fsi updated page 3 with free space 21 decoded 0
+resizing page_id 3 slot 2
+slot is normal slot  
+page 3 slot 2
+relocating sp data new size 5E and free space 21
+fsi updated page 3 with free space 45 decoded 40
+resizing page_id 3 slot 3
+slot is normal slot  
+page 3 slot 3
+relocating sp data new size 63 and free space 45
+fsi updated page 3 with free space C6 decoded C0
+resizing page_id 3 slot 4
+slot is normal slot  
+page 3 slot 4
+new redirect target 
+free space is 2C0 and required space is 106
+found free page 12
+fsi updated page 12 with free space 1F1 decoded 1C0
+resizing page_id 3 slot 5
+slot is normal slot  
+page 3 slot 5
+relocating sp data new size 72 and free space C6
+compactfying 
+hex dumping buf 
+0000 : ................ 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 
+0010 : ................ 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 
+0020 : ................ 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 
+0030 : ................ 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 
+0040 : ................ 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 
+0050 : ..............   0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 
+hex dumping relocated  
+0000 : ................ 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 
+0010 : ................ 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 
+0020 : ................ 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 
+0030 : ................ 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 
+0040 : ................ 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 
+0050 : ................ 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F 0F A5 A5 
+0060 : ................ A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 A5 
+0070 : ..               A5 A5 
+fsi updated page 3 with free space B2 decoded 80
+resizing page_id 4 slot 0
+slot is normal slot  
+page 4 slot 0
+new redirect target 
+free space is 100 and required space is A7
+found free page E
+fsi updated page E with free space 74 decoded 40
+resizing page_id 4 slot 1
+slot is normal slot  
+page 4 slot 1
+relocating sp data new size C and free space 53
+fsi updated page 4 with free space 128 decoded 100
+resizing page_id 4 slot 2
+slot is normal slot  
+page 4 slot 2
+relocating sp data new size 65 and free space 128
+compactfying 
+hex dumping buf 
+0000 : \\\              5C 5C 5C 
+hex dumping relocated  
+0000 : \\\rrrrrr....... 5C 5C 5C 72 72 72 72 72 72 02 00 05 00 00 00 00 
+0010 : .@@@@@@@@@@@@@@@ 00 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 
+0020 : @@@@@@@@@@@@@@@@ 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 
+0030 : @@@@@@@@@@@@@rrr 40 40 40 40 40 40 40 40 40 40 40 40 40 72 72 72 
+0040 : rrrrrrrrrrrrr... 72 72 72 72 72 72 72 72 72 72 72 72 72 B3 B3 B3 
+0050 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0060 : .....            B3 B3 B3 B3 B3 
+fsi updated page 4 with free space C6 decoded C0
+resizing page_id 4 slot 3
+slot is normal slot  
+page 4 slot 3
+relocating sp data new size 85 and free space C6
+fsi updated page 4 with free space BD decoded 80
+resizing page_id 4 slot 4
+slot is normal slot  
+page 4 slot 4
+relocating sp data new size 96 and free space BD
+compactfying 
+hex dumping buf 
+0000 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0010 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0020 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0030 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0040 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0050 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0060 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0070 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0080 : ..........       B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+hex dumping relocated  
+0000 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0010 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0020 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0030 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0040 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0050 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0060 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0070 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 
+0080 : ................ B3 B3 B3 B3 B3 B3 B3 B3 B3 B3 0C 0C 0C 0C 0C 0C 
+0090 : ......           0C 0C 0C 0C 0C 0C 
+fsi updated page 4 with free space B1 decoded 80
+resizing page_id 5 slot 0
+slot is normal slot  
+page 5 slot 0
+relocating sp data new size 39 and free space 4B
+fsi updated page 5 with free space BD decoded 80
+resizing page_id 5 slot 1
+slot is normal slot  
+page 5 slot 1
+relocating sp data new size 7 and free space BD
+fsi updated page 5 with free space 16E decoded 140
+resizing page_id 5 slot 2
+slot is redirect
+redirect page 4 and redirect slot 5
+resizing page_id 4 slot 5
+slot size is D7 and new size is 18
+relocating sp data new size 18 and free space B1
+fsi updated page 4 with free space 170 decoded 140
+resizing page_id 5 slot 3
+slot is normal slot  
+page 5 slot 3
+relocating sp data new size 95 and free space 16E
+compactfying 
+hex dumping buf 
+0000 : ..............   8A 8A 8A 8A 8A 8A 8A 8A 8A 8A 8A 8A 8A 8A 
+hex dumping relocated  
+0000 : ................ 8A 8A 8A 8A 8A 8A 8A 8A 8A 8A 8A 8A 8A 8A A8 A8 
+0010 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0020 : ................ A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 A8 
+0030 : .......IIIIIIIII A8 A8 BF BF BF BF BF 49 49 49 49 49 49 49 49 49 
+0040 : IIIIIIIIIIIIIIII 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 
+0050 : IIIIiiiiiiiiiiii 49 49 49 49 69 69 69 69 69 69 69 69 69 69 69 69 
+0060 : iiiiiiiiiiiiiiii 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 
+0070 : iiiiii.......... 69 69 69 69 69 69 BF BF BF BF BF BF BF BF BF BF 
+0080 : ................ BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0090 : .....            BF BF BF BF BF 
+fsi updated page 5 with free space E7 decoded C0
+resizing page_id 5 slot 4
+slot is normal slot  
+page 5 slot 4
+relocating sp data new size A6 and free space E7
+fsi updated page 5 with free space 69 decoded 40
+resizing page_id 5 slot 5
+slot is normal slot  
+page 5 slot 5
+relocating sp data new size 9E and free space 69
+compactfying 
+hex dumping buf 
+0000 : ................ BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0010 : ................ BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0020 : ................ BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0030 : .....iiiiiiiiiii BF BF BF BF BF 69 69 69 69 69 69 69 69 69 69 69 
+0040 : ii.............. 69 69 BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0050 : ................ BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0060 : ................ BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0070 : ................ BF BF BF BF BF BF BF 82 82 82 82 82 82 82 82 82 
+0080 : ................ 82 82 82 82 82 82 82 82 82 82 82 82 82 82 82 82 
+0090 : ..               82 82 
+hex dumping relocated  
+0000 : ................ BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0010 : ................ BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0020 : ................ BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0030 : .....iiiiiiiiiii BF BF BF BF BF 69 69 69 69 69 69 69 69 69 69 69 
+0040 : ii.............. 69 69 BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0050 : ................ BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0060 : ................ BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF BF 
+0070 : ................ BF BF BF BF BF BF BF 82 82 82 82 82 82 82 82 82 
+0080 : ................ 82 82 82 82 82 82 82 82 82 82 82 82 82 82 82 82 
+0090 : ..............   82 82 8A 8A 8A 8A 8A 8A A8 A8 A8 A8 A8 A8 
+fsi updated page 5 with free space 5D decoded 40
+resizing page_id 6 slot 0
+slot is normal slot  
+page 6 slot 0
+new redirect target 
+free space is 140 and required space is 8D
+found free page 4
+fsi updated page 4 with free space EB decoded C0
+resizing page_id 5 slot 6
+slot is normal slot  
+page 5 slot 6
+relocating sp data new size 80 and free space 5D
+fsi updated page 5 with free space B1 decoded 80
+resizing page_id 6 slot 1
+slot is normal slot  
+page 6 slot 1
+relocating sp data new size C4 and free space 52
+compactfying 
+hex dumping buf 
+0000 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0010 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0020 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0030 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0040 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0050 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0060 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0070 : &&&&&&&&&        26 26 26 26 26 26 26 26 26 
+hex dumping relocated  
+0000 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0010 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0020 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0030 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0040 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0050 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0060 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0070 : &&&&&&&&&....... 26 26 26 26 26 26 26 26 26 8C 8C 8C 8C 8C 8C 8C 
+0080 : ................ 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+0090 : ................ 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+00A0 : ................ 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+00B0 : ................ 8C 97 97 97 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 8C 
+00C0 : ....             8C 8C 8C 8C 
+fsi updated page 6 with free space 7 decoded 0
+resizing page_id 5 slot 7
+slot is normal slot  
+page 5 slot 7
+relocating sp data new size 5A and free space B1
+fsi updated page 5 with free space 95 decoded 80
+resizing page_id 6 slot 2
+slot is normal slot  
+page 6 slot 2
+new redirect target 
+free space is C0 and required space is A6
+found free page 4
+fsi updated page 4 with free space 4D decoded 40
+resizing page_id 6 slot 3
+slot is normal slot  
+page 6 slot 3
+relocating sp data new size 51 and free space 7
+fsi updated page 6 with free space 1A decoded 0
+resizing page_id 6 slot 4
+slot is normal slot  
+page 6 slot 4
+new redirect target 
+free space is 1C0 and required space is 104
+found free page 12
+fsi updated page 12 with free space F5 decoded C0
+resizing page_id 6 slot 5
+slot is normal slot  
+page 6 slot 5
+new redirect target 
+no free page -> allocate new one with page id 13
+fsi updated page 13 with free space 30B decoded 300
+resizing page_id 7 slot 0
+slot is normal slot  
+page 7 slot 0
+relocating sp data new size 82 and free space 3B
+fsi updated page 7 with free space 3C decoded 0
+resizing page_id 7 slot 1
+slot is redirect
+redirect page F and redirect slot 1
+resizing page_id F slot 1
+slot size is C8 and new size is C3
+relocating sp data new size C3 and free space B4
+fsi updated page F with free space B9 decoded 80
+resizing page_id 7 slot 2
+slot is normal slot  
+page 7 slot 2
+relocating sp data new size 21 and free space 3C
+fsi updated page 7 with free space 110 decoded 100
+resizing page_id 7 slot 3
+slot is redirect
+redirect page F and redirect slot 2
+resizing page_id F slot 2
+slot size is F2 and new size is 28
+relocating sp data new size 28 and free space B9
+fsi updated page F with free space 183 decoded 180
+resizing page_id 7 slot 4
+slot is normal slot  
+page 7 slot 4
+relocating sp data new size 7A and free space 110
+fsi updated page 7 with free space 114 decoded 100
+resizing page_id 7 slot 5
+slot is normal slot  
+page 7 slot 5
+relocating sp data new size 6E and free space 114
+fsi updated page 7 with free space 15B decoded 140
+resizing page_id 8 slot 0
+slot is normal slot  
+page 8 slot 0
+relocating sp data new size B9 and free space 6C
+fsi updated page 8 with free space 6E decoded 40
+resizing page_id 8 slot 1
+slot is normal slot  
+page 8 slot 1
+new redirect target 
+free space is 140 and required space is DD
+found free page 7
+fsi updated page 7 with free space 86 decoded 80
+resizing page_id 6 slot 6
+slot is normal slot  
+page 6 slot 6
+relocating sp data new size 7D and free space 1A
+fsi updated page 6 with free space 4D decoded 40
+resizing page_id 8 slot 2
+slot is normal slot  
+page 8 slot 2
+relocating sp data new size DB and free space 6E
+fsi updated page 8 with free space 78 decoded 40
+resizing page_id 8 slot 3
+slot is normal slot  
+page 8 slot 3
+relocating sp data new size BE and free space 78
+compactfying 
+hex dumping buf 
+0000 : ................ 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 
+0010 : ................ 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 
+0020 : ................ 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 
+0030 : ................ 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 
+0040 : ................ 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 
+0050 : ................ 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 
+0060 : ................ 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 
+0070 : ................ 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 
+0080 : ................ 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 
+0090 : ...............  13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 
+hex dumping relocated  
+0000 : ................ 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 
+0010 : ................ 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 
+0020 : ................ 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 
+0030 : ................ 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 
+0040 : ................ 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 
+0050 : ................ 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 
+0060 : ................ 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 
+0070 : ................ 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 
+0080 : ................ 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 
+0090 : ...............& 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 26 
+00A0 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+00B0 : &&&&&&&&&&&&&&   26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+fsi updated page 8 with free space 59 decoded 40
+resizing page_id 8 slot 4
+slot is normal slot  
+page 8 slot 4
+relocating sp data new size 3 and free space 59
+fsi updated page 8 with free space 61 decoded 40
+resizing page_id 9 slot 0
+slot is normal slot  
+page 9 slot 0
+relocating sp data new size 21 and free space 24
+fsi updated page 9 with free space C4 decoded C0
+resizing page_id 9 slot 1
+slot is normal slot  
+page 9 slot 1
+relocating sp data new size 6F and free space C4
+compactfying 
+hex dumping buf 
+0000 : ................ 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 
+0010 : ................ 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 
+0020 : ................ 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 
+0030 : ................ 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 
+0040 : ................ 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 
+hex dumping relocated  
+0000 : ................ 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 
+0010 : ................ 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 
+0020 : ................ 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 
+0030 : ................ 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 
+0040 : ................ 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 05 
+0050 : ................ 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 
+0060 : ...............  0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 
+fsi updated page 9 with free space A5 decoded 80
+resizing page_id 8 slot 5
+slot is normal slot  
+page 8 slot 5
+relocating sp data new size A5 and free space 61
+compactfying 
+hex dumping buf 
+0000 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0010 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0020 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0030 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0040 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0050 : &&&&&&&......... 26 26 26 26 26 26 26 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0060 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0070 : ........&&&&&&&& E0 E0 E0 E0 E0 E0 E0 E0 26 26 26 26 26 26 26 26 
+0080 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0090 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+00A0 : &&&              26 26 26 
+hex dumping relocated  
+0000 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0010 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0020 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0030 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0040 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0050 : &&&&&&&......... 26 26 26 26 26 26 26 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0060 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0070 : ........&&&&&&&& E0 E0 E0 E0 E0 E0 E0 E0 26 26 26 26 26 26 26 26 
+0080 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0090 : &&&&&&&&&&&&&&&& 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+00A0 : &&&&&            26 26 26 26 26 
+fsi updated page 8 with free space 5F decoded 40
+resizing page_id 9 slot 2
+slot is normal slot  
+page 9 slot 2
+relocating sp data new size EE and free space A5
+fsi updated page 9 with free space 45 decoded 40
+resizing page_id 9 slot 3
+slot is normal slot  
+page 9 slot 3
+relocating sp data new size 94 and free space 45
+fsi updated page 9 with free space 54 decoded 40
+resizing page_id 6 slot 7
+slot is redirect
+redirect page F and redirect slot 3
+resizing page_id F slot 3
+slot size is D1 and new size is C0
+relocating sp data new size C0 and free space 183
+fsi updated page F with free space 194 decoded 180
+resizing page_id 9 slot 4
+slot is redirect
+redirect page 10 and redirect slot 0
+resizing page_id 10 slot 0
+slot size is FB and new size is 91
+relocating sp data new size 91 and free space 30
+fsi updated page 10 with free space 9A decoded 80
+resizing page_id 9 slot 5
+slot is redirect
+redirect page 10 and redirect slot 1
+resizing page_id 10 slot 1
+slot size is FF and new size is 58
+relocating sp data new size 58 and free space 9A
+fsi updated page 10 with free space 141 decoded 140
+resizing page_id 9 slot 6
+slot is redirect
+redirect page 10 and redirect slot 2
+resizing page_id 10 slot 2
+slot size is C0 and new size is F0
+enough space so relocating
+relocating sp data new size F0 and free space 141
+compactfying 
+hex dumping buf 
+0000 : ................ 06 00 09 00 00 00 00 00 E0 E0 E0 E0 E0 E0 E0 E0 
+0010 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0020 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0030 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0040 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0050 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0060 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0070 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0080 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0090 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 00 00 00 00 00 00 00 
+00A0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+hex dumping relocated  
+0000 : ................ 06 00 09 00 00 00 00 00 E0 E0 E0 E0 E0 E0 E0 E0 
+0010 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0020 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0030 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0040 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0050 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0060 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0070 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0080 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 E0 
+0090 : ................ E0 E0 E0 E0 E0 E0 E0 E0 E0 00 00 00 00 00 00 00 
+00A0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0 : ................ 00 00 00 00 00 00 00 00 00 05 00 09 00 00 00 00 
+00D0 : ................ 00 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 
+00E0 : ................ 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 98 
+fsi updated page 10 with free space 111 decoded 100
+resizing page_id A slot 0
+slot is redirect
+redirect page 3 and redirect slot 6
+resizing page_id 3 slot 6
+slot size is 94 and new size is 24
+relocating sp data new size 24 and free space B2
+fsi updated page 3 with free space 122 decoded 100
+resizing page_id 9 slot 7
+slot is redirect
+redirect page 10 and redirect slot 3
+resizing page_id 10 slot 3
+slot size is EA and new size is 91
+relocating sp data new size 91 and free space 111
+fsi updated page 10 with free space 16A decoded 140
+resizing page_id A slot 1
+slot is normal slot  
+page A slot 1
+relocating sp data new size 98 and free space 57
+fsi updated page A with free space 72 decoded 40
+resizing page_id A slot 2
+slot is normal slot  
+page A slot 2
+relocating sp data new size 5 and free space 72
+fsi updated page A with free space FB decoded C0
+resizing page_id A slot 3
+slot is normal slot  
+page A slot 3
+relocating sp data new size E6 and free space FB
+compactfying 
+hex dumping buf 
+0000 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0010 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0020 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0030 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0040 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0050 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0060 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0070 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0080 : ................ B9 B9 B9 B9 B9 B9 B9 11 11 11 11 11 11 11 11 11 
+0090 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+00A0 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+00B0 : ...............  11 11 11 11 11 11 11 BF BF BF BF BF BF BF BF 
+hex dumping relocated  
+0000 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0010 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0020 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0030 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0040 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0050 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0060 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0070 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+0080 : ................ B9 B9 B9 B9 B9 B9 B9 11 11 11 11 11 11 11 11 11 
+0090 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+00A0 : ................ 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 
+00B0 : ................ 11 11 11 11 11 11 11 BF BF BF BF BF BF BF BF B9 
+00C0 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+00D0 : ................ B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 B9 
+00E0 : ......           B9 B9 B9 B9 B9 B9 
+fsi updated page A with free space D4 decoded C0
+resizing page_id A slot 4
+slot is normal slot  
+page A slot 4
+relocating sp data new size C and free space D4
+fsi updated page A with free space EB decoded C0
+resizing page_id B slot 0
+slot is normal slot  
+page B slot 0
+relocating sp data new size 58 and free space 58
+fsi updated page B with free space 72 decoded 40
+resizing page_id A slot 5
+slot is normal slot  
+page A slot 5
+relocating sp data new size 45 and free space EB
+fsi updated page A with free space 181 decoded 180
+resizing page_id B slot 1
+slot is normal slot  
+page B slot 1
+relocating sp data new size 35 and free space 72
+fsi updated page B with free space CA decoded C0
+resizing page_id B slot 2
+slot is normal slot  
+page B slot 2
+relocating sp data new size BE and free space CA
+compactfying 
+hex dumping buf 
+0000 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0010 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0020 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0030 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0040 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0050 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0060 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0070 : ................ 04 04 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 F0 F0 
+0080 : ................ F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 
+0090 : ................ F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 
+00A0 : ............     F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 
+hex dumping relocated  
+0000 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0010 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0020 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0030 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0040 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0050 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0060 : ................ 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 04 
+0070 : ................ 04 04 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 C5 F0 F0 
+0080 : ................ F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 
+0090 : ................ F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 
+00A0 : ................ F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 
+00B0 : ..............   F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 F0 
+fsi updated page B with free space B8 decoded 80
+resizing page_id A slot 6
+slot is redirect
+redirect page 4 and redirect slot 6
+resizing page_id 4 slot 6
+slot size is 92 and new size is 65
+relocating sp data new size 65 and free space 4D
+fsi updated page 4 with free space 7A decoded 40
+resizing page_id B slot 3
+slot is normal slot  
+page B slot 3
+relocating sp data new size E and free space B8
+fsi updated page B with free space 11A decoded 100
+resizing page_id B slot 4
+slot is normal slot  
+page B slot 4
+relocating sp data new size 64 and free space 11A
+fsi updated page B with free space 14D decoded 140
+resizing page_id B slot 5
+slot is normal slot  
+page B slot 5
+relocating sp data new size 7 and free space 14D
+fsi updated page B with free space 15C decoded 140
+resizing page_id C slot 0
+slot is normal slot  
+page C slot 0
+relocating sp data new size 3B and free space 6
+fsi updated page C with free space 1D decoded 0
+resizing page_id C slot 1
+slot is normal slot  
+page C slot 1
+new redirect target 
+free space is 180 and required space is 111
+found free page A
+fsi updated page A with free space 78 decoded 40
+resizing page_id C slot 2
+slot is normal slot  
+page C slot 2
+relocating sp data new size 73 and free space 1D
+fsi updated page C with free space A3 decoded 80
+resizing page_id C slot 3
+slot is normal slot  
+page C slot 3
+relocating sp data new size 11 and free space A3
+fsi updated page C with free space 189 decoded 180
+resizing page_id C slot 4
+slot is redirect
+redirect page 11 and redirect slot 0
+resizing page_id 11 slot 0
+slot size is EA and new size is 75
+relocating sp data new size 75 and free space 52
+fsi updated page 11 with free space C7 decoded C0
+resizing page_id C slot 5
+slot is normal slot  
+page C slot 5
+relocating sp data new size 90 and free space 189
+fsi updated page C with free space 192 decoded 180
+resizing page_id C slot 6
+slot is redirect
+redirect page 11 and redirect slot 1
+resizing page_id 11 slot 1
+slot size is E3 and new size is 9F
+relocating sp data new size 9F and free space C7
+fsi updated page 11 with free space 10B decoded 100
+resizing page_id D slot 0
+slot is normal slot  
+page D slot 0
+relocating sp data new size 86 and free space 8C
+fsi updated page D with free space 18 decoded 0
+resizing page_id D slot 1
+slot is normal slot  
+page D slot 1
+relocating sp data new size 1 and free space 18
+fsi updated page D with free space DB decoded C0
+resizing page_id C slot 7
+slot is redirect
+redirect page 8 and redirect slot 6
+resizing page_id 8 slot 6
+slot size is 62 and new size is 87
+enough space so relocating
+relocating sp data new size 87 and free space 5F
+compactfying 
+hex dumping buf 
+0000 : ........55555... 07 00 0C 00 00 00 00 00 35 35 35 35 35 C2 C2 C2 
+0010 : ................ C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 
+0020 : ................ C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 
+0030 : ................ C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 
+0040 : ...hhhhhhhhhhhhh C2 C2 C2 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0050 : hhhhhhhhhhhhh... 68 68 68 68 68 68 68 68 68 68 68 68 68 E0 E0 E0 
+0060 : ..               E0 E0 
+hex dumping relocated  
+0000 : ........55555... 07 00 0C 00 00 00 00 00 35 35 35 35 35 C2 C2 C2 
+0010 : ................ C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 
+0020 : ................ C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 
+0030 : ................ C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 C2 
+0040 : ...hhhhhhhhhhhhh C2 C2 C2 68 68 68 68 68 68 68 68 68 68 68 68 68 
+0050 : hhhhhhhhhhhhh... 68 68 68 68 68 68 68 68 68 68 68 68 68 E0 E0 E0 
+0060 : ..&&&&&&&&&&&&&& E0 E0 26 26 26 26 26 26 26 26 26 26 26 26 26 26 
+0070 : &&&&&&&&&&&&.... 26 26 26 26 26 26 26 26 26 26 26 26 E0 E0 E0 E0 
+0080 : .......          E0 E0 E0 E0 E0 E0 E0 
+fsi updated page 8 with free space 3A decoded 0
+resizing page_id D slot 2
+slot is normal slot  
+page D slot 2
+relocating sp data new size A6 and free space DB
+compactfying 
+hex dumping buf 
+0000 : ................ 88 88 88 88 88 88 88 88 88 88 88 88 88 88 88 88 
+0010 : ................ 88 88 88 88 88 88 88 88 88 88 88 88 88 88 88 88 
+0020 : ...              88 88 88 
+hex dumping relocated  
+0000 : ................ 88 88 88 88 88 88 88 88 88 88 88 88 88 88 88 88 
+0010 : ................ 88 88 88 88 88 88 88 88 88 88 88 88 88 88 88 88 
+0020 : ...*******...... 88 88 88 2A 2A 2A 2A 2A 2A 2A EE EE EE EE EE EE 
+0030 : ................ EE EE EE EE 03 00 00 00 00 00 00 00 E8 E8 E8 E8 
+0040 : ................ E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 
+0050 : ................ E8 E8 E8 E8 E8 E8 E8 E8 EE EE EE EE EE EE EE EE 
+0060 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0070 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0080 : ................ EE EE EE EE EE EE EE EE EE EE EE 01 00 00 00 00 
+0090 : ................ 00 00 00 EE EE EE EE EE EE EE EE EE EE EE EE EE 
+00A0 : ......           EE EE EE EE EE EE 
+fsi updated page D with free space 58 decoded 40
+resizing page_id C slot 8
+slot is redirect
+redirect page B and redirect slot 6
+resizing page_id B slot 6
+slot size is 9C and new size is 5A
+relocating sp data new size 5A and free space 15C
+fsi updated page B with free space 19E decoded 180
+resizing page_id D slot 3
+slot is normal slot  
+page D slot 3
+relocating sp data new size BD and free space 58
+compactfying 
+hex dumping buf 
+0000 : **************** 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 
+0010 : ***********..... 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A EE EE EE EE EE 
+0020 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0030 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0040 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0050 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0060 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0070 : ............     EE EE EE EE EE EE EE EE EE EE EE EE 
+hex dumping relocated  
+0000 : **************** 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 
+0010 : ***********..... 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A 2A EE EE EE EE EE 
+0020 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0030 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0040 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0050 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0060 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0070 : ................ EE EE EE EE EE EE EE EE EE EE EE EE 00 E8 E8 E8 
+0080 : ................ E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 E8 
+0090 : ................ E8 E8 E8 E8 E8 E8 E8 E8 E8 EE EE EE EE EE EE EE 
+00A0 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+00B0 : .............    EE EE EE EE EE EE EE EE EE EE EE EE EE 
+fsi updated page D with free space 17 decoded 0
+reading page_id 0 slot 0
+reading redirect ??
+reading redirect with page id D and slot id4
+currently on page D and slot 0
+redirect to page D and slot 4
+reading page_id 0 slot 1
+reading redirect ??
+reading redirect with page id D and slot id5
+currently on page D and slot 1
+redirect to page D and slot 5
+/Users/xinyicui/Desktop/slotted-pages/test/segment_test.cc:526: Failure
+      Expected: std::equal(buffer.begin(), buffer.end(), records[i].begin())
+      Which is: false
+To be equal to: true
+[ INSERT  ] OK
+[ RESIZE1 ] OK
+[ RESIZE2 ] FAILED
+[ ERASE   ] -
+
+EXPECTED:
+0000 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0010 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0020 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0030 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0040 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0050 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0060 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0070 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0080 : .                EE 
+
+HAVE:
+0000 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0010 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0020 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0030 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0040 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0050 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0060 : ................ EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE EE 
+0070 : ................ EE EE EE EE EE EE EE EE EE 00 00 00 00 00 00 00 
+0080 : .                00 
+
+
+[  FAILED  ] SegmentTest.SPFuzzing (10 ms)
+[----------] 11 tests from SegmentTest (15 ms total)
+
+[----------] 5 tests from SlottedPageTest
+[ RUN      ] SlottedPageTest.Constructor
+[       OK ] SlottedPageTest.Constructor (0 ms)
+[ RUN      ] SlottedPageTest.Allocation
+[       OK ] SlottedPageTest.Allocation (0 ms)
+[ RUN      ] SlottedPageTest.AllocateErase
+[       OK ] SlottedPageTest.AllocateErase (0 ms)
+[ RUN      ] SlottedPageTest.RelocateWithoutBuffer
+relocating sp data new size 10 and free space 3C4
+[       OK ] SlottedPageTest.RelocateWithoutBuffer (0 ms)
+[ RUN      ] SlottedPageTest.RelocateWithCompactification
+relocating sp data new size 1C and free space 14
+compactfying 
+hex dumping buf 
+0000 : ........         00 00 00 00 00 00 00 00 
+hex dumping relocated  
+0000 : ................ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0010 : ............     00 00 00 00 00 00 00 00 00 00 00 00 
+[       OK ] SlottedPageTest.RelocateWithCompactification (0 ms)
+[----------] 5 tests from SlottedPageTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 16 tests from 2 test cases ran. (15 ms total)
+[  PASSED  ] 14 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] SegmentTest.SPRecordWriteReadRedirect
+[  FAILED  ] SegmentTest.SPFuzzing
+
+ 2 FAILED TESTS

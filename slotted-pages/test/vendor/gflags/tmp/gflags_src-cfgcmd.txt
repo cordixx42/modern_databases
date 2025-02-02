@@ -1,0 +1,1 @@
+cmd='/opt/homebrew/Cellar/cmake/3.27.7/bin/cmake;-DCMAKE_INSTALL_PREFIX=/Users/xinyicui/Desktop/slotted-pages/test/vendor/gflags;-DCMAKE_C_COMPILER=/Library/Developer/CommandLineTools/usr/bin/cc;-DCMAKE_CXX_COMPILER=/Library/Developer/CommandLineTools/usr/bin/c++;-DCMAKE_CXX_FLAGS=;-GUnix Makefiles;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

@@ -1,0 +1,13 @@
+# ninja log v6
+6	730	1717500019440209466	gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	268af3c892d67abf
+6	950	1717500019440022759	CMakeFiles/gmock_main.dir/src/gmock_main.cc.o	478975521147f4c4
+5	1215	1717500019439547639	CMakeFiles/gmock_main.dir/src/gmock-all.cc.o	9e4ba6de6d21c686
+3	1258	1717500019437627450	CMakeFiles/gmock.dir/src/gmock-all.cc.o	ac423c688a8006e4
+5	1461	1717500019439388516	CMakeFiles/gmock_main.dir/Users/xinyicui/Desktop/slotted-pages/cmake-build-release/vendor/gtm/src/googletest/googletest/src/gtest-all.cc.o	f20b930296d0d223
+1	1510	1717500019435339973	gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	b9f8115aa4c73644
+2	1511	1717500019436671335	CMakeFiles/gmock.dir/Users/xinyicui/Desktop/slotted-pages/cmake-build-release/vendor/gtm/src/googletest/googletest/src/gtest-all.cc.o	93502921aa619b80
+1461	1516	1717500020895552746	libgmock_main.a	824952167ec5691f
+1510	1536	1717500020944766042	gtest/libgtest.a	8172ca53a4646d1c
+1511	1538	1717500020945682241	libgmock.a	c6e3081505eac8bb
+1536	1554	1717500020970059578	gtest/libgtest_main.a	5f7854599927a608
+4	55	1717500021008146027	CMakeFiles/install.util	95a34c5550703acd

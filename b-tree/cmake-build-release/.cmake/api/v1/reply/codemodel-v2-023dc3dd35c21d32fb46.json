@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moderndbs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmark_src::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmark_src-Release-a8b233a9e97ff291b856.json",
+					"name" : "benchmark_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmarks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmarks-Release-cc4828ce964d5dd52c98.json",
+					"name" : "benchmarks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gflags_src::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gflags_src-Release-4dc2aa70082e3b761094.json",
+					"name" : "gflags_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gmock_src::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gmock_src-Release-1b4ac7f1e065e3e1592d.json",
+					"name" : "gmock_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "googletest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-googletest-Release-330290df2643ea48ab27.json",
+					"name" : "googletest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gtest_src::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gtest_src-Release-a359cdce46f12e75507e.json",
+					"name" : "gtest_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lint-Release-5e13a9010d3a2d0a15de.json",
+					"name" : "lint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lint_src::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lint_src-Release-5a4ac6bd2f070ce8721b.json",
+					"name" : "lint_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lint_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lint_test-Release-9f11836f9b6aa03caaba.json",
+					"name" : "lint_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moderndbs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moderndbs-Release-f50a0d9cb6031f4d2678.json",
+					"name" : "moderndbs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rapidjson_src::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rapidjson_src-Release-e7e92761fc8a6b616f55.json",
+					"name" : "rapidjson_src",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tester::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tester-Release-f32a8bf983e11c6e9d31.json",
+					"name" : "tester",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/xinyicui/Desktop/b-tree/cmake-build-release",
+		"source" : "/Users/xinyicui/Desktop/b-tree"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

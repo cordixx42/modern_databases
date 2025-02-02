@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libmoderndbs.a CMakeFiles/moderndbs.dir/src/buffer_manager.cc.o CMakeFiles/moderndbs.dir/src/database.cc.o CMakeFiles/moderndbs.dir/src/fsi_segment.cc.o CMakeFiles/moderndbs.dir/src/hex_dump.cc.o CMakeFiles/moderndbs.dir/src/schema.cc.o CMakeFiles/moderndbs.dir/src/schema_segment.cc.o CMakeFiles/moderndbs.dir/src/slotted_page.cc.o CMakeFiles/moderndbs.dir/src/sp_segment.cc.o CMakeFiles/moderndbs.dir/src/file/posix_file.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libmoderndbs.a

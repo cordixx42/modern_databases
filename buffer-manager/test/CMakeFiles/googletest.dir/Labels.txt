@@ -1,0 +1,13 @@
+# Target labels
+ googletest
+# Source files and their labels
+/Users/xinyicui/Desktop/buffer-manager/test/CMakeFiles/googletest
+/Users/xinyicui/Desktop/buffer-manager/test/CMakeFiles/googletest.rule
+/Users/xinyicui/Desktop/buffer-manager/test/CMakeFiles/googletest-complete.rule
+/Users/xinyicui/Desktop/buffer-manager/test/vendor/gtm/src/googletest-stamp/googletest-build.rule
+/Users/xinyicui/Desktop/buffer-manager/test/vendor/gtm/src/googletest-stamp/googletest-configure.rule
+/Users/xinyicui/Desktop/buffer-manager/test/vendor/gtm/src/googletest-stamp/googletest-download.rule
+/Users/xinyicui/Desktop/buffer-manager/test/vendor/gtm/src/googletest-stamp/googletest-install.rule
+/Users/xinyicui/Desktop/buffer-manager/test/vendor/gtm/src/googletest-stamp/googletest-mkdir.rule
+/Users/xinyicui/Desktop/buffer-manager/test/vendor/gtm/src/googletest-stamp/googletest-patch.rule
+/Users/xinyicui/Desktop/buffer-manager/test/vendor/gtm/src/googletest-stamp/googletest-update.rule

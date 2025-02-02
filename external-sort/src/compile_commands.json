@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/Users/xinyicui/Desktop/external-sort/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/xinyicui/Desktop/external-sort/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/gflags/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/benchmark/include -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wvla -o CMakeFiles/moderndbs.dir/external_sort.cc.o -c /Users/xinyicui/Desktop/external-sort/src/external_sort.cc",
+  "file": "/Users/xinyicui/Desktop/external-sort/src/external_sort.cc",
+  "output": "CMakeFiles/moderndbs.dir/external_sort.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/external-sort/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/xinyicui/Desktop/external-sort/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/gflags/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/benchmark/include -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wvla -o CMakeFiles/moderndbs.dir/file/posix_file.cc.o -c /Users/xinyicui/Desktop/external-sort/src/file/posix_file.cc",
+  "file": "/Users/xinyicui/Desktop/external-sort/src/file/posix_file.cc",
+  "output": "CMakeFiles/moderndbs.dir/file/posix_file.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/external-sort/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/xinyicui/Desktop/external-sort/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/gflags/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/benchmark/include -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wvla -o CMakeFiles/external_sort.dir/tools/external_sort.cc.o -c /Users/xinyicui/Desktop/external-sort/tools/external_sort.cc",
+  "file": "/Users/xinyicui/Desktop/external-sort/tools/external_sort.cc",
+  "output": "CMakeFiles/external_sort.dir/tools/external_sort.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/external-sort/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/xinyicui/Desktop/external-sort/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/gflags/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/gtm/gmock/include -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wvla -o CMakeFiles/tester.dir/test/tester.cc.o -c /Users/xinyicui/Desktop/external-sort/test/tester.cc",
+  "file": "/Users/xinyicui/Desktop/external-sort/test/tester.cc",
+  "output": "CMakeFiles/tester.dir/test/tester.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/external-sort/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/xinyicui/Desktop/external-sort/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/gflags/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/gtm/gmock/include -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wvla -o CMakeFiles/tester.dir/test/external_sort_test.cc.o -c /Users/xinyicui/Desktop/external-sort/test/external_sort_test.cc",
+  "file": "/Users/xinyicui/Desktop/external-sort/test/external_sort_test.cc",
+  "output": "CMakeFiles/tester.dir/test/external_sort_test.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/external-sort/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/xinyicui/Desktop/external-sort/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/gflags/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/gtm/gmock/include -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wvla -o CMakeFiles/benchmarks.dir/bench/benchmark.cc.o -c /Users/xinyicui/Desktop/external-sort/bench/benchmark.cc",
+  "file": "/Users/xinyicui/Desktop/external-sort/bench/benchmark.cc",
+  "output": "CMakeFiles/benchmarks.dir/bench/benchmark.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/external-sort/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/xinyicui/Desktop/external-sort/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/gflags/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/external-sort/src/vendor/gtm/gmock/include -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wvla -o CMakeFiles/benchmarks.dir/bench/bm_external_sort.cc.o -c /Users/xinyicui/Desktop/external-sort/bench/bm_external_sort.cc",
+  "file": "/Users/xinyicui/Desktop/external-sort/bench/bm_external_sort.cc",
+  "output": "CMakeFiles/benchmarks.dir/bench/bm_external_sort.cc.o"
+}
+]

@@ -1,0 +1,13 @@
+# Target labels
+ gmock_src
+# Source files and their labels
+/Users/xinyicui/Desktop/b-tree/bench/CMakeFiles/gmock_src
+/Users/xinyicui/Desktop/b-tree/bench/CMakeFiles/gmock_src.rule
+/Users/xinyicui/Desktop/b-tree/bench/CMakeFiles/gmock_src-complete.rule
+/Users/xinyicui/Desktop/b-tree/bench/vendor/gtm/src/gmock_src-stamp/gmock_src-build.rule
+/Users/xinyicui/Desktop/b-tree/bench/vendor/gtm/src/gmock_src-stamp/gmock_src-configure.rule
+/Users/xinyicui/Desktop/b-tree/bench/vendor/gtm/src/gmock_src-stamp/gmock_src-download.rule
+/Users/xinyicui/Desktop/b-tree/bench/vendor/gtm/src/gmock_src-stamp/gmock_src-install.rule
+/Users/xinyicui/Desktop/b-tree/bench/vendor/gtm/src/gmock_src-stamp/gmock_src-mkdir.rule
+/Users/xinyicui/Desktop/b-tree/bench/vendor/gtm/src/gmock_src-stamp/gmock_src-patch.rule
+/Users/xinyicui/Desktop/b-tree/bench/vendor/gtm/src/gmock_src-stamp/gmock_src-update.rule

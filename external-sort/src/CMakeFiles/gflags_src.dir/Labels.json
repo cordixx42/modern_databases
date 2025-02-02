@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/xinyicui/Desktop/external-sort/src/CMakeFiles/gflags_src"
+		},
+		{
+			"file" : "/Users/xinyicui/Desktop/external-sort/src/CMakeFiles/gflags_src.rule"
+		},
+		{
+			"file" : "/Users/xinyicui/Desktop/external-sort/src/CMakeFiles/gflags_src-complete.rule"
+		},
+		{
+			"file" : "/Users/xinyicui/Desktop/external-sort/src/vendor/gflags/src/gflags_src-stamp/gflags_src-build.rule"
+		},
+		{
+			"file" : "/Users/xinyicui/Desktop/external-sort/src/vendor/gflags/src/gflags_src-stamp/gflags_src-configure.rule"
+		},
+		{
+			"file" : "/Users/xinyicui/Desktop/external-sort/src/vendor/gflags/src/gflags_src-stamp/gflags_src-download.rule"
+		},
+		{
+			"file" : "/Users/xinyicui/Desktop/external-sort/src/vendor/gflags/src/gflags_src-stamp/gflags_src-install.rule"
+		},
+		{
+			"file" : "/Users/xinyicui/Desktop/external-sort/src/vendor/gflags/src/gflags_src-stamp/gflags_src-mkdir.rule"
+		},
+		{
+			"file" : "/Users/xinyicui/Desktop/external-sort/src/vendor/gflags/src/gflags_src-stamp/gflags_src-patch.rule"
+		},
+		{
+			"file" : "/Users/xinyicui/Desktop/external-sort/src/vendor/gflags/src/gflags_src-stamp/gflags_src-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gflags_src"
+		],
+		"name" : "gflags_src"
+	}
+}

@@ -1,0 +1,19 @@
+# ninja log v6
+1	616	1720107675498130144	CMakeFiles/gflags_static.dir/src/gflags_reporting.cc.o	ab05f573d1da41
+2	620	1720107675499714485	CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o	2788abb972bf182f
+1	758	1720107675498273020	CMakeFiles/gflags_static.dir/src/gflags_completions.cc.o	85b6b67003edc269
+995	1011	1720107676492497787	lib/libgflags_nothreads.a	6dc7da8872992a00
+4	779	1720107675501641329	CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o	c92736a5913dfef5
+1	995	1720107675498414229	CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o	e7639222cc6039fb
+0	1025	1720107675497789684	CMakeFiles/gflags_static.dir/src/gflags.cc.o	e6c61fd016ae87b9
+1025	1040	1720107676521944317	lib/libgflags.a	b26770d1d2e62abf
+3	22	1720188139481343119	CMakeFiles/install.util	8cee0b6f4043cf97
+3	431	1720961763978851121	CMakeFiles/gflags_static.dir/src/gflags_reporting.cc.o	ab05f573d1da41
+3	431	1720961763979188624	CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o	2788abb972bf182f
+3	580	1720961763979300042	CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o	c92736a5913dfef5
+3	593	1720961763978964580	CMakeFiles/gflags_static.dir/src/gflags_completions.cc.o	85b6b67003edc269
+3	802	1720961763979075623	CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o	e7639222cc6039fb
+3	809	1720961763978609743	CMakeFiles/gflags_static.dir/src/gflags.cc.o	e6c61fd016ae87b9
+802	821	1720961764778303924	lib/libgflags_nothreads.a	188658fe4bd289c0
+809	828	1720961764784837156	lib/libgflags.a	bcfa3e81f5480a20
+3	19	1720961764821965903	CMakeFiles/install.util	b8957bb1aa76ece0

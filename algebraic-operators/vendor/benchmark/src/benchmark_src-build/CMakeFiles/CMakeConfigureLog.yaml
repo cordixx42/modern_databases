@@ -1,0 +1,1427 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Darwin - 23.0.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'System' not found
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/3.27.7/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'c++' not found
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/3.27.7/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-9cK86y"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-9cK86y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-9cK86y'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bc238/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bc238.dir/build.make CMakeFiles/cmTC_bc238.dir/build
+        Building C object CMakeFiles/cmTC_bc238.dir/CMakeCCompilerABI.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_bc238.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bc238.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bc238.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 15.0.0 (clang-1500.0.40.1)
+        Target: arm64-apple-darwin23.0.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1015.6 -v -fcoverage-compilation-dir=/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-9cK86y -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_bc238.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_bc238.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-9cK86y -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_bc238.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 15.0.0 (clang-1500.0.40.1) default target arm64-apple-darwin23.0.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_bc238
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc238.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_bc238.dir/CMakeCCompilerABI.c.o -o cmTC_bc238 
+        Apple clang version 15.0.0 (clang-1500.0.40.1)
+        Target: arm64-apple-darwin23.0.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o cmTC_bc238 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_bc238.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:dyld-1015.7
+        BUILD 18:48:48 Aug 22 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.3)
+        Library search paths:
+        Framework search paths:
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-9cK86y']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bc238/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bc238.dir/build.make CMakeFiles/cmTC_bc238.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_bc238.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_bc238.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bc238.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bc238.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.0.40.1)]
+        ignore line: [Target: arm64-apple-darwin23.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1015.6 -v -fcoverage-compilation-dir=/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-9cK86y -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_bc238.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_bc238.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-9cK86y -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_bc238.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.0.40.1) default target arm64-apple-darwin23.0.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_bc238]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc238.dir/link.txt --verbose=1]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_bc238.dir/CMakeCCompilerABI.c.o -o cmTC_bc238 ]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.0.40.1)]
+        ignore line: [Target: arm64-apple-darwin23.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o cmTC_bc238 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_bc238.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [14.0.0] ==> ignore
+          arg [14.0] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_bc238] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_bc238.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-BAb55j"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-BAb55j"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-BAb55j'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b9238/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b9238.dir/build.make CMakeFiles/cmTC_b9238.dir/build
+        Building CXX object CMakeFiles/cmTC_b9238.dir/CMakeCXXCompilerABI.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_b9238.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b9238.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b9238.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 15.0.0 (clang-1500.0.40.1)
+        Target: arm64-apple-darwin23.0.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1015.6 -v -fcoverage-compilation-dir=/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-BAb55j -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_b9238.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b9238.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-BAb55j -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b9238.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 15.0.0 (clang-1500.0.40.1) default target arm64-apple-darwin23.0.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_b9238
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9238.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_b9238.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b9238 
+        Apple clang version 15.0.0 (clang-1500.0.40.1)
+        Target: arm64-apple-darwin23.0.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o cmTC_b9238 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b9238.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:dyld-1015.7
+        BUILD 18:48:48 Aug 22 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.3)
+        Library search paths:
+        Framework search paths:
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1]
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-BAb55j']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b9238/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b9238.dir/build.make CMakeFiles/cmTC_b9238.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_b9238.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_b9238.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b9238.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b9238.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.0.40.1)]
+        ignore line: [Target: arm64-apple-darwin23.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.0 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1015.6 -v -fcoverage-compilation-dir=/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-BAb55j -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_b9238.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b9238.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-BAb55j -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b9238.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.0.40.1) default target arm64-apple-darwin23.0.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_b9238]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9238.dir/link.txt --verbose=1]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_b9238.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b9238 ]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.0.40.1)]
+        ignore line: [Target: arm64-apple-darwin23.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o cmTC_b9238 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b9238.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [14.0.0] ==> ignore
+          arg [14.0] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_b9238] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_b9238.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:78 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_STD_CXX11"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-kmptlA"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-kmptlA"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_STD_CXX11"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-kmptlA'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_aa547/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_aa547.dir/build.make CMakeFiles/cmTC_aa547.dir/build
+        Building CXX object CMakeFiles/cmTC_aa547.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -std=c++11 -MD -MT CMakeFiles/cmTC_aa547.dir/src.cxx.o -MF CMakeFiles/cmTC_aa547.dir/src.cxx.o.d -o CMakeFiles/cmTC_aa547.dir/src.cxx.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-kmptlA/src.cxx
+        Linking CXX executable cmTC_aa547
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa547.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_aa547.dir/src.cxx.o -o cmTC_aa547 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:84 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WALL"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-WQtgTR"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-WQtgTR"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WALL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-WQtgTR'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cbe33/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cbe33.dir/build.make CMakeFiles/cmTC_cbe33.dir/build
+        Building CXX object CMakeFiles/cmTC_cbe33.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -std=c++11  -Wall -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -Wall -MD -MT CMakeFiles/cmTC_cbe33.dir/src.cxx.o -MF CMakeFiles/cmTC_cbe33.dir/src.cxx.o.d -o CMakeFiles/cmTC_cbe33.dir/src.cxx.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-WQtgTR/src.cxx
+        Linking CXX executable cmTC_cbe33
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbe33.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cbe33.dir/src.cxx.o -o cmTC_cbe33 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:86 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WEXTRA"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-AnUFXs"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-AnUFXs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-AnUFXs'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_32f58/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_32f58.dir/build.make CMakeFiles/cmTC_32f58.dir/build
+        Building CXX object CMakeFiles/cmTC_32f58.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -std=c++11  -Wall  -Wextra -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -Wextra -MD -MT CMakeFiles/cmTC_32f58.dir/src.cxx.o -MF CMakeFiles/cmTC_32f58.dir/src.cxx.o.d -o CMakeFiles/cmTC_32f58.dir/src.cxx.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-AnUFXs/src.cxx
+        Linking CXX executable cmTC_32f58
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32f58.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_32f58.dir/src.cxx.o -o cmTC_32f58 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:87 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHADOW"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-6bFqJV"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-6bFqJV"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-6bFqJV'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_984b9/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_984b9.dir/build.make CMakeFiles/cmTC_984b9.dir/build
+        Building CXX object CMakeFiles/cmTC_984b9.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -std=c++11  -Wall  -Wextra  -Wshadow -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -Wshadow -MD -MT CMakeFiles/cmTC_984b9.dir/src.cxx.o -MF CMakeFiles/cmTC_984b9.dir/src.cxx.o.d -o CMakeFiles/cmTC_984b9.dir/src.cxx.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-6bFqJV/src.cxx
+        Linking CXX executable cmTC_984b9
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_984b9.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_984b9.dir/src.cxx.o -o cmTC_984b9 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:88 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WERROR"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-wIkLec"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-wIkLec"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WERROR"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-wIkLec'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0f4c1/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0f4c1.dir/build.make CMakeFiles/cmTC_0f4c1.dir/build
+        Building CXX object CMakeFiles/cmTC_0f4c1.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -std=c++11  -Wall  -Wextra  -Wshadow  -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -Werror -MD -MT CMakeFiles/cmTC_0f4c1.dir/src.cxx.o -MF CMakeFiles/cmTC_0f4c1.dir/src.cxx.o.d -o CMakeFiles/cmTC_0f4c1.dir/src.cxx.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-wIkLec/src.cxx
+        Linking CXX executable cmTC_0f4c1
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f4c1.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0f4c1.dir/src.cxx.o -o cmTC_0f4c1 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:91 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-0HRqGw"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-0HRqGw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-0HRqGw'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e1be3/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e1be3.dir/build.make CMakeFiles/cmTC_e1be3.dir/build
+        Building CXX object CMakeFiles/cmTC_e1be3.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -pedantic -MD -MT CMakeFiles/cmTC_e1be3.dir/src.cxx.o -MF CMakeFiles/cmTC_e1be3.dir/src.cxx.o.d -o CMakeFiles/cmTC_e1be3.dir/src.cxx.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-0HRqGw/src.cxx
+        Linking CXX executable cmTC_e1be3
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1be3.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e1be3.dir/src.cxx.o -o cmTC_e1be3 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:92 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-J4H5zj"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-J4H5zj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-J4H5zj'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_87396/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_87396.dir/build.make CMakeFiles/cmTC_87396.dir/build
+        Building CXX object CMakeFiles/cmTC_87396.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -pedantic-errors -MD -MT CMakeFiles/cmTC_87396.dir/src.cxx.o -MF CMakeFiles/cmTC_87396.dir/src.cxx.o.d -o CMakeFiles/cmTC_87396.dir/src.cxx.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-J4H5zj/src.cxx
+        Linking CXX executable cmTC_87396
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87396.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_87396.dir/src.cxx.o -o cmTC_87396 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:93 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-D2M05a"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-D2M05a"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-D2M05a'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7ef84/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7ef84.dir/build.make CMakeFiles/cmTC_7ef84.dir/build
+        Building CXX object CMakeFiles/cmTC_7ef84.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -Wshorten-64-to-32 -MD -MT CMakeFiles/cmTC_7ef84.dir/src.cxx.o -MF CMakeFiles/cmTC_7ef84.dir/src.cxx.o.d -o CMakeFiles/cmTC_7ef84.dir/src.cxx.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-D2M05a/src.cxx
+        Linking CXX executable cmTC_7ef84
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ef84.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7ef84.dir/src.cxx.o -o cmTC_7ef84 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:94 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-Sv7cG8"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-Sv7cG8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WFLOAT_EQUAL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-Sv7cG8'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_88e77/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_88e77.dir/build.make CMakeFiles/cmTC_88e77.dir/build
+        Building CXX object CMakeFiles/cmTC_88e77.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -Wfloat-equal -MD -MT CMakeFiles/cmTC_88e77.dir/src.cxx.o -MF CMakeFiles/cmTC_88e77.dir/src.cxx.o.d -o CMakeFiles/cmTC_88e77.dir/src.cxx.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-Sv7cG8/src.cxx
+        Linking CXX executable cmTC_88e77
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88e77.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_88e77.dir/src.cxx.o -o cmTC_88e77 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:95 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-0LKpRn"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-0LKpRn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-0LKpRn'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d3a50/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d3a50.dir/build.make CMakeFiles/cmTC_d3a50.dir/build
+        Building CXX object CMakeFiles/cmTC_d3a50.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -fstrict-aliasing -MD -MT CMakeFiles/cmTC_d3a50.dir/src.cxx.o -MF CMakeFiles/cmTC_d3a50.dir/src.cxx.o.d -o CMakeFiles/cmTC_d3a50.dir/src.cxx.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-0LKpRn/src.cxx
+        Linking CXX executable cmTC_d3a50
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3a50.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d3a50.dir/src.cxx.o -o cmTC_d3a50 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:100 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WZERO_AS_NULL_POINTER_CONSTANT"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-e1nJC9"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-e1nJC9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WZERO_AS_NULL_POINTER_CONSTANT"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-e1nJC9'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_62450/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_62450.dir/build.make CMakeFiles/cmTC_62450.dir/build
+        Building CXX object CMakeFiles/cmTC_62450.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WZERO_AS_NULL_POINTER_CONSTANT  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -Wzero-as-null-pointer-constant -MD -MT CMakeFiles/cmTC_62450.dir/src.cxx.o -MF CMakeFiles/cmTC_62450.dir/src.cxx.o.d -o CMakeFiles/cmTC_62450.dir/src.cxx.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-e1nJC9/src.cxx
+        Linking CXX executable cmTC_62450
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62450.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_62450.dir/src.cxx.o -o cmTC_62450 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:104 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-qUyQLj"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-qUyQLj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-qUyQLj'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fcd03/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fcd03.dir/build.make CMakeFiles/cmTC_fcd03.dir/build
+        Building CXX object CMakeFiles/cmTC_fcd03.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -Wstrict-aliasing -MD -MT CMakeFiles/cmTC_fcd03.dir/src.cxx.o -MF CMakeFiles/cmTC_fcd03.dir/src.cxx.o.d -o CMakeFiles/cmTC_fcd03.dir/src.cxx.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-qUyQLj/src.cxx
+        Linking CXX executable cmTC_fcd03
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcd03.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fcd03.dir/src.cxx.o -o cmTC_fcd03 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:109 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WD654"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-VZgJQ1"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-VZgJQ1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WD654"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-VZgJQ1'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_618d7/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_618d7.dir/build.make CMakeFiles/cmTC_618d7.dir/build
+        Building CXX object CMakeFiles/cmTC_618d7.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -wd654 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -wd654 -MD -MT CMakeFiles/cmTC_618d7.dir/src.cxx.o -MF CMakeFiles/cmTC_618d7.dir/src.cxx.o.d -o CMakeFiles/cmTC_618d7.dir/src.cxx.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-VZgJQ1/src.cxx
+        clang: error: unknown argument: '-wd654'
+        clang: error: unknown argument: '-wd654'
+        make[4]: *** [CMakeFiles/cmTC_618d7.dir/src.cxx.o] Error 1
+        make[3]: *** [cmTC_618d7/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:110 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-VMYzo0"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-VMYzo0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-VMYzo0'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_abfc2/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_abfc2.dir/build.make CMakeFiles/cmTC_abfc2.dir/build
+        Building CXX object CMakeFiles/cmTC_abfc2.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -Wthread-safety -MD -MT CMakeFiles/cmTC_abfc2.dir/src.cxx.o -MF CMakeFiles/cmTC_abfc2.dir/src.cxx.o.d -o CMakeFiles/cmTC_abfc2.dir/src.cxx.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-VMYzo0/src.cxx
+        Linking CXX executable cmTC_abfc2
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abfc2.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_abfc2.dir/src.cxx.o -o cmTC_abfc2 
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/CXXFeatureCheck.cmake:45 (try_run)"
+      - "CMakeLists.txt:112 (cxx_feature_check)"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_THREAD_SAFETY_ATTRIBUTES"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_df6ac/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_df6ac.dir/build.make CMakeFiles/cmTC_df6ac.dir/build
+        Building CXX object CMakeFiles/cmTC_df6ac.dir/thread_safety_attributes.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_df6ac.dir/thread_safety_attributes.cpp.o -MF CMakeFiles/cmTC_df6ac.dir/thread_safety_attributes.cpp.o.d -o CMakeFiles/cmTC_df6ac.dir/thread_safety_attributes.cpp.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/thread_safety_attributes.cpp
+        In file included from /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/thread_safety_attributes.cpp:2:
+        In file included from /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/../src/mutex.h:7:
+        In file included from /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/../src/check.h:8:
+        /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/../src/internal_macros.h:4:10: fatal error: 'benchmark/benchmark.h' file not found
+        #include "benchmark/benchmark.h"
+                 ^~~~~~~~~~~~~~~~~~~~~~~
+        1 error generated.
+        make[4]: *** [CMakeFiles/cmTC_df6ac.dir/thread_safety_attributes.cpp.o] Error 1
+        make[3]: *** [cmTC_df6ac/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_THREAD_SAFETY_ATTRIBUTES"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:154 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_COVERAGE"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-vI4Bbe"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-vI4Bbe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_COVERAGE"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-vI4Bbe'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d248f/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d248f.dir/build.make CMakeFiles/cmTC_d248f.dir/build
+        Building CXX object CMakeFiles/cmTC_d248f.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  --coverage -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   --coverage -MD -MT CMakeFiles/cmTC_d248f.dir/src.cxx.o -MF CMakeFiles/cmTC_d248f.dir/src.cxx.o.d -o CMakeFiles/cmTC_d248f.dir/src.cxx.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-vI4Bbe/src.cxx
+        Linking CXX executable cmTC_d248f
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d248f.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  --coverage -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d248f.dir/src.cxx.o -o cmTC_d248f 
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/CXXFeatureCheck.cmake:45 (try_run)"
+      - "CMakeLists.txt:177 (cxx_feature_check)"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1b542/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1b542.dir/build.make CMakeFiles/cmTC_1b542.dir/build
+        Building CXX object CMakeFiles/cmTC_1b542.dir/std_regex.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_1b542.dir/std_regex.cpp.o -MF CMakeFiles/cmTC_1b542.dir/std_regex.cpp.o.d -o CMakeFiles/cmTC_1b542.dir/std_regex.cpp.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/std_regex.cpp
+        Linking CXX executable cmTC_1b542
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b542.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1b542.dir/std_regex.cpp.o -o cmTC_1b542 
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/CXXFeatureCheck.cmake:45 (try_run)"
+      - "CMakeLists.txt:178 (cxx_feature_check)"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fc2c8/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fc2c8.dir/build.make CMakeFiles/cmTC_fc2c8.dir/build
+        Building CXX object CMakeFiles/cmTC_fc2c8.dir/gnu_posix_regex.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_fc2c8.dir/gnu_posix_regex.cpp.o -MF CMakeFiles/cmTC_fc2c8.dir/gnu_posix_regex.cpp.o.d -o CMakeFiles/cmTC_fc2c8.dir/gnu_posix_regex.cpp.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/gnu_posix_regex.cpp
+        /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/gnu_posix_regex.cpp:1:10: fatal error: 'gnuregex.h' file not found
+        #include <gnuregex.h>
+                 ^~~~~~~~~~~~
+        1 error generated.
+        make[4]: *** [CMakeFiles/cmTC_fc2c8.dir/gnu_posix_regex.cpp.o] Error 1
+        make[3]: *** [cmTC_fc2c8/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_GNU_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/CXXFeatureCheck.cmake:45 (try_run)"
+      - "CMakeLists.txt:179 (cxx_feature_check)"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_48c2d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_48c2d.dir/build.make CMakeFiles/cmTC_48c2d.dir/build
+        Building CXX object CMakeFiles/cmTC_48c2d.dir/posix_regex.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_48c2d.dir/posix_regex.cpp.o -MF CMakeFiles/cmTC_48c2d.dir/posix_regex.cpp.o.d -o CMakeFiles/cmTC_48c2d.dir/posix_regex.cpp.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/posix_regex.cpp
+        Linking CXX executable cmTC_48c2d
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48c2d.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_48c2d.dir/posix_regex.cpp.o -o cmTC_48c2d 
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/CXXFeatureCheck.cmake:45 (try_run)"
+      - "CMakeLists.txt:187 (cxx_feature_check)"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_684a4/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_684a4.dir/build.make CMakeFiles/cmTC_684a4.dir/build
+        Building CXX object CMakeFiles/cmTC_684a4.dir/steady_clock.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_684a4.dir/steady_clock.cpp.o -MF CMakeFiles/cmTC_684a4.dir/steady_clock.cpp.o.d -o CMakeFiles/cmTC_684a4.dir/steady_clock.cpp.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/steady_clock.cpp
+        Linking CXX executable cmTC_684a4
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_684a4.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_684a4.dir/steady_clock.cpp.o -o cmTC_684a4 
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:189 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-J2vHLM"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-J2vHLM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-J2vHLM'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4f8b0/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4f8b0.dir/build.make CMakeFiles/cmTC_4f8b0.dir/build
+        Building C object CMakeFiles/cmTC_4f8b0.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_4f8b0.dir/src.c.o -MF CMakeFiles/cmTC_4f8b0.dir/src.c.o.d -o CMakeFiles/cmTC_4f8b0.dir/src.c.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-J2vHLM/src.c
+        Linking C executable cmTC_4f8b0
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f8b0.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4f8b0.dir/src.c.o -o cmTC_4f8b0 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "test/CMakeLists.txt:80 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test BENCHMARK_HAS_O3_FLAG"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-YixXPy"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-YixXPy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "BENCHMARK_HAS_O3_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-YixXPy'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_eeeb3/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_eeeb3.dir/build.make CMakeFiles/cmTC_eeeb3.dir/build
+        Building CXX object CMakeFiles/cmTC_eeeb3.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DBENCHMARK_HAS_O3_FLAG  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -O3 -MD -MT CMakeFiles/cmTC_eeeb3.dir/src.cxx.o -MF CMakeFiles/cmTC_eeeb3.dir/src.cxx.o.d -o CMakeFiles/cmTC_eeeb3.dir/src.cxx.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-YixXPy/src.cxx
+        Linking CXX executable cmTC_eeeb3
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eeeb3.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_eeeb3.dir/src.cxx.o -o cmTC_eeeb3 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "test/CMakeLists.txt:110 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test BENCHMARK_HAS_CXX03_FLAG"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-E6Nnmg"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-E6Nnmg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "BENCHMARK_HAS_CXX03_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-E6Nnmg'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_47a1e/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_47a1e.dir/build.make CMakeFiles/cmTC_47a1e.dir/build
+        Building CXX object CMakeFiles/cmTC_47a1e.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DBENCHMARK_HAS_CXX03_FLAG  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -std=c++03 -MD -MT CMakeFiles/cmTC_47a1e.dir/src.cxx.o -MF CMakeFiles/cmTC_47a1e.dir/src.cxx.o.d -o CMakeFiles/cmTC_47a1e.dir/src.cxx.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-E6Nnmg/src.cxx
+        Linking CXX executable cmTC_47a1e
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47a1e.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_47a1e.dir/src.cxx.o -o cmTC_47a1e 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "test/CMakeLists.txt:120 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test BENCHMARK_HAS_WNO_ODR"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-RHhucX"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-RHhucX"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "BENCHMARK_HAS_WNO_ODR"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-RHhucX'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4dfb5/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4dfb5.dir/build.make CMakeFiles/cmTC_4dfb5.dir/build
+        Building CXX object CMakeFiles/cmTC_4dfb5.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DBENCHMARK_HAS_WNO_ODR  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk   -Wno-odr -MD -MT CMakeFiles/cmTC_4dfb5.dir/src.cxx.o -MF CMakeFiles/cmTC_4dfb5.dir/src.cxx.o.d -o CMakeFiles/cmTC_4dfb5.dir/src.cxx.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeScratch/TryCompile-RHhucX/src.cxx
+        Linking CXX executable cmTC_4dfb5
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dfb5.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4dfb5.dir/src.cxx.o -o cmTC_4dfb5 
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/CXXFeatureCheck.cmake:45 (try_run)"
+      - "CMakeLists.txt:112 (cxx_feature_check)"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_THREAD_SAFETY_ATTRIBUTES"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fc34a/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fc34a.dir/build.make CMakeFiles/cmTC_fc34a.dir/build
+        Building CXX object CMakeFiles/cmTC_fc34a.dir/thread_safety_attributes.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_fc34a.dir/thread_safety_attributes.cpp.o -MF CMakeFiles/cmTC_fc34a.dir/thread_safety_attributes.cpp.o.d -o CMakeFiles/cmTC_fc34a.dir/thread_safety_attributes.cpp.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/thread_safety_attributes.cpp
+        In file included from /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/thread_safety_attributes.cpp:2:
+        In file included from /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/../src/mutex.h:7:
+        In file included from /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/../src/check.h:8:
+        /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/../src/internal_macros.h:4:10: fatal error: 'benchmark/benchmark.h' file not found
+        #include "benchmark/benchmark.h"
+                 ^~~~~~~~~~~~~~~~~~~~~~~
+        1 error generated.
+        make[4]: *** [CMakeFiles/cmTC_fc34a.dir/thread_safety_attributes.cpp.o] Error 1
+        make[3]: *** [cmTC_fc34a/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_THREAD_SAFETY_ATTRIBUTES"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/CXXFeatureCheck.cmake:45 (try_run)"
+      - "CMakeLists.txt:177 (cxx_feature_check)"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e3c9d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e3c9d.dir/build.make CMakeFiles/cmTC_e3c9d.dir/build
+        Building CXX object CMakeFiles/cmTC_e3c9d.dir/std_regex.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_e3c9d.dir/std_regex.cpp.o -MF CMakeFiles/cmTC_e3c9d.dir/std_regex.cpp.o.d -o CMakeFiles/cmTC_e3c9d.dir/std_regex.cpp.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/std_regex.cpp
+        Linking CXX executable cmTC_e3c9d
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3c9d.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e3c9d.dir/std_regex.cpp.o -o cmTC_e3c9d 
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/CXXFeatureCheck.cmake:45 (try_run)"
+      - "CMakeLists.txt:178 (cxx_feature_check)"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_96c50/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_96c50.dir/build.make CMakeFiles/cmTC_96c50.dir/build
+        Building CXX object CMakeFiles/cmTC_96c50.dir/gnu_posix_regex.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_96c50.dir/gnu_posix_regex.cpp.o -MF CMakeFiles/cmTC_96c50.dir/gnu_posix_regex.cpp.o.d -o CMakeFiles/cmTC_96c50.dir/gnu_posix_regex.cpp.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/gnu_posix_regex.cpp
+        /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/gnu_posix_regex.cpp:1:10: fatal error: 'gnuregex.h' file not found
+        #include <gnuregex.h>
+                 ^~~~~~~~~~~~
+        1 error generated.
+        make[4]: *** [CMakeFiles/cmTC_96c50.dir/gnu_posix_regex.cpp.o] Error 1
+        make[3]: *** [cmTC_96c50/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_GNU_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/CXXFeatureCheck.cmake:45 (try_run)"
+      - "CMakeLists.txt:179 (cxx_feature_check)"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d1bd0/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d1bd0.dir/build.make CMakeFiles/cmTC_d1bd0.dir/build
+        Building CXX object CMakeFiles/cmTC_d1bd0.dir/posix_regex.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_d1bd0.dir/posix_regex.cpp.o -MF CMakeFiles/cmTC_d1bd0.dir/posix_regex.cpp.o.d -o CMakeFiles/cmTC_d1bd0.dir/posix_regex.cpp.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/posix_regex.cpp
+        Linking CXX executable cmTC_d1bd0
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1bd0.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d1bd0.dir/posix_regex.cpp.o -o cmTC_d1bd0 
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/CXXFeatureCheck.cmake:45 (try_run)"
+      - "CMakeLists.txt:187 (cxx_feature_check)"
+    directories:
+      source: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+      binary: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_54840/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_54840.dir/build.make CMakeFiles/cmTC_54840.dir/build
+        Building CXX object CMakeFiles/cmTC_54840.dir/steady_clock.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -MD -MT CMakeFiles/cmTC_54840.dir/steady_clock.cpp.o -MF CMakeFiles/cmTC_54840.dir/steady_clock.cpp.o.d -o CMakeFiles/cmTC_54840.dir/steady_clock.cpp.o -c /Users/xinyicui/Desktop/algebraic-operators/vendor/benchmark/src/benchmark_src/cmake/steady_clock.cpp
+        Linking CXX executable cmTC_54840
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54840.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -Wfloat-equal  -fstrict-aliasing  -Wzero-as-null-pointer-constant  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_54840.dir/steady_clock.cpp.o -o cmTC_54840 
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+...

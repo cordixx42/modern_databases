@@ -1,0 +1,1 @@
+cmd='/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake;-DCMAKE_INSTALL_PREFIX=/Users/xinyicui/Desktop/mdb/external-sort/cmake-build-release/vendor/gtm/gmock;-DCMAKE_C_COMPILER=/Library/Developer/CommandLineTools/usr/bin/cc;-DCMAKE_CXX_COMPILER=/Library/Developer/CommandLineTools/usr/bin/c++;-DCMAKE_CXX_FLAGS=;-GNinja;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/xinyicui/Desktop/b-tree/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/xinyicui/Desktop/b-tree/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gflags/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/benchmark/include -g -fsanitize=address -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -Wall -Wextra -Wvla -o CMakeFiles/moderndbs.dir/src/buffer_manager.cc.o -c /Users/xinyicui/Desktop/b-tree/src/buffer_manager.cc",
+  "file": "/Users/xinyicui/Desktop/b-tree/src/buffer_manager.cc",
+  "output": "CMakeFiles/moderndbs.dir/src/buffer_manager.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/b-tree/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/xinyicui/Desktop/b-tree/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gflags/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/benchmark/include -g -fsanitize=address -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -Wall -Wextra -Wvla -o CMakeFiles/moderndbs.dir/src/hex_dump.cc.o -c /Users/xinyicui/Desktop/b-tree/src/hex_dump.cc",
+  "file": "/Users/xinyicui/Desktop/b-tree/src/hex_dump.cc",
+  "output": "CMakeFiles/moderndbs.dir/src/hex_dump.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/b-tree/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/xinyicui/Desktop/b-tree/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gflags/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gtm/gmock/include -g -fsanitize=address -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -Wall -Wextra -Wvla -o CMakeFiles/tester.dir/test/tester.cc.o -c /Users/xinyicui/Desktop/b-tree/test/tester.cc",
+  "file": "/Users/xinyicui/Desktop/b-tree/test/tester.cc",
+  "output": "CMakeFiles/tester.dir/test/tester.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/b-tree/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/xinyicui/Desktop/b-tree/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gflags/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gtm/gmock/include -g -fsanitize=address -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -Wall -Wextra -Wvla -o CMakeFiles/tester.dir/test/btree_test.cc.o -c /Users/xinyicui/Desktop/b-tree/test/btree_test.cc",
+  "file": "/Users/xinyicui/Desktop/b-tree/test/btree_test.cc",
+  "output": "CMakeFiles/tester.dir/test/btree_test.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/b-tree/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/xinyicui/Desktop/b-tree/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gflags/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gtm/gmock/include -g -fsanitize=address -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -Wall -Wextra -Wvla -o CMakeFiles/benchmarks.dir/bench/benchmark.cc.o -c /Users/xinyicui/Desktop/b-tree/bench/benchmark.cc",
+  "file": "/Users/xinyicui/Desktop/b-tree/bench/benchmark.cc",
+  "output": "CMakeFiles/benchmarks.dir/bench/benchmark.cc.o"
+},
+{
+  "directory": "/Users/xinyicui/Desktop/b-tree/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -I/Users/xinyicui/Desktop/b-tree/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gtm/gtest/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gflags/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/benchmark/include -isystem /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gtm/gmock/include -g -fsanitize=address -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -Wall -Wextra -Wvla -o CMakeFiles/benchmarks.dir/bench/bm_btree.cc.o -c /Users/xinyicui/Desktop/b-tree/bench/bm_btree.cc",
+  "file": "/Users/xinyicui/Desktop/b-tree/bench/bm_btree.cc",
+  "output": "CMakeFiles/benchmarks.dir/bench/bm_btree.cc.o"
+}
+]

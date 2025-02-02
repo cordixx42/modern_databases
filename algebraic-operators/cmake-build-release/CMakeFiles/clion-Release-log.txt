@@ -1,0 +1,2 @@
+Cannot generate 'Release' into /Users/xinyicui/Desktop/algebraic-operators/cmake-build-release
+CMakeCache.txt is found in the project dir, only in-source generation will be performed.

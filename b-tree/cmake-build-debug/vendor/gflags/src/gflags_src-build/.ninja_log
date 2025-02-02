@@ -1,0 +1,10 @@
+# ninja log v6
+1	600	1718116548941895908	CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o	1480578d5af04d50
+0	602	1718116548941293666	CMakeFiles/gflags_static.dir/src/gflags_reporting.cc.o	27ca3bcba3b54042
+1	742	1718116548941584954	CMakeFiles/gflags_static.dir/src/gflags_completions.cc.o	d1f5e9e1dd668d41
+1	746	1718116548942033448	CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o	1123ff4d1eb3cdd0
+0	969	1718116548941050461	CMakeFiles/gflags_static.dir/src/gflags.cc.o	dc35957f7ebb2c05
+1	978	1718116548941756701	CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o	a80bbb92d8ef4004
+969	988	1718116549909894796	lib/libgflags.a	bcfa3e81f5480a20
+978	996	1718116549919004594	lib/libgflags_nothreads.a	188658fe4bd289c0
+2	19	1718116549953264646	CMakeFiles/install.util	df137853405a4766

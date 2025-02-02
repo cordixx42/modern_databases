@@ -1,0 +1,14 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/xinyicui/Desktop/b-tree -B /Users/xinyicui/Desktop/b-tree/cmake-build-debug
+-- LINT lint_src: src/buffer_manager.cc;src/hex_dump.cc
+-- LINT lint_test: test/btree_test.cc
+-- [MODERNDBS] settings
+--     LLVM_INCLUDE_DIRS           = 
+--     LLVM_INSTALL_PREFIX         = 
+--     GFLAGS_INCLUDE_DIR          = /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gflags/include
+--     GFLAGS_LIBRARY_PATH         = /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gflags/lib/libgflags.a
+-- [TEST] settings
+--     GTEST_INCLUDE_DIR           = /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gtm/gtest/include
+--     GTEST_LIBRARY_PATH          = /Users/xinyicui/Desktop/b-tree/cmake-build-debug/vendor/gtm/gtest/lib/libgtest.a
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/xinyicui/Desktop/b-tree/cmake-build-debug

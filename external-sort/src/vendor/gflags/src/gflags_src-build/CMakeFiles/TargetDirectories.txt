@@ -1,0 +1,10 @@
+/Users/xinyicui/Desktop/external-sort/src/vendor/gflags/src/gflags_src-build/CMakeFiles/gflags_static.dir
+/Users/xinyicui/Desktop/external-sort/src/vendor/gflags/src/gflags_src-build/CMakeFiles/gflags.dir
+/Users/xinyicui/Desktop/external-sort/src/vendor/gflags/src/gflags_src-build/CMakeFiles/gflags_nothreads_static.dir
+/Users/xinyicui/Desktop/external-sort/src/vendor/gflags/src/gflags_src-build/CMakeFiles/gflags_nothreads.dir
+/Users/xinyicui/Desktop/external-sort/src/vendor/gflags/src/gflags_src-build/CMakeFiles/edit_cache.dir
+/Users/xinyicui/Desktop/external-sort/src/vendor/gflags/src/gflags_src-build/CMakeFiles/rebuild_cache.dir
+/Users/xinyicui/Desktop/external-sort/src/vendor/gflags/src/gflags_src-build/CMakeFiles/list_install_components.dir
+/Users/xinyicui/Desktop/external-sort/src/vendor/gflags/src/gflags_src-build/CMakeFiles/install.dir
+/Users/xinyicui/Desktop/external-sort/src/vendor/gflags/src/gflags_src-build/CMakeFiles/install/local.dir
+/Users/xinyicui/Desktop/external-sort/src/vendor/gflags/src/gflags_src-build/CMakeFiles/install/strip.dir
